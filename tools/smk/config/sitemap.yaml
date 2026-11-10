@@ -1,0 +1,8 @@
+# Sitemap for the site configuration (config service, not the repo):
+#   POST https://admin.hlx.page/config/paolomoz/sites/smk-explorer/content/sitemap.yaml
+# Built from the query index, so it lists every published generated page.
+sitemaps:
+  default:
+    source: /query-index.json
+    destination: /sitemap.xml
+    lastmod: YYYY-MM-DD

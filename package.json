@@ -3,11 +3,14 @@
   "private": true,
   "version": "1.3.0",
   "description": "Starter project for Adobe Helix",
+  "type": "module",
   "scripts": {
-    "lint:js": "eslint .",
+    "lint:js": "eslint . --ext .js,.mjs",
     "lint:css": "stylelint \"blocks/**/*.css\" \"styles/*.css\"",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix"
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
+    "generate": "node tools/smk/generate.js",
+    "byom": "node tools/smk/byom/server.js"
   },
   "repository": {
     "type": "git",

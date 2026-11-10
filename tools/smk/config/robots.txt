@@ -1,0 +1,6 @@
+# robots.txt for the site configuration:
+#   POST https://admin.hlx.page/config/paolomoz/sites/smk-explorer/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://main--smk-explorer--paolomoz.aem.live/sitemap.xml
