@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "smk-explorer": {
+      "previewOrg": "paolomoz",
+      "previewSite": "smk-explorer",
+      "contentHostUrl": "https://content.da.live/paolomoz/smk-explorer/"
+    }
+  }
+}
