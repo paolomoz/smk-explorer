@@ -101,9 +101,13 @@ export function centuryLabel(startYear) {
   return `${n}${suffix} century`;
 }
 
-/** Page id for a work: object number in lower case, `/` replaced by `-`. */
+/**
+ * Page id for a work: object number in lower case, `/` replaced by `-`.
+ * Dots and spaces become `-` too: Edge Delivery reads a dot in the last path
+ * segment as an extension, so `/artworks/kmsb-36-101.1` could not be served.
+ */
 export function artworkId(objectNumber) {
-  return String(objectNumber).toLowerCase().replace(/\//g, '-').replace(/\s+/g, '-');
+  return String(objectNumber).toLowerCase().replace(/[/.\s]+/g, '-');
 }
 
 export function artworkPath(objectNumber) {

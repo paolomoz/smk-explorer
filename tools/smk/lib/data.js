@@ -87,16 +87,16 @@ export async function loadArtworks(fetchJson, objectNumbers) {
  * dashes turned back into slashes.
  */
 export async function loadArtworkById(fetchJson, id) {
-  const candidates = [id];
-  const dashes = [...id.matchAll(/-/g)].map((m) => m.index);
-  dashes.reverse().forEach((i) => candidates.push(`${id.slice(0, i)}/${id.slice(i + 1)}`));
-  if (dashes.length > 1) candidates.push(id.replace(/-/g, '/'));
-  return candidates.reduce(async (found, candidate) => {
-    const item = await found;
-    if (item) return item;
-    const res = await fetchJson(artworkUrl(candidate));
-    return (res.items || []).find((i) => artworkId(i.object_number) === id) || null;
-  }, Promise.resolve(null));
+  // each dash may stand for `-`, `/`, `.` or a space in the object number
+  // (e.g. `kmsb-36-101-12` is `KMSB 36 101.12`), so ask for every spelling in one lookup
+  const parts = id.split('-');
+  let candidates = [parts[0]];
+  parts.slice(1).forEach((part) => {
+    const seps = candidates.length > 64 ? ['-', '/'] : ['-', '/', '.', ' '];
+    candidates = candidates.flatMap((c) => seps.map((sep) => `${c}${sep}${part}`));
+  });
+  const res = await fetchJson(artworkUrl(candidates.slice(0, 256).join(',')));
+  return (res.items || []).find((i) => artworkId(i.object_number) === id) || null;
 }
 
 /** Whether a work belongs on the site (image and public domain). */
