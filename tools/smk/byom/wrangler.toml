@@ -1,0 +1,8 @@
+name = "smk-explorer-byom"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+SITE_ORIGIN = "https://main--smk-explorer--paolomoz.aem.live"
+SHEET_URL = "https://main--smk-explorer--paolomoz.aem.page/data/colours.json"
+CACHE_TTL = "600"

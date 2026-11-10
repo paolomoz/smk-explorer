@@ -1,0 +1,34 @@
+# Query index for the site configuration (config service, not the repo):
+#   POST https://admin.hlx.page/config/paolomoz/sites/smk-explorer/content/query.yaml
+# Covers the home page, the colours hub, every colour page and every artwork page.
+version: 1
+indices:
+  default:
+    include:
+      - /**
+    exclude:
+      - /nav
+      - /footer
+      - /data/**
+      - /fragments/**
+      - /drafts/**
+    target: /query-index.json
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, "content")
+      description:
+        select: head > meta[name="description"]
+        value: attribute(el, "content")
+      image:
+        select: head > meta[property="og:image"]
+        value: match(attribute(el, "content"), "https:\/\/[^/]+(/.*)")
+      template:
+        select: head > meta[name="template"]
+        value: attribute(el, "content")
+      robots:
+        select: head > meta[name="robots"]
+        value: attribute(el, "content")
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
