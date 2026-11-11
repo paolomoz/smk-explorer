@@ -1,0 +1,195 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:30:24.345Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "artworks-kms3282",
+  "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:30:24.345Z",
+  "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+  "title": "Cathrine Sophie Kirchhoff, f. Christensen – Jens Juel | SMK Explorer",
+  "description": "Cathrine Sophie Kirchhoff, f. Christensen by Jens Juel, 1768. Painting, Oil on canvas",
+  "og": {
+    "title": "Cathrine Sophie Kirchhoff, f. Christensen – Jens Juel | SMK Explorer",
+    "description": "Cathrine Sophie Kirchhoff, f. Christensen by Jens Juel, 1768. Painting, Oil on canvas",
+    "image": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/media_173beecfd2d4d2ebeb3fb93b4e984fa598b31dbec.jpg?width=1200&format=pjpg&optimize=medium",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Cathrine Sophie Kirchhoff, f. Christensen"
+    },
+    {
+      "tag": "h2",
+      "text": "Colours"
+    },
+    {
+      "tag": "h2",
+      "text": "About the work"
+    }
+  ],
+  "body": [
+    "Jens Juel, 1768",
+    "Jens Juel",
+    "1768",
+    "Painting",
+    "Oil on canvas",
+    "78 × 62 cm (height × width)",
+    "KMS3282",
+    "SMK – National Gallery of Denmark",
+    "SMK tags this work with 4 colours. Each links to the other works that contain it.",
+    "Black #000000",
+    "Dark gray #999999",
+    "Dim gray #555555",
+    "Dark olive green #657b42",
+    "Find works with Black #000000, Dark gray #999999, Dim gray #555555",
+    "SMK has not published a description of this work.",
+    "See Cathrine Sophie Kirchhoff, f. Christensen on open.smk.dk"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "SMK Explorer",
+      "href": "/"
+    },
+    {
+      "label": "Search",
+      "href": "/"
+    },
+    {
+      "label": "Colours",
+      "href": "/colours"
+    },
+    {
+      "label": "SMK Open",
+      "href": "https://open.smk.dk/"
+    },
+    {
+      "label": "Jens Juel",
+      "href": "/"
+    },
+    {
+      "label": "Painting",
+      "href": "/"
+    },
+    {
+      "label": "Oil on canvas",
+      "href": "/"
+    },
+    {
+      "label": "Black #000000",
+      "href": "/colours/black-000000"
+    },
+    {
+      "label": "Dark gray #999999",
+      "href": "/colours/dark-gray-999999"
+    },
+    {
+      "label": "Dim gray #555555",
+      "href": "/colours/dim-gray-555555"
+    },
+    {
+      "label": "Dark olive green #657b42",
+      "href": "/colours/dark-olive-green-657b42"
+    },
+    {
+      "label": "Find works with Black #000000, Dark gray #999999, Dim gray #555555",
+      "href": "/"
+    },
+    {
+      "label": "See Cathrine Sophie Kirchhoff, f. Christensen on open.smk.dk",
+      "href": "https://open.smk.dk/artwork/image/KMS3282"
+    },
+    {
+      "label": "SMK – National Gallery of Denmark",
+      "href": "https://www.smk.dk/"
+    },
+    {
+      "label": "CC0",
+      "href": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "label": "SMK Open API",
+      "href": "https://www.smk.dk/article/smk-api/"
+    },
+    {
+      "label": "open.smk.dk",
+      "href": "https://open.smk.dk/"
+    },
+    {
+      "label": "Search",
+      "href": "/"
+    },
+    {
+      "label": "Colours",
+      "href": "/colours"
+    }
+  ],
+  "links": [
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+    "https://open.smk.dk/",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-000000",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-gray-999999",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dim-gray-555555",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-657b42",
+    "https://open.smk.dk/artwork/image/KMS3282",
+    "https://www.smk.dk/",
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    "https://www.smk.dk/article/smk-api/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/media_173beecfd2d4d2ebeb3fb93b4e984fa598b31dbec.jpg?width=2000&format=webply&optimize=medium",
+        "alt": "Cathrine Sophie Kirchhoff, f. Christensen by Jens Juel",
+        "w": 1024,
+        "h": 1307
+      }
+    ],
+    "allImgCount": 1,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--background-color": "#fff",
+    "--light-color": "#f4f4f4",
+    "--dark-color": "#4a4a4a",
+    "--text-color": "#1a1a1a",
+    "--secondary-text-color": "#5c5c5c",
+    "--border-color": "#d0d0d0",
+    "--link-color": "#1a1a1a",
+    "--link-hover-color": "#000",
+    "--body-font-family": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+    "--heading-font-family": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+    "--fixed-font-family": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+    "--body-font-size-m": "18px",
+    "--body-font-size-s": "16px",
+    "--body-font-size-xs": "14px",
+    "--heading-font-size-xxl": "36px",
+    "--heading-font-size-xl": "28px",
+    "--heading-font-size-l": "24px",
+    "--heading-font-size-m": "20px",
+    "--heading-font-size-s": "18px",
+    "--heading-font-size-xs": "16px",
+    "--nav-height": "64px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 3,
+    "mainTextLen": 566,
+    "realImageCount": 1,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/artworks-kms3282.png",
+  "renderedHtml": "pages/artworks-kms3282.html"
+}

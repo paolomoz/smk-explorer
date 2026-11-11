@@ -1,0 +1,47 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-11T07:36:15Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.32.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T07:36:15Z",
+  "title": "Design System: SMK Explorer (current state)",
+  "extensions": {
+    "componentStyle": {
+      "buttonPrimary": "#1a1a1a fill, white text, 4px radius (search submit)",
+      "buttonPill": "999px radius outline/filled toggles (Wheel/Grid, sort)",
+      "input": "1px #d0d0d0 border, 4px radius, 8px 12px padding",
+      "links": "text colour, underlined (offset 0.15em)"
+    },
+    "motifs": [
+      "artwork tiles on #f4f4f4",
+      "swatch chips",
+      "colour wheel",
+      "underlined links"
+    ],
+    "voice": {
+      "tone": "plain, factual, catalogue English"
+    },
+    "breakpoints": {
+      "layout": [
+        "900px"
+      ],
+      "containerMaxWidth": "1200px",
+      "probeWidth": null,
+      "caps": [],
+      "modules": [],
+      "note": "cap probe not run: placeholder design is being replaced; container from styles.css"
+    }
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "Placeholder",
+    "overview": "Plain functional look awaiting a design."
+  }
+}

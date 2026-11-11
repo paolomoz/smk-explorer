@@ -1,0 +1,343 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:31:58.793Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "iframe-html-720c",
+  "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:31:58.793Z",
+  "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+  "title": "theme--components",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [],
+  "body": [
+    "Level 01",
+    "Level 02",
+    "Level 03",
+    "Level 04 (Active)"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Default 04",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Default 04",
+      "href": null
+    },
+    {
+      "label": "Default 05",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Default 04",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Default 04",
+      "href": null
+    },
+    {
+      "label": "Default 05",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Default 04",
+      "href": null
+    },
+    {
+      "label": "Active",
+      "href": null
+    },
+    {
+      "label": "Default 02",
+      "href": null
+    },
+    {
+      "label": "Default 03",
+      "href": null
+    },
+    {
+      "label": "Default 04",
+      "href": null
+    },
+    {
+      "label": "Default 05",
+      "href": null
+    },
+    {
+      "label": "Level 01",
+      "href": "#example"
+    },
+    {
+      "label": "Level 02",
+      "href": "#example"
+    },
+    {
+      "label": "Level 03",
+      "href": "#example"
+    },
+    {
+      "label": "Level 04 (Active)",
+      "href": "#example"
+    }
+  ],
+  "links": [
+    "https://storybook.js.org/docs/writing-stories/decorators",
+    "https://storybook.js.org/docs/builders/webpack",
+    "https://storybook.js.org/docs/builders/vite",
+    "https://storybook.js.org/docs/configure/environment-variables",
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story#example"
+  ],
+  "media": {
+    "imgs": [],
+    "allImgCount": 0,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 0,
+    "mainTextLen": 7759,
+    "realImageCount": 0,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/iframe-html-720c.png",
+  "renderedHtml": "pages/iframe-html-720c.html"
+}

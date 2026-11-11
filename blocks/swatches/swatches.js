@@ -61,24 +61,29 @@ export default function decorate(block) {
     const link = nameCell?.querySelector('a');
     const name = document.createElement(link ? 'a' : 'span');
     name.className = 'swatches-name';
-    name.textContent = (nameCell?.textContent || hex).trim();
+    // names that share a CSS colour carry the hex ("Black #000000"): show it on its own line
+    const fullName = (nameCell?.textContent || hex).trim();
+    const baseName = fullName.toLowerCase().endsWith(` ${hex}`)
+      ? fullName.slice(0, -(hex.length + 1)) : fullName;
+    name.textContent = baseName;
     if (link) name.href = link.getAttribute('href');
-    li.dataset.name = name.textContent;
+    li.dataset.name = fullName;
     body.append(name);
 
     const countText = cells[2]?.textContent.trim();
+    if (!countText?.includes(hex)) {
+      const code = document.createElement('code');
+      code.className = 'swatches-hex';
+      code.textContent = hex;
+      // inside the link, so its accessible name stays unique ("Black #000000")
+      name.append(' ', code);
+    }
     if (countText) {
       const count = document.createElement('span');
       count.className = 'swatches-count';
       count.textContent = countText;
       li.dataset.count = readCount(countText);
       body.append(count);
-    }
-    if (!name.textContent.includes(hex) && !countText?.includes(hex)) {
-      const code = document.createElement('code');
-      code.className = 'swatches-hex';
-      code.textContent = hex;
-      body.append(code);
     }
 
     // make the whole swatch clickable when it links somewhere

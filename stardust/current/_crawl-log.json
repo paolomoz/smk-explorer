@@ -1,0 +1,47 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 4,
+    "concurrency": 2
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "search block rendered: colour wheel, filters, 24 artwork tiles; thumbnail covered 60% of page"
+    },
+    {
+      "slug": "colours",
+      "verdict": "ok",
+      "notes": "236 swatches grid; thumbnail 66% of page"
+    },
+    {
+      "slug": "colours-gold-f6d727",
+      "verdict": "ok",
+      "notes": "feature swatch, often-together, works grid"
+    },
+    {
+      "slug": "artworks-kms3282",
+      "verdict": "ok",
+      "notes": "artwork image, facts, 4 colour swatches, footer credit"
+    }
+  ],
+  "userChoice": {
+    "pages": "explicit list (one per template)",
+    "designSource": "https://www.artsy.net/ + https://palette-storybook.artsy.net/"
+  }
+}

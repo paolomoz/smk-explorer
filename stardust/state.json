@@ -1,0 +1,121 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-11-11T07:37:55Z",
+    "stardustVersion": "0.32.1"
+  },
+  "site": {
+    "originUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page",
+    "liveUrl": "https://main--smk-explorer--paolomoz.aem.live/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-11T07:36:15Z",
+    "pageCap": 4,
+    "totalDiscovered": 2373,
+    "crawled": 4,
+    "note": "explicit --pages list: one page per template (home/search, colours hub, colour page, artwork page)"
+  },
+  "direction": {
+    "resolvedAt": "2026-11-11T07:37:54Z",
+    "phrase": "with stardust define the brand design based on https://www.artsy.net/ and it's storybook https://palette-storybook.artsy.net/",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "design-donor Mode A"
+  },
+  "designSource": {
+    "url": "https://palette-storybook.artsy.net/",
+    "requestedUrl": "https://www.artsy.net/",
+    "capturedAt": "2026-11-11T07:33:00Z",
+    "path": "stardust/canon-source/",
+    "note": "www.artsy.net blocked by Cloudflare challenge; Artsy's Palette design system (storybook + @artsy/palette-tokens, MIT) captured as the donor"
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+      "title": "SMK Explorer – search the National Gallery of Denmark by colour",
+      "type": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-11T07:30:16.031Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-11T07:37:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "colours",
+      "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+      "title": "Colours in the SMK collection | SMK Explorer",
+      "type": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-11T07:30:16.515Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-11T07:37:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/colours.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "colours-gold-f6d727",
+      "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+      "title": "Gold #f6d727 – colour in the SMK collection | SMK Explorer",
+      "type": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-11T07:30:24.691Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-11T07:37:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/colours-gold-f6d727.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "artworks-kms3282",
+      "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+      "title": "Cathrine Sophie Kirchhoff, f. Christensen – Jens Juel | SMK Explorer",
+      "type": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-11T07:30:24.345Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-11T07:37:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/artworks-kms3282.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ]
+}

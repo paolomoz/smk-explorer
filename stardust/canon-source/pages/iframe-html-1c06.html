@@ -1,0 +1,627 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>theme--inputs</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>@font-face {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-regular.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-italic.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-bold.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-bold-italic.woff2') format('woff2');
+      }</style><base target="_parent"><style>/* While we aren't showing the main block yet, but still preparing, we want everything the user has rendered, which may or may not be in #storybook-root, to be display none */
+  .sb-show-preparing-story:not(.sb-show-main) > :not(.sb-preparing-story) {
+    display: none;
+  }
+
+  .sb-show-preparing-docs:not(.sb-show-main) > :not(.sb-preparing-docs) {
+    display: none;
+  }
+
+  /* Hide our own blocks when we aren't supposed to be showing them */
+  :not(.sb-show-preparing-story) > .sb-preparing-story,
+  :not(.sb-show-preparing-docs) > .sb-preparing-docs,
+  :not(.sb-show-nopreview) > .sb-nopreview,
+  :not(.sb-show-errordisplay) > .sb-errordisplay {
+    display: none;
+  }
+
+  .sb-show-main.sb-main-centered {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .sb-show-main.sb-main-centered #storybook-root {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1rem;
+    max-height: 100%;
+    /* Hack for centering correctly in IE11 */
+  }
+
+  /* Vertical centering fix for IE11 */
+  @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .sb-show-main.sb-main-centered:after {
+      content: '';
+      min-height: inherit;
+      font-size: 0;
+    }
+  }
+
+  .sb-show-main.sb-main-fullscreen {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .sb-show-main.sb-main-padded {
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .sb-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+
+    padding: 40px;
+    font-family:
+      'Nunito Sans',
+      -apple-system,
+      '.SFNSText-Regular',
+      'San Francisco',
+      BlinkMacSystemFont,
+      'Segoe UI',
+      'Helvetica Neue',
+      Helvetica,
+      Arial,
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: auto;
+  }
+
+  @media (max-width: 700px) {
+    .sb-wrapper {
+      padding: 20px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .sb-wrapper {
+      padding: 10px;
+    }
+  }
+
+  .sb-heading {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin: 10px 0;
+    padding-right: 25px;
+  }
+
+  .sb-nopreview {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .sb-nopreview_main {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  .sb-nopreview_heading {
+    text-align: center;
+  }
+
+  .sb-errordisplay {
+    background: #f6f9fc;
+    color: black;
+    z-index: 999999;
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    & ol {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    & h1 {
+      font-family: Nunito Sans;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30px;
+      font-weight: normal;
+      margin: 0;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background: #ff4400;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+    }
+
+    & p,
+    & ol {
+      font-family: Nunito Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      margin: 0;
+    }
+
+    & li + li {
+      margin: 0;
+      padding: 0;
+      padding-top: 12px;
+    }
+
+    & a {
+      color: currentColor;
+    }
+  }
+
+  .sb-errordisplay_main {
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background: white;
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.1);
+    gap: 24px;
+  }
+
+  .sb-errordisplay_code {
+    padding: 10px;
+    flex: 1;
+    background: #242424;
+    color: #c6c6c6;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    border-radius: 4px;
+
+    font-family:
+      'Operator Mono', 'Fira Code Retina', 'Fira Code', 'FiraCode-Retina', 'Andale Mono',
+      'Lucida Console', Consolas, Monaco, monospace;
+    margin: 0;
+    overflow: auto;
+  }
+
+  .sb-errordisplay pre {
+    white-space: pre-wrap;
+    white-space: revert;
+  }
+
+  @-webkit-keyframes sb-rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes sb-rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes sb-glow {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.4;
+    }
+  }
+
+  @keyframes sb-glow {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.4;
+    }
+  }
+
+  /* We display the preparing loaders *over* the rendering story */
+  .sb-preparing-story,
+  .sb-preparing-docs {
+    background-color: white;
+    /* Maximum possible z-index. It would be better to use stacking contexts to ensure it's always
+    on top, but this isn't possible as it would require making CSS changes that could affect user code */
+    z-index: 2147483647;
+  }
+
+  .sb-loader {
+    -webkit-animation: sb-rotate360 0.7s linear infinite;
+    animation: sb-rotate360 0.7s linear infinite;
+    border-color: rgba(97, 97, 97, 0.29);
+    border-radius: 50%;
+    border-style: solid;
+    border-top-color: #646464;
+    border-width: 2px;
+    display: inline-block;
+    height: 32px;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+    mix-blend-mode: difference;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transition: all 200ms ease-out;
+    vertical-align: top;
+    width: 32px;
+    z-index: 4;
+  }
+
+  .sb-previewBlock {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0;
+    margin: 25px auto 40px;
+    max-width: 600px;
+  }
+
+  .sb-previewBlock_header {
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 -1px 0 0 inset;
+    display: flex;
+    gap: 14px;
+    height: 40px;
+    padding: 0 12px;
+  }
+
+  .sb-previewBlock_icon {
+    -webkit-animation: sb-glow 1.5s ease-in-out infinite;
+    animation: sb-glow 1.5s ease-in-out infinite;
+    background: #e6e6e6;
+    height: 14px;
+    width: 14px;
+  }
+
+  .sb-previewBlock_icon:last-child {
+    margin-left: auto;
+  }
+
+  .sb-previewBlock_body {
+    -webkit-animation: sb-glow 1.5s ease-in-out infinite;
+    animation: sb-glow 1.5s ease-in-out infinite;
+    height: 182px;
+    position: relative;
+  }
+
+  .sb-argstableBlock {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 25px auto 40px;
+    max-width: 600px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .sb-argstableBlock th:first-of-type,
+  .sb-argstableBlock td:first-of-type {
+    padding-left: 20px;
+  }
+
+  .sb-argstableBlock th:nth-of-type(2),
+  .sb-argstableBlock td:nth-of-type(2) {
+    width: 35%;
+  }
+
+  .sb-argstableBlock th:nth-of-type(3),
+  .sb-argstableBlock td:nth-of-type(3) {
+    width: 15%;
+  }
+
+  .sb-argstableBlock th:last-of-type,
+  .sb-argstableBlock td:last-of-type {
+    width: 25%;
+    padding-right: 20px;
+  }
+
+  .sb-argstableBlock th span,
+  .sb-argstableBlock td span {
+    -webkit-animation: sb-glow 1.5s ease-in-out infinite;
+    animation: sb-glow 1.5s ease-in-out infinite;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    box-shadow: none;
+    color: transparent;
+  }
+
+  .sb-argstableBlock th {
+    padding: 10px 15px;
+  }
+
+  .sb-argstableBlock-body {
+    border-radius: 4px;
+    box-shadow:
+      rgba(0, 0, 0, 0.1) 0 1px 3px 1px,
+      rgba(0, 0, 0, 0.065) 0 0 0 1px;
+  }
+
+  .sb-argstableBlock-body tr {
+    background: transparent;
+    overflow: hidden;
+  }
+
+  .sb-argstableBlock-body tr:not(:first-child) {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .sb-argstableBlock-body tr:first-child td:first-child {
+    border-top-left-radius: 4px;
+  }
+
+  .sb-argstableBlock-body tr:first-child td:last-child {
+    border-top-right-radius: 4px;
+  }
+
+  .sb-argstableBlock-body tr:last-child td:first-child {
+    border-bottom-left-radius: 4px;
+  }
+
+  .sb-argstableBlock-body tr:last-child td:last-child {
+    border-bottom-right-radius: 4px;
+  }
+
+  .sb-argstableBlock-body td {
+    background: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: top;
+  }
+
+  .sb-argstableBlock-body td:not(:first-of-type) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .sb-argstableBlock-body button {
+    -webkit-animation: sb-glow 1.5s ease-in-out infinite;
+    animation: sb-glow 1.5s ease-in-out infinite;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: transparent;
+    display: inline;
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 16px;
+  }
+
+  .sb-argstableBlock-summary {
+    margin-top: 4px;
+  }
+
+  .sb-argstableBlock-code {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 2px 5px;
+  }
+
+  .sb-sr-only,
+  .sb-hidden-until-focus:not(:focus) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: none;
+  }
+
+  .sb-hidden-until-focus {
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+  }
+
+  .sb-hidden-until-focus:focus {
+    opacity: 1;
+  }</style><script>/* globals window */
+  try {
+    if (window.top !== window) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+      window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.top.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+      window.top.__VUE_DEVTOOLS_CONTEXT__ = window.document;
+    }
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.warn('unable to connect to top frame for connecting dev tools');
+  }</script><link rel="stylesheet" href="https://webfonts.artsy.net/all-webfonts.css"><style>#storybook-root[hidden],
+      #storybook-docs[hidden] {
+        display: none !important;
+      }</style><style data-styled="active" data-styled-version="6.1.13"></style></head><body class="sb-main-padded sb-show-main"><div class="sb-preparing-story sb-wrapper"><div class="sb-loader"></div></div><div class="sb-preparing-docs sb-wrapper"><div class="sb-previewBlock"><div class="sb-previewBlock_header"><div class="sb-previewBlock_icon"></div><div class="sb-previewBlock_icon"></div><div class="sb-previewBlock_icon"></div><div class="sb-previewBlock_icon"></div></div><div class="sb-previewBlock_body"><div class="sb-loader"></div></div></div><table aria-hidden="true" class="sb-argstableBlock"><thead class="sb-argstableBlock-head"><tr><th><span>Name</span></th><th><span>Description</span></th><th><span>Default</span></th><th><span>Control</span></th></tr></thead><tbody class="sb-argstableBlock-body"><tr><td><span>propertyName</span><span title="Required">*</span></td><td><div><span>This is a short description</span></div><div class="sb-argstableBlock-summary"><div><span class="sb-argstableBlock-code">summary</span></div></div></td><td><div><span class="sb-argstableBlock-code">defaultValue</span></div></td><td><button>Set string</button></td></tr><tr><td><span>propertyName</span><span>*</span></td><td><div><span>This is a short description</span></div><div class="sb-argstableBlock-summary"><div><span class="sb-argstableBlock-code">summary</span></div></div></td><td><div><span class="sb-argstableBlock-code">defaultValue</span></div></td><td><button>Set string</button></td></tr><tr><td><span>propertyName</span><span>*</span></td><td><div><span>This is a short description</span></div><div class="sb-argstableBlock-summary"><div><span class="sb-argstableBlock-code">summary</span></div></div></td><td><div><span class="sb-argstableBlock-code">defaultValue</span></div></td><td><button>Set string</button></td></tr></tbody></table></div><div class="sb-nopreview sb-wrapper"><div class="sb-nopreview_main"><h1 class="sb-nopreview_heading sb-heading">No Preview</h1><p>Sorry, but you either have no stories or none are selected somehow.</p><ul><li>Please check the Storybook config.</li><li>Try reloading the page.</li></ul><p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p></div></div><div class="sb-errordisplay sb-wrapper"><div class="sb-errordisplay_main"><h1 id="error-message"></h1><p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p><ol><li><strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li><li><strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li><li><strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li></ol><pre class="sb-errordisplay_code"><code id="error-stack"></code></pre></div></div><div id="storybook-root"><div variant="xxl" font-family="sans" class="Box-hCNGxy Text-jiypJG dZbOuU">Inputs &amp; Selections</div><div color="mono30" my="12" width="100%" class="Separator-bzHjVq dBmouv"></div><div variant="xxl" my="6" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV dZbOuU">Inputs</div><div variant="sm" color="mono60" font-family="sans" class="Box-hCNGxy Text-jiypJG gdBHSZ fKwbXj"><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Default</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Focus</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Hover</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Active</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Error</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Disabled</div><div gridcolumn="auto / -1" display="none,block" class="Box-hCNGxy GridColumns__Cell-emELPg jwEPPc blZPxs"></div></div></div><div color="mono30" my="6" width="100%" class="Separator-bzHjVq iAOPYn"></div><div my="6" variant="lg-display" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV jDiiFU">No Title</div><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" placeholder="Default" id="input-:r0:" class="Input__StyledInput-bOvqeY eaTooH"></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" placeholder="Focus" id="input-:r1:" class="Input__StyledInput-bOvqeY eIuwaG"></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" placeholder="Hover" id="input-:r2:" class="Input__StyledInput-bOvqeY MbXTJ"></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" placeholder="Active" id="input-:r3:" class="Input__StyledInput-bOvqeY eIuwaG" value="Active"></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" placeholder="Error" id="input-:r4:" class="Input__StyledInput-bOvqeY ePjsJV"></div><div variant="xs" mt="0.5" ml="1" color="red100" font-family="sans" class="Box-hCNGxy Text-jiypJG hDaooR fiCKAs">Input Value Error Message/Reason</div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input disabled="" height="50" placeholder="Disabled" id="input-:r5:" class="Input__StyledInput-bOvqeY eLWYxi"></div></div></div></div><div my="6" variant="lg-display" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV jDiiFU">Title</div><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="1" class="Box-hCNGxy crOeQV"><input height="50" title="Title" placeholder="Default" id="input-:r6:" class="Input__StyledInput-bOvqeY iwSpAo"><label for="input-:r6:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="1" class="Box-hCNGxy crOeQV"><input height="50" title="Title" placeholder="Focus" id="input-:r7:" class="Input__StyledInput-bOvqeY oONVd"><label for="input-:r7:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="1" class="Box-hCNGxy crOeQV"><input height="50" title="Title" placeholder="Hover" id="input-:r8:" class="Input__StyledInput-bOvqeY ifnpnu"><label for="input-:r8:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="1" class="Box-hCNGxy crOeQV"><input height="50" title="Title" placeholder="Active" id="input-:r9:" class="Input__StyledInput-bOvqeY oONVd" value="Active"><label for="input-:r9:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="1" class="Box-hCNGxy crOeQV"><input height="50" title="Title" placeholder="Error" id="input-:ra:" class="Input__StyledInput-bOvqeY ewnZHq"><label for="input-:ra:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div><div variant="xs" mt="0.5" ml="1" color="red100" font-family="sans" class="Box-hCNGxy Text-jiypJG hDaooR fiCKAs">Input Value Error Message/Reason</div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div position="relative" mt="1" class="Box-hCNGxy crOeQV"><input disabled="" height="50" title="Title" placeholder="Disabled" id="input-:rb:" class="Input__StyledInput-bOvqeY bwIxHh"><label for="input-:rb:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div></div><div my="6" variant="lg-display" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV jDiiFU">Title &amp; Subtitle</div><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(4px, 1170px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":re:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" title="Title" placeholder="Default" id="input-:rc:" class="Input__StyledInput-bOvqeY iwSpAo"><label for="input-:rc:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(242px, 1170px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":rh:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" title="Title" placeholder="Focus" id="input-:rf:" class="Input__StyledInput-bOvqeY oONVd"><label for="input-:rf:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(480px, 1170px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":rk:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" title="Title" placeholder="Hover" id="input-:ri:" class="Input__StyledInput-bOvqeY ifnpnu"><label for="input-:ri:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(718px, 1170px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":rn:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" title="Title" placeholder="Active" id="input-:rl:" class="Input__StyledInput-bOvqeY oONVd" value="Active"><label for="input-:rl:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(956px, 1170px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":rq:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input height="50" title="Title" placeholder="Error" id="input-:ro:" class="Input__StyledInput-bOvqeY ewnZHq"><label for="input-:ro:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div><div variant="xs" mt="0.5" ml="1" color="red100" font-family="sans" class="Box-hCNGxy Text-jiypJG hDaooR fiCKAs">Input Value Error Message/Reason</div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(1194px, 1170px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":rt:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div position="relative" mt="0" class="Box-hCNGxy dnAEHA"><input disabled="" height="50" title="Title" placeholder="Disabled" id="input-:rr:" class="Input__StyledInput-bOvqeY bwIxHh"><label for="input-:rr:" class="Input__StyledLabel-jPyCtw jYhxhn">Title<span></span></label></div></div></div></div><div variant="xxl" my="6" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV dZbOuU">Selects</div><div variant="sm" color="mono60" font-family="sans" class="Box-hCNGxy Text-jiypJG gdBHSZ fKwbXj"><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Default</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Focus</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Hover</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Error</div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx">Disabled</div><div gridcolumn="auto / -1" display="none,block" class="Box-hCNGxy GridColumns__Cell-emELPg jwEPPc blZPxs"></div></div></div><div color="mono30" my="6" width="100%" class="Separator-bzHjVq iAOPYn"></div><div my="6" variant="lg-display" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV jDiiFU">No Title</div><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="0" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ kmQtxt"><select id="select-:ru:" aria-label="Sort"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="0" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ fcJdqP"><select id="select-:rv:" aria-label="Sort"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="0" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ eqkTbT"><select id="select-:r10:" aria-label="Sort"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="0" error="Input Value Error Message/Reason" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ bBCLYx"><select id="select-:r11:" aria-label="Sort"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select></div><div variant="xs" mt="0.5" ml="1" color="red100" font-family="sans" class="Box-hCNGxy Text-jiypJG hDaooR fiCKAs">Input Value Error Message/Reason</div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="0" disabled="" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ eLGwJC"><select id="select-:r12:" disabled="" aria-label="Sort"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select></div></div></div><div gridcolumn="auto / -1" display="none,block" class="Box-hCNGxy GridColumns__Cell-emELPg jwEPPc blZPxs"></div></div><div my="6" variant="lg-display" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV jDiiFU">Title</div><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="1" title="Title" class="Box-hCNGxy Select__Container-bxxhEw hxKcQZ eqRqtt"><select id="select-:r13:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r13:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="1" title="Title" class="Box-hCNGxy Select__Container-bxxhEw hxKcQZ hhnSBD"><select id="select-:r14:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r14:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="1" title="Title" class="Box-hCNGxy Select__Container-bxxhEw hxKcQZ juzjdf"><select id="select-:r15:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r15:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="1" error="Input Value Error Message/Reason" title="Title" class="Box-hCNGxy Select__Container-bxxhEw hxKcQZ guYiWp"><select id="select-:r16:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r16:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div><div variant="xs" mt="0.5" ml="1" color="red100" font-family="sans" class="Box-hCNGxy Text-jiypJG hDaooR fiCKAs">Input Value Error Message/Reason</div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div mt="1" disabled="" title="Title" class="Box-hCNGxy Select__Container-bxxhEw hxKcQZ kinQoG"><select id="select-:r17:" disabled=""><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r17:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="auto / -1" display="none,block" class="Box-hCNGxy GridColumns__Cell-emELPg jwEPPc blZPxs"></div></div><div my="6" variant="lg-display" font-family="sans" class="Box-hCNGxy Text-jiypJG iNEgOV jDiiFU">Title &amp; Subtitle</div><div gridcolumngap="1,2" gridrowgap="1,2" class="Box-hCNGxy CSSGrid-kLeTBE GridColumns-jTRYTi donoW eNhSXK"><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(4px, 2218px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":r1a:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div mt="0" title="Title" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ eqRqtt"><select id="select-:r18:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r18:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(242px, 2218px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":r1d:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div mt="0" title="Title" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ hhnSBD"><select id="select-:r1b:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r1b:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(480px, 2218px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":r1g:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div mt="0" title="Title" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ juzjdf"><select id="select-:r1e:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r1e:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(718px, 2218px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":r1j:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div mt="0" error="Input Value Error Message/Reason" title="Title" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ guYiWp"><select id="select-:r1h:"><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r1h:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div><div variant="xs" mt="0.5" ml="1" color="red100" font-family="sans" class="Box-hCNGxy Text-jiypJG hDaooR fiCKAs">Input Value Error Message/Reason</div></div></div><div gridcolumn="span 12,span 2" class="Box-hCNGxy GridColumns__Cell-emELPg fIOMMx"><div width="100%" class="Box-hCNGxy kgVuiy"><div variant="xs" color="mono60" textalign="right" tabindex="0" font-family="sans" class="Box-hCNGxy Text-jiypJG jhfnbl fvYynU"><u>What is this?</u></div><div variant="defaultLight" width="230" zindex="1" class="Box-hCNGxy Tooltip__Tip-loahob bLhPEe fMJIYv" style="position: fixed; left: 0px; top: 0px; opacity: 0; transform: translate(956px, 2218px); visibility: hidden;"><svg fill="currentColor" class="Pointer__StyledFloatingArrow-cIszKW cCrmaa" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" style="position: absolute; pointer-events: none; top: 100%; left: 114px;"><path stroke="none" d="M0,0 H14 L7.875,6.125 Q7,7 6.125,6.125 Z"></path><clipPath id=":r1m:"><rect x="0" y="0" width="14" height="14"></rect></clipPath></svg><div variant="defaultLight" p="1" class="Box-hCNGxy Tooltip__Panel-djbqc cFfOaY ixYGdh"><div variant="xs" font-family="sans" class="Box-hCNGxy Text-jiypJG dTMhqM">Subtitle</div></div></div><div mt="0" disabled="" title="Title" class="Box-hCNGxy Select__Container-bxxhEw buQvcQ kinQoG"><select id="select-:r1k:" disabled=""><option value="firstValue">First</option><option value="middleValue">Middle</option><option value="lastValue">Last</option></select><label for="select-:r1k:" class="Select__StyledLabel-gKtSCC fzKjzI">Title<span></span></label></div></div></div><div gridcolumn="auto / -1" display="none,block" class="Box-hCNGxy GridColumns__Cell-emELPg jwEPPc blZPxs"></div></div></div><div id="storybook-docs" hidden="true"></div><script>window['CONFIG_TYPE'] = "PRODUCTION";
+          
+      
+          
+            window['LOGLEVEL'] = "info";
+          
+      
+          
+            window['FRAMEWORK_OPTIONS'] = {};
+          
+      
+          
+            window['CHANNEL_OPTIONS'] = {};
+          
+      
+          
+            window['FEATURES'] = {"argTypeTargetsV7":true,"legacyDecoratorFileOrder":false,"disallowImplicitActionsInRenderV8":true,"viewport":true,"highlight":true,"controls":true,"interactions":true,"actions":true,"backgrounds":true,"outline":true,"measure":true};
+          
+      
+          
+      
+          
+            window['STORIES'] = [{"titlePrefix":"","directory":"./.storybook/guides","files":"GettingStarted.story.tsx","importPathMatcher":"^\\.[\\\\/](?:\\.storybook\\/guides\\/GettingStarted\\.story\\.tsx)$"},{"titlePrefix":"","directory":"./.storybook/guides","files":"Accessibility.story.tsx","importPathMatcher":"^\\.[\\\\/](?:\\.storybook\\/guides\\/Accessibility\\.story\\.tsx)$"},{"titlePrefix":"","directory":"./.storybook/guides","files":"DevelopingForPalette.story.tsx","importPathMatcher":"^\\.[\\\\/](?:\\.storybook\\/guides\\/DevelopingForPalette\\.story\\.tsx)$"},{"titlePrefix":"","directory":"./.storybook/guides","files":"HowPaletteWorks.story.tsx","importPathMatcher":"^\\.[\\\\/](?:\\.storybook\\/guides\\/HowPaletteWorks\\.story\\.tsx)$"},{"titlePrefix":"","directory":"./.storybook/guides","files":"ResponsiveProps.story.tsx","importPathMatcher":"^\\.[\\\\/](?:\\.storybook\\/guides\\/ResponsiveProps\\.story\\.tsx)$"},{"titlePrefix":"","directory":"./src","files":"**/*.story.@(tsx|mdx)","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.story\\.(tsx|mdx))$"},{"titlePrefix":"","directory":"../palette-charts/src","files":"**/*.story.@(tsx|mdx)","importPathMatcher":"^(?:\\.\\.\\/palette-charts\\/src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.story\\.(tsx|mdx))$"}];
+          
+      
+          
+            window['DOCS_OPTIONS'] = {"defaultName":"Docs","autodocs":"tag"};
+          
+      
+          
+            window['TAGS_OPTIONS'] = {"dev-only":{"excludeFromDocsStories":true},"docs-only":{"excludeFromSidebar":true},"test-only":{"excludeFromSidebar":true,"excludeFromDocsStories":true}};</script><script type="module">import './sb-preview/runtime.js';
+      
+      import '/static/js/runtime~main.42339295.iframe.bundle.js';
+      
+      import '/static/js/6598.9a7d7e01.iframe.bundle.js';
+      
+      import '/static/js/main.9c90b6af.iframe.bundle.js';</script><div id="storybook-highlights-root" style=""><div id="storybook-highlights-menu" popover="manual" style="display: none;"></div><style>
+            #storybook-highlights-menu {
+              position: absolute;
+              z-index: 2147483647;
+              width: 300px;
+              padding: 0px;
+              margin: 15px 0 0 0;
+              transform: translateX(-50%);
+              font-family: "Nunito Sans", -apple-system, ".SFNSText-Regular", "San Francisco", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+              font-size: 12px;
+              background: white;
+              border: none;
+              border-radius: 6px;
+              box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05), 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+              color: #2E3438;
+            }
+            #storybook-highlights-menu ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            #storybook-highlights-menu > ul {
+              max-height: 300px;
+              overflow-y: auto;
+              padding: 4px 0;
+            }
+            #storybook-highlights-menu li {
+              padding: 0 4px;
+              margin: 0;
+            }
+            #storybook-highlights-menu li > :not(ul) {
+              display: flex;
+              padding: 8px;
+              margin: 0;
+              align-items: center;
+              gap: 8px;
+              border-radius: 4px;
+            }
+            #storybook-highlights-menu button {
+              width: 100%;
+              border: 0;
+              background: transparent;
+              color: inherit;
+              text-align: left;
+              font-family: inherit;
+              font-size: inherit;
+            }
+            #storybook-highlights-menu button:focus-visible {
+              outline-color: #029CFD;
+            }
+            #storybook-highlights-menu button:hover {
+              background: rgba(2, 156, 253, 0.07);
+              color: #029CFD;
+              cursor: pointer;
+            }
+            #storybook-highlights-menu li code {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              line-height: 16px;
+              font-size: 11px;
+            }
+            #storybook-highlights-menu li svg {
+              flex-shrink: 0;
+              margin: 1px;
+              color: #73828C;
+            }
+            #storybook-highlights-menu li > button:hover svg, #storybook-highlights-menu li > button:focus-visible svg {
+              color: #029CFD;
+            }
+            #storybook-highlights-menu .element-list li svg {
+              display: none;
+            }
+            #storybook-highlights-menu li.selectable svg, #storybook-highlights-menu li.selected svg {
+              display: block;
+            }
+            #storybook-highlights-menu .menu-list {
+              border-top: 1px solid rgba(38, 85, 115, 0.15);
+            }
+            #storybook-highlights-menu .menu-list > li:not(:last-child) {
+              padding-bottom: 4px;
+              margin-bottom: 4px;
+              border-bottom: 1px solid rgba(38, 85, 115, 0.15);
+            }
+            #storybook-highlights-menu .menu-items, #storybook-highlights-menu .menu-items li {
+              padding: 0;
+            }
+            #storybook-highlights-menu .menu-item {
+              display: flex;
+            }
+            #storybook-highlights-menu .menu-item-content {
+              display: flex;
+              flex-direction: column;
+              flex-grow: 1;
+            }
+          </style></div></body></html>

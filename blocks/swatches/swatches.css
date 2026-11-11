@@ -1,24 +1,26 @@
+/* Swatches: square colour chips with name and hex (DESIGN.md › Colour swatch) */
 .swatches ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 16px;
+  gap: var(--space-3) var(--space-2);
 }
 
 .swatches li {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: var(--space-1);
 }
 
 .swatches .swatches-chip {
   display: block;
   aspect-ratio: 3 / 2;
   background: var(--swatch);
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 15%);
+
+  /* hairline edge keeps near-white colours visible on the white wall */
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 8%);
 }
 
 .swatches li:has(a) .swatches-chip {
@@ -28,48 +30,64 @@
 .swatches .swatches-body {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  line-height: 1.3;
+  font-size: var(--type-sm-size);
+  line-height: var(--type-sm-lh);
 }
 
-.swatches .swatches-name {
-  font-weight: 600;
+.swatches a.swatches-name:any-link {
+  text-decoration: none;
 }
 
-.swatches .swatches-count,
+.swatches a.swatches-name:hover,
+.swatches a.swatches-name:focus-visible {
+  text-decoration: underline;
+}
+
 .swatches .swatches-hex {
-  font-size: var(--body-font-size-xs);
+  display: block;
+  font-family: var(--fixed-font-family);
+  font-size: var(--type-xs-size);
+  line-height: var(--type-xs-lh);
   color: var(--secondary-text-color);
 }
 
-.swatches .swatches-hex {
-  font-family: var(--fixed-font-family);
-  background: none;
-  padding: 0;
+.swatches .swatches-count {
+  font-size: var(--type-xs-size);
+  line-height: var(--type-xs-lh);
+  color: var(--secondary-text-color);
 }
 
+/* sort toggles: 30px pills */
 .swatches .swatches-sort {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 16px;
-  font-size: var(--body-font-size-s);
+  gap: var(--space-1);
+  margin-bottom: var(--space-3);
+  font-size: var(--type-xs-size);
+  line-height: var(--type-xs-lh);
+  color: var(--secondary-text-color);
 }
 
 .swatches .swatches-sort button {
-  font: inherit;
-  padding: 4px 12px;
-  border: 1px solid var(--border-color);
-  border-radius: 999px;
+  height: 30px;
+  padding: 0 15px;
+  border: 1px solid var(--control-border-color);
+  border-radius: var(--radius-pill);
   background: var(--background-color);
   color: var(--text-color);
+  font: inherit;
   cursor: pointer;
 }
 
+.swatches .swatches-sort button:hover {
+  border-color: var(--text-color);
+}
+
 .swatches .swatches-sort button[aria-pressed='true'] {
-  background: var(--text-color);
-  color: var(--background-color);
+  border-color: var(--ultramarine);
+  background: var(--ultramarine);
+  color: var(--gallery-wall);
 }
 
 /* one large swatch on a colour page */
@@ -86,10 +104,10 @@
   display: none;
 }
 
-/* small chips on an artwork page */
+/* small chips beside their names, e.g. a work's colours */
 .swatches.compact ul {
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-2);
 }
 
 .swatches.compact li {
@@ -101,8 +119,4 @@
   flex: 0 0 40px;
   height: 40px;
   aspect-ratio: auto;
-}
-
-.swatches.compact .swatches-name {
-  font-weight: 400;
 }

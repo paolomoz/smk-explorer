@@ -14,3 +14,8 @@ helix-importer-ui
 
 # SMK page generator: API cache
 tools/smk/.cache/
+
+# >>> stardust
+.env
+.env.*
+# <<< stardust

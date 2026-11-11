@@ -1,0 +1,4073 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-11T07:32:59.263Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/"
+    ],
+    "widths": [
+      1440
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282": {
+      "1440": {
+        "title": "Cathrine Sophie Kirchhoff, f. Christensen – Jens Juel | SMK Explorer",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 111,
+          "visible": 100
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Cathrine Sophie Kirchhoff, f. Christens…",
+            "selector": "#cathrine-sophie-kirchhoff-f-christensen",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "lineHeight": "45px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "h2",
+            "text": "Colours",
+            "selector": "#colours",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "35px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "h2",
+            "text": "About the work",
+            "selector": "#about-the-work",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "35px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "78 × 62 cm (height × width)",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > dl > dd:nth-of-type(5) > p",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "SMK – National Gallery of Denmark",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > dl > dd:nth-of-type(7) > p",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "SMK tags this work with 4 colours. Each…",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(1) > p",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Dark olive green #657b42",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(4)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Find works with Black #000000, Dark gra…",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(3) > p",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "SMK has not published a description of …",
+            "selector": "main > div:nth-of-type(3) > div > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "See Cathrine Sophie Kirchhoff, f. Chris…",
+            "selector": "main > div:nth-of-type(3) > div > p:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "buttons": [],
+        "links": [
+          {
+            "text": "Jens Juel",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > dl > dd:nth-of-type(1) > p > a",
+            "count": 8,
+            "color": "rgb(26, 26, 26)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "See Cathrine Sophie Kirchhoff, f. Chris…",
+            "selector": "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a",
+            "count": 1,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgb(74, 74, 74)",
+              "color": "rgb(244, 244, 244)",
+              "borderColor": "rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#nav",
+            "rect": {
+              "x": 88,
+              "y": 0,
+              "w": 1264,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px 32px",
+            "maxWidth": "1264px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 88,
+              "w": 1440,
+              "h": 1502
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 1630,
+              "w": 1440,
+              "h": 168
+            },
+            "backgroundColor": "rgb(244, 244, 244)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 88,
+              "w": 1440,
+              "h": 1091
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 1219,
+              "w": 1440,
+              "h": 196
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(3)",
+            "rect": {
+              "x": 0,
+              "y": 1455,
+              "w": 1440,
+              "h": 135
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "43.2px",
+            "count": 1,
+            "area": 26729,
+            "sources": [
+              "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 2681348,
+            "sources": [
+              "body",
+              "header > div > div"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 2,
+            "area": 648428,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > picture > img",
+              "footer"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 1,
+            "area": 26729,
+            "sources": [
+              "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 37,
+            "sources": [
+              "#nav > div:nth-of-type(2) > div > p > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a"
+            ]
+          }
+        ],
+        "customProps": {
+          "--background-color": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--light-color": {
+            "declared": "#f4f4f4",
+            "computed": "#f4f4f4"
+          },
+          "--dark-color": {
+            "declared": "#4a4a4a",
+            "computed": "#4a4a4a"
+          },
+          "--text-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--secondary-text-color": {
+            "declared": "#5c5c5c",
+            "computed": "#5c5c5c"
+          },
+          "--border-color": {
+            "declared": "#d0d0d0",
+            "computed": "#d0d0d0"
+          },
+          "--link-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--link-hover-color": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--body-font-family": {
+            "declared": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "var(--body-font-family)",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--fixed-font-family": {
+            "declared": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+            "computed": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace"
+          },
+          "--body-font-size-m": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--body-font-size-s": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--body-font-size-xs": {
+            "declared": "14px",
+            "computed": "14px"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "36px",
+            "computed": "36px"
+          },
+          "--heading-font-size-xl": {
+            "declared": "28px",
+            "computed": "28px"
+          },
+          "--heading-font-size-l": {
+            "declared": "24px",
+            "computed": "24px"
+          },
+          "--heading-font-size-m": {
+            "declared": "20px",
+            "computed": "20px"
+          },
+          "--heading-font-size-s": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--heading-font-size-xs": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--nav-height": {
+            "declared": "64px",
+            "computed": "64px"
+          }
+        },
+        "fonts": [],
+        "logoCandidates": [],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282"
+      }
+    },
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727": {
+      "1440": {
+        "title": "Gold #f6d727 – colour in the SMK collection | SMK Explorer",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 185,
+          "visible": 149
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Gold #f6d727",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(1) > h1",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "lineHeight": "45px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "h2",
+            "text": "Often together",
+            "selector": "#often-together",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "35px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "h2",
+            "text": "Works with Gold #f6d727",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > h2",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "600",
+            "lineHeight": "35px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "li",
+            "text": "Gold #f6d727#f6d727 · 6 works",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > ul > li",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "A very light, vivid ochre-yellow tone. …",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "6 works with an image and in the public…",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Search works with Gold #f6d727",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "The 10 colours that most often appear i…",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(1) > p",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Gold #f1d41c3 works together",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Black #170e062 works together",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Saddle brown #593d1c2 works together",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(3)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Gray #7777772 works together",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(4)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Saddle brown #7950252 works together",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(5)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Gray #8888882 works together",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(6)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Sienna2 works together#956830",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(7)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Search works with Gold #f6d727",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a",
+            "count": 1,
+            "backgroundColor": "rgb(26, 26, 26)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "43.2px",
+            "padding": "9px 21.6px",
+            "border": "2px solid rgb(26, 26, 26)",
+            "borderColor": "rgb(26, 26, 26)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(74, 74, 74)",
+              "color": "rgb(244, 244, 244)",
+              "borderColor": "rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Gold #f1d41c",
+            "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(1) > div > a",
+            "count": 16,
+            "color": "rgb(26, 26, 26)",
+            "textDecoration": "underline",
+            "fontWeight": "600",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#nav",
+            "rect": {
+              "x": 88,
+              "y": 0,
+              "w": 1264,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px 32px",
+            "maxWidth": "1264px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 93,
+              "w": 1440,
+              "h": 1806
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 1938,
+              "w": 1440,
+              "h": 168
+            },
+            "backgroundColor": "rgb(244, 244, 244)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 93,
+              "w": 1440,
+              "h": 423
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 556,
+              "w": 1440,
+              "h": 498
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(3)",
+            "rect": {
+              "x": 0,
+              "y": 1093,
+              "w": 1440,
+              "h": 805
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "43.2px",
+            "count": 1,
+            "area": 15268,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 7,
+            "area": 534793,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(2) > div > ul > li:nth-of-type(1) > div:nth-of-type(1)",
+              "main > div:nth-of-type(3) > div:nth-of-type(2) > div > ul > li:nth-of-type(2) > div:nth-of-type(1)",
+              "main > div:nth-of-type(3) > div:nth-of-type(2) > div > ul > li:nth-of-type(3) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 3125858,
+            "sources": [
+              "body",
+              "header > div > div"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 1,
+            "area": 15268,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 34,
+            "sources": [
+              "#nav > div:nth-of-type(2) > div > p > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(92, 92, 92)",
+            "count": 25,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > ul > li > div > span:nth-of-type(2)",
+              "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(1) > div > span",
+              "main > div:nth-of-type(2) > div:nth-of-type(2) > div > ul > li:nth-of-type(2) > div > span"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a"
+            ]
+          }
+        ],
+        "customProps": {
+          "--background-color": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--light-color": {
+            "declared": "#f4f4f4",
+            "computed": "#f4f4f4"
+          },
+          "--dark-color": {
+            "declared": "#4a4a4a",
+            "computed": "#4a4a4a"
+          },
+          "--text-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--secondary-text-color": {
+            "declared": "#5c5c5c",
+            "computed": "#5c5c5c"
+          },
+          "--border-color": {
+            "declared": "#d0d0d0",
+            "computed": "#d0d0d0"
+          },
+          "--link-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--link-hover-color": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--body-font-family": {
+            "declared": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "var(--body-font-family)",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--fixed-font-family": {
+            "declared": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+            "computed": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace"
+          },
+          "--body-font-size-m": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--body-font-size-s": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--body-font-size-xs": {
+            "declared": "14px",
+            "computed": "14px"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "36px",
+            "computed": "36px"
+          },
+          "--heading-font-size-xl": {
+            "declared": "28px",
+            "computed": "28px"
+          },
+          "--heading-font-size-l": {
+            "declared": "24px",
+            "computed": "24px"
+          },
+          "--heading-font-size-m": {
+            "declared": "20px",
+            "computed": "20px"
+          },
+          "--heading-font-size-s": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--heading-font-size-xs": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--nav-height": {
+            "declared": "64px",
+            "computed": "64px"
+          }
+        },
+        "fonts": [],
+        "logoCandidates": [],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727"
+      }
+    },
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours": {
+      "1440": {
+        "title": "Colours in the SMK collection | SMK Explorer",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 1257,
+          "visible": 1017
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Colours in the SMK collection",
+            "selector": "#colours-in-the-smk-collection",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "lineHeight": "45px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "SMK tags every digitised work with the …",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Open a colour to see the works that con…",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Gray #8888889,326 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Gray #7777779,099 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Dark gray #9999998,609 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(3)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "White7,697 works#ffffff",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(4)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Dim gray #5555557,470 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(5)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Dim gray #6666667,437 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(6)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Light gray6,757 works#cccccc",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(7)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Dark slate gray #4444445,872 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(8)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Dark gray #aaaaaa5,822 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(9)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Light yellow #fefcdf5,529 works",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(10)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Number of works",
+            "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgb(26, 26, 26)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "999px",
+            "padding": "4px 12px",
+            "border": "1px solid rgb(208, 208, 208)",
+            "borderColor": "rgb(208, 208, 208)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(26, 26, 26)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(208, 208, 208)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Hue",
+            "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)",
+            "count": 2,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(26, 26, 26)",
+            "borderRadius": "999px",
+            "padding": "4px 12px",
+            "border": "1px solid rgb(208, 208, 208)",
+            "borderColor": "rgb(208, 208, 208)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(26, 26, 26)",
+              "borderColor": "rgb(208, 208, 208)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "search the collection by colour",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(2) > a",
+            "count": 1,
+            "color": "rgb(26, 26, 26)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Gray #888888",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > a",
+            "count": 236,
+            "color": "rgb(26, 26, 26)",
+            "textDecoration": "underline",
+            "fontWeight": "600",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#nav",
+            "rect": {
+              "x": 88,
+              "y": 0,
+              "w": 1264,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px 32px",
+            "maxWidth": "1264px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 93,
+              "w": 1440,
+              "h": 8946
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 9078,
+              "w": 1440,
+              "h": 168
+            },
+            "backgroundColor": "rgb(244, 244, 244)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 93,
+              "w": 1440,
+              "h": 160
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 293,
+              "w": 1440,
+              "h": 8745
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "999px",
+            "count": 3,
+            "area": 10470,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)",
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)",
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(3)"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "area": 13411971,
+            "sources": [
+              "body",
+              "header > div > div",
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 1,
+            "area": 242280,
+            "sources": [
+              "footer"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 1,
+            "area": 5799,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(92, 92, 92)",
+            "count": 256,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > span",
+              "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2) > div > span",
+              "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(3) > div > span"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 255,
+            "sources": [
+              "#nav > div:nth-of-type(2) > div > p > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(208, 208, 208)",
+            "count": 3,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)",
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)",
+              "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(3)"
+            ]
+          }
+        ],
+        "customProps": {
+          "--background-color": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--light-color": {
+            "declared": "#f4f4f4",
+            "computed": "#f4f4f4"
+          },
+          "--dark-color": {
+            "declared": "#4a4a4a",
+            "computed": "#4a4a4a"
+          },
+          "--text-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--secondary-text-color": {
+            "declared": "#5c5c5c",
+            "computed": "#5c5c5c"
+          },
+          "--border-color": {
+            "declared": "#d0d0d0",
+            "computed": "#d0d0d0"
+          },
+          "--link-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--link-hover-color": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--body-font-family": {
+            "declared": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "var(--body-font-family)",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--fixed-font-family": {
+            "declared": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+            "computed": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace"
+          },
+          "--body-font-size-m": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--body-font-size-s": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--body-font-size-xs": {
+            "declared": "14px",
+            "computed": "14px"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "36px",
+            "computed": "36px"
+          },
+          "--heading-font-size-xl": {
+            "declared": "28px",
+            "computed": "28px"
+          },
+          "--heading-font-size-l": {
+            "declared": "24px",
+            "computed": "24px"
+          },
+          "--heading-font-size-m": {
+            "declared": "20px",
+            "computed": "20px"
+          },
+          "--heading-font-size-s": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--heading-font-size-xs": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--nav-height": {
+            "declared": "64px",
+            "computed": "64px"
+          }
+        },
+        "fonts": [],
+        "logoCandidates": [],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours"
+      }
+    },
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/": {
+      "1440": {
+        "title": "SMK Explorer – search the National Gallery of Denmark by colour",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 1025,
+          "visible": 489
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Explore the SMK collection",
+            "selector": "#explore-the-smk-collection",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "lineHeight": "45px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Search almost 40,000 public-domain work…",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Every search has its own address, so yo…",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Pick colours from SMK’s palette. With s…",
+            "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > p",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(92, 92, 92)"
+          },
+          {
+            "tag": "li",
+            "text": "Augustus og den tiburtinske sibylleAnto…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Augustus og den tiburtinske sibylle",
+            "selector": "div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Peters og Paulus' martyriumAntonio da T…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(2)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Peters og Paulus' martyrium",
+            "selector": "div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Peters og Paulus' martyriumAntonio da T…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(3)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Peters og Paulus' martyrium",
+            "selector": "div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "Peters og Paulus' martyriumAntonio da T…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(4)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "p",
+            "text": "Peters og Paulus' martyrium",
+            "selector": "div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(4) > div:nth-of-type(2) > p:nth-of-type(1)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "tag": "li",
+            "text": "\"Pan\" og \"Apollon og Marsyas\"Ugo da Car…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(5)",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(26, 26, 26)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Search",
+            "selector": "main > div:nth-of-type(2) > div > div > form > div > button",
+            "count": 1,
+            "backgroundColor": "rgb(26, 26, 26)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "4px",
+            "padding": "8px 16px",
+            "border": "1px solid rgb(26, 26, 26)",
+            "borderColor": "rgb(26, 26, 26)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(26, 26, 26)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(26, 26, 26)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Wheel",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(1)",
+            "count": 1,
+            "backgroundColor": "rgb(26, 26, 26)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "999px",
+            "padding": "2px 12px",
+            "border": "1px solid rgb(26, 26, 26)",
+            "borderColor": "rgb(26, 26, 26)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(26, 26, 26)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(26, 26, 26)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Grid",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)",
+            "count": 1,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "999px",
+            "padding": "2px 12px",
+            "border": "1px solid rgb(208, 208, 208)",
+            "borderColor": "rgb(208, 208, 208)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(208, 208, 208)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Load more",
+            "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > p:nth-of-type(3) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "borderRadius": "43.2px",
+            "padding": "9px 21.6px",
+            "border": "2px solid rgb(26, 26, 26)",
+            "borderColor": "rgb(26, 26, 26)",
+            "boxShadow": "none",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(244, 244, 244)",
+              "color": "rgb(74, 74, 74)",
+              "borderColor": "rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "browse all the colours",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(2) > a",
+            "count": 1,
+            "color": "rgb(26, 26, 26)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Augustus og den tiburtinske sibylle",
+            "selector": "div > div > div > ul > li:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a",
+            "count": 24,
+            "color": "rgb(26, 26, 26)",
+            "textDecoration": "underline",
+            "fontWeight": "600",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#nav",
+            "rect": {
+              "x": 88,
+              "y": 0,
+              "w": 1264,
+              "h": 64
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px 32px",
+            "maxWidth": "1264px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 93,
+              "w": 1440,
+              "h": 3559
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 3692,
+              "w": 1440,
+              "h": 168
+            },
+            "backgroundColor": "rgb(244, 244, 244)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 93,
+              "w": 1440,
+              "h": 160
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 293,
+              "w": 1440,
+              "h": 3359
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(26, 26, 26)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "fontSize": "18px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "50%",
+            "count": 237,
+            "area": 183804,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3)",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 7,
+            "area": 92475,
+            "sources": [
+              "#search-jaxqt7-q",
+              "main > div:nth-of-type(2) > div > div > form > div > button",
+              "#search-jaxqt7-type"
+            ]
+          },
+          {
+            "value": "999px",
+            "count": 2,
+            "area": 3556,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(1)",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "43.2px",
+            "count": 1,
+            "area": 7250,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > p:nth-of-type(3) > button"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 26,
+            "area": 2013664,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3)",
+              "div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(1) > div:nth-of-type(1)",
+              "div > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(2) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 10,
+            "area": 5740592,
+            "sources": [
+              "body",
+              "header > div > div",
+              "#search-jaxqt7-q"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 2,
+            "area": 6468,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > form > div > button",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 140, 146)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(0, 149, 125)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(1, 112, 121)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(6)"
+            ]
+          },
+          {
+            "value": "rgb(1, 83, 90)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(1, 92, 69)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(5)"
+            ]
+          },
+          {
+            "value": "rgb(101, 123, 66)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(84)"
+            ]
+          },
+          {
+            "value": "rgb(101, 28, 33)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(83)"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(85)"
+            ]
+          },
+          {
+            "value": "rgb(103, 102, 157)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(86)"
+            ]
+          },
+          {
+            "value": "rgb(104, 172, 89)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(87)"
+            ]
+          },
+          {
+            "value": "rgb(105, 180, 152)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(88)"
+            ]
+          },
+          {
+            "value": "rgb(106, 187, 211)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(89)"
+            ]
+          },
+          {
+            "value": "rgb(107, 115, 167)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(90)"
+            ]
+          },
+          {
+            "value": "rgb(108, 189, 212)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(91)"
+            ]
+          },
+          {
+            "value": "rgb(112, 175, 80)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(92)"
+            ]
+          },
+          {
+            "value": "rgb(113, 109, 161)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(93)"
+            ]
+          },
+          {
+            "value": "rgb(113, 185, 158)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(94)"
+            ]
+          },
+          {
+            "value": "rgb(115, 161, 210)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(95)"
+            ]
+          },
+          {
+            "value": "rgb(115, 177, 90)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(96)"
+            ]
+          },
+          {
+            "value": "rgb(115, 189, 213)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(97)"
+            ]
+          },
+          {
+            "value": "rgb(117, 186, 161)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(98)"
+            ]
+          },
+          {
+            "value": "rgb(118, 90, 149)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(99)"
+            ]
+          },
+          {
+            "value": "rgb(119, 115, 61)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(101)"
+            ]
+          },
+          {
+            "value": "rgb(119, 119, 119)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(102)"
+            ]
+          },
+          {
+            "value": "rgb(119, 151, 75)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(103)"
+            ]
+          },
+          {
+            "value": "rgb(119, 34, 29)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(100)"
+            ]
+          },
+          {
+            "value": "rgb(12, 149, 86)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(17)"
+            ]
+          },
+          {
+            "value": "rgb(12, 6, 20)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(16)"
+            ]
+          },
+          {
+            "value": "rgb(121, 23, 42)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(104)"
+            ]
+          },
+          {
+            "value": "rgb(121, 36, 100)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(105)"
+            ]
+          },
+          {
+            "value": "rgb(121, 80, 37)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(106)"
+            ]
+          },
+          {
+            "value": "rgb(124, 180, 94)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(107)"
+            ]
+          },
+          {
+            "value": "rgb(125, 188, 169)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(108)"
+            ]
+          },
+          {
+            "value": "rgb(127, 193, 217)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(109)"
+            ]
+          },
+          {
+            "value": "rgb(128, 183, 76)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(110)"
+            ]
+          },
+          {
+            "value": "rgb(129, 101, 155)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(111)"
+            ]
+          },
+          {
+            "value": "rgb(131, 186, 114)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(112)"
+            ]
+          },
+          {
+            "value": "rgb(131, 191, 180)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(113)"
+            ]
+          },
+          {
+            "value": "rgb(132, 139, 186)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(114)"
+            ]
+          },
+          {
+            "value": "rgb(135, 33, 42)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(115)"
+            ]
+          },
+          {
+            "value": "rgb(136, 136, 136)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(116)"
+            ]
+          },
+          {
+            "value": "rgb(138, 130, 178)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(117)"
+            ]
+          },
+          {
+            "value": "rgb(138, 183, 225)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(118)"
+            ]
+          },
+          {
+            "value": "rgb(138, 186, 73)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(119)"
+            ]
+          },
+          {
+            "value": "rgb(139, 180, 73)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(120)"
+            ]
+          },
+          {
+            "value": "rgb(14, 28, 10)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(18)"
+            ]
+          },
+          {
+            "value": "rgb(14, 59, 89)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(19)"
+            ]
+          },
+          {
+            "value": "rgb(140, 110, 161)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(121)"
+            ]
+          },
+          {
+            "value": "rgb(144, 141, 65)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(122)"
+            ]
+          },
+          {
+            "value": "rgb(145, 42, 118)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(123)"
+            ]
+          },
+          {
+            "value": "rgb(145, 76, 142)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(124)"
+            ]
+          },
+          {
+            "value": "rgb(146, 205, 225)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(125)"
+            ]
+          },
+          {
+            "value": "rgb(149, 104, 48)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(128)"
+            ]
+          },
+          {
+            "value": "rgb(149, 193, 141)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(129)"
+            ]
+          },
+          {
+            "value": "rgb(149, 201, 190)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(130)"
+            ]
+          },
+          {
+            "value": "rgb(149, 37, 60)",
+            "count": 1,
+            "area": 289,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(126)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 49,
+            "sources": [
+              "#nav > div:nth-of-type(2) > div > p > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > a",
+              "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(92, 92, 92)",
+            "count": 49,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > p",
+              "div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)",
+              "div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > form > div > button",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(0, 0, 0, 0.2)",
+            "count": 236,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(2)",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(208, 208, 208)",
+            "count": 7,
+            "sources": [
+              "#search-jaxqt7-q",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)",
+              "#search-jaxqt7-type"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 3,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > form > div > button",
+              "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(1)",
+              "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > p:nth-of-type(3) > button"
+            ]
+          }
+        ],
+        "customProps": {
+          "--background-color": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--light-color": {
+            "declared": "#f4f4f4",
+            "computed": "#f4f4f4"
+          },
+          "--dark-color": {
+            "declared": "#4a4a4a",
+            "computed": "#4a4a4a"
+          },
+          "--text-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--secondary-text-color": {
+            "declared": "#5c5c5c",
+            "computed": "#5c5c5c"
+          },
+          "--border-color": {
+            "declared": "#d0d0d0",
+            "computed": "#d0d0d0"
+          },
+          "--link-color": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--link-hover-color": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--body-font-family": {
+            "declared": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "var(--body-font-family)",
+            "computed": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif"
+          },
+          "--fixed-font-family": {
+            "declared": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+            "computed": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace"
+          },
+          "--body-font-size-m": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--body-font-size-s": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--body-font-size-xs": {
+            "declared": "14px",
+            "computed": "14px"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "36px",
+            "computed": "36px"
+          },
+          "--heading-font-size-xl": {
+            "declared": "28px",
+            "computed": "28px"
+          },
+          "--heading-font-size-l": {
+            "declared": "24px",
+            "computed": "24px"
+          },
+          "--heading-font-size-m": {
+            "declared": "20px",
+            "computed": "20px"
+          },
+          "--heading-font-size-s": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--heading-font-size-xs": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--nav-height": {
+            "declared": "64px",
+            "computed": "64px"
+          }
+        },
+        "fonts": [],
+        "logoCandidates": [],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 4,
+      "widths": [
+        1440
+      ],
+      "measurements": 4
+    },
+    "colors": [
+      {
+        "hex": "#1a1a1a",
+        "values": [
+          "rgb(26, 26, 26)"
+        ],
+        "weight": 690,
+        "bgArea": 54264,
+        "by": {
+          "text": 375,
+          "link": 286,
+          "border": 5,
+          "background": 5,
+          "button-text": 3,
+          "button-background": 4,
+          "button-border": 4,
+          "heading": 8
+        },
+        "roles": [
+          "surface",
+          "text",
+          "primary",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "#nav > div:nth-of-type(2) > div > p > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "#nav > div:nth-of-type(2) > div > p > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+            "selector": "#nav > div:nth-of-type(2) > div > p > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+            "selector": "#nav > div:nth-of-type(2) > div > p > a",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#00000033",
+        "values": [
+          "rgba(0, 0, 0, 0.2)"
+        ],
+        "weight": 236,
+        "by": {
+          "border": 236
+        },
+        "roles": [
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#f4f4f4",
+        "values": [
+          "rgb(244, 244, 244)",
+          "rgb(255, 255, 255)"
+        ],
+        "weight": 67,
+        "bgArea": 28398934,
+        "by": {
+          "background": 54,
+          "button-background": 3,
+          "text": 5,
+          "button-text": 4,
+          "link": 1
+        },
+        "roles": [
+          "background"
+        ],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "body",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(2) > div > ul > li:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "body",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+            "selector": "body",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#d0d0d0",
+        "values": [
+          "rgb(208, 208, 208)"
+        ],
+        "weight": 14,
+        "by": {
+          "border": 10,
+          "button-border": 4
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "#search-jaxqt7-q",
+            "prop": "border"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)",
+            "prop": "button-border"
+          }
+        ]
+      },
+      {
+        "hex": "#5c5c5c",
+        "values": [
+          "rgb(92, 92, 92)",
+          "rgb(102, 102, 102)"
+        ],
+        "weight": 331,
+        "bgArea": 289,
+        "by": {
+          "text": 330,
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > ul > li > div > span:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(85)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 3,
+        "bgArea": 289,
+        "by": {
+          "background": 1,
+          "button-text": 1,
+          "text": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#68ac59",
+        "values": [
+          "rgb(104, 172, 89)",
+          "rgb(112, 175, 80)",
+          "rgb(115, 177, 90)"
+        ],
+        "weight": 3,
+        "bgArea": 867,
+        "by": {
+          "background": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(87)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(92)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(96)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#69b498",
+        "values": [
+          "rgb(105, 180, 152)",
+          "rgb(113, 185, 158)",
+          "rgb(117, 186, 161)"
+        ],
+        "weight": 3,
+        "bgArea": 867,
+        "by": {
+          "background": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(88)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(94)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(98)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#6abbd3",
+        "values": [
+          "rgb(106, 187, 211)",
+          "rgb(108, 189, 212)",
+          "rgb(115, 189, 213)"
+        ],
+        "weight": 3,
+        "bgArea": 867,
+        "by": {
+          "background": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(89)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(91)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(97)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#80b74c",
+        "values": [
+          "rgb(128, 183, 76)",
+          "rgb(138, 186, 73)",
+          "rgb(139, 180, 73)"
+        ],
+        "weight": 3,
+        "bgArea": 867,
+        "by": {
+          "background": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(110)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(119)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(120)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#67669d",
+        "values": [
+          "rgb(103, 102, 157)",
+          "rgb(113, 109, 161)"
+        ],
+        "weight": 2,
+        "bgArea": 578,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(86)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(93)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#765a95",
+        "values": [
+          "rgb(118, 90, 149)",
+          "rgb(129, 101, 155)"
+        ],
+        "weight": 2,
+        "bgArea": 578,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(99)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(111)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#7dbca9",
+        "values": [
+          "rgb(125, 188, 169)",
+          "rgb(131, 191, 180)"
+        ],
+        "weight": 2,
+        "bgArea": 578,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(108)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(113)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#7fc1d9",
+        "values": [
+          "rgb(127, 193, 217)",
+          "rgb(138, 183, 225)"
+        ],
+        "weight": 2,
+        "bgArea": 578,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(109)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(118)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#848bba",
+        "values": [
+          "rgb(132, 139, 186)",
+          "rgb(138, 130, 178)"
+        ],
+        "weight": 2,
+        "bgArea": 578,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(114)",
+            "prop": "background"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(117)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#008c92",
+        "values": [
+          "rgb(0, 140, 146)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(2)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#00957d",
+        "values": [
+          "rgb(0, 149, 125)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(3)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#01535a",
+        "values": [
+          "rgb(1, 83, 90)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(4)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#015c45",
+        "values": [
+          "rgb(1, 92, 69)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(5)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#017079",
+        "values": [
+          "rgb(1, 112, 121)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(6)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0c0614",
+        "values": [
+          "rgb(12, 6, 20)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(16)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0c9556",
+        "values": [
+          "rgb(12, 149, 86)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(17)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0e1c0a",
+        "values": [
+          "rgb(14, 28, 10)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(18)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0e3b59",
+        "values": [
+          "rgb(14, 59, 89)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(19)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#651c21",
+        "values": [
+          "rgb(101, 28, 33)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(83)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#657b42",
+        "values": [
+          "rgb(101, 123, 66)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(84)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#6b73a7",
+        "values": [
+          "rgb(107, 115, 167)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(90)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#73a1d2",
+        "values": [
+          "rgb(115, 161, 210)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(95)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#77221d",
+        "values": [
+          "rgb(119, 34, 29)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(100)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#77733d",
+        "values": [
+          "rgb(119, 115, 61)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(101)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#777777",
+        "values": [
+          "rgb(119, 119, 119)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(102)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#77974b",
+        "values": [
+          "rgb(119, 151, 75)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(103)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#79172a",
+        "values": [
+          "rgb(121, 23, 42)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(104)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#792464",
+        "values": [
+          "rgb(121, 36, 100)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(105)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#795025",
+        "values": [
+          "rgb(121, 80, 37)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(106)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#7cb45e",
+        "values": [
+          "rgb(124, 180, 94)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(107)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#83ba72",
+        "values": [
+          "rgb(131, 186, 114)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(112)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#87212a",
+        "values": [
+          "rgb(135, 33, 42)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(115)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#888888",
+        "values": [
+          "rgb(136, 136, 136)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(116)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#8c6ea1",
+        "values": [
+          "rgb(140, 110, 161)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(121)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#908d41",
+        "values": [
+          "rgb(144, 141, 65)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(122)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#912a76",
+        "values": [
+          "rgb(145, 42, 118)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(123)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#914c8e",
+        "values": [
+          "rgb(145, 76, 142)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(124)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#92cde1",
+        "values": [
+          "rgb(146, 205, 225)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(125)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#95253c",
+        "values": [
+          "rgb(149, 37, 60)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(126)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#956830",
+        "values": [
+          "rgb(149, 104, 48)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(128)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#95c18d",
+        "values": [
+          "rgb(149, 193, 141)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(129)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#95c9be",
+        "values": [
+          "rgb(149, 201, 190)"
+        ],
+        "weight": 1,
+        "bgArea": 289,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(130)",
+            "prop": "background"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "system-ui",
+          "count": 59,
+          "headings": 8,
+          "text": 43,
+          "buttons": 8
+        }
+      ],
+      "headingFamily": "system-ui",
+      "bodyFamily": "system-ui",
+      "sizes": [
+        {
+          "px": 36,
+          "count": 4,
+          "headings": 4,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 28,
+          "count": 4,
+          "headings": 4,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 18,
+          "count": 41,
+          "headings": 0,
+          "text": 38,
+          "buttons": 3
+        },
+        {
+          "px": 16,
+          "count": 7,
+          "headings": 0,
+          "text": 4,
+          "buttons": 3
+        },
+        {
+          "px": 14,
+          "count": 3,
+          "headings": 0,
+          "text": 1,
+          "buttons": 2
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 46,
+          "headings": 0,
+          "text": 39,
+          "buttons": 7
+        },
+        {
+          "weight": "600",
+          "count": 12,
+          "headings": 8,
+          "text": 4,
+          "buttons": 0
+        },
+        {
+          "weight": "500",
+          "count": 1,
+          "headings": 0,
+          "text": 0,
+          "buttons": 1
+        }
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 36,
+          "fontWeight": "600",
+          "count": 4,
+          "score": 108
+        },
+        "h2": {
+          "fontSize": 28,
+          "fontWeight": "600",
+          "count": 4,
+          "score": 84
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "4px",
+        "areaMode": "4px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "50%",
+            "count": 237,
+            "area": 183804,
+            "sources": [
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3)"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 7,
+            "area": 92475,
+            "sources": [
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "#search-jaxqt7-q"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "main > div:nth-of-type(2) > div > div > form > div > button"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "#search-jaxqt7-type"
+              }
+            ]
+          },
+          {
+            "value": "999px",
+            "count": 5,
+            "area": 14026,
+            "sources": [
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+                "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+                "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+                "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "43.2px",
+            "count": 3,
+            "area": 49247,
+            "sources": [
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+                "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > p:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+                "selector": "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [],
+      "gradients": []
+    },
+    "hover": [
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(26, 26, 26)"
+        },
+        "to": {
+          "color": "rgb(0, 0, 0)"
+        },
+        "count": 6,
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(2) > a"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "div > div > div > ul > li:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > dl > dd:nth-of-type(1) > p > a"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(1) > div > p:nth-of-type(2) > a"
+          },
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+            "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(26, 26, 26)",
+          "borderColor": "rgb(26, 26, 26)"
+        },
+        "to": {
+          "backgroundColor": "rgb(244, 244, 244)",
+          "color": "rgb(74, 74, 74)",
+          "borderColor": "rgb(74, 74, 74)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+            "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > p:nth-of-type(3) > button"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(26, 26, 26)",
+          "color": "rgb(255, 255, 255)",
+          "borderColor": "rgb(26, 26, 26)"
+        },
+        "to": {
+          "backgroundColor": "rgb(74, 74, 74)",
+          "color": "rgb(244, 244, 244)",
+          "borderColor": "rgb(74, 74, 74)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(3) > a"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "color": "rgb(244, 244, 244)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+            "selector": "main > div:nth-of-type(3) > div > p:nth-of-type(2) > a"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": null
+  }
+}

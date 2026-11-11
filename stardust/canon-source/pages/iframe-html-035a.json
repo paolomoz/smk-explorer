@@ -1,0 +1,413 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:31:50.035Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "iframe-html-035a",
+  "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:31:50.035Z",
+  "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+  "title": "theme--buttons",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [],
+  "body": [],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    },
+    {
+      "label": "Default",
+      "href": null
+    },
+    {
+      "label": "Focus",
+      "href": null
+    },
+    {
+      "label": "Hover",
+      "href": null
+    },
+    {
+      "label": "Loading",
+      "href": null
+    },
+    {
+      "label": "Disabled",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://storybook.js.org/docs/writing-stories/decorators",
+    "https://storybook.js.org/docs/builders/webpack",
+    "https://storybook.js.org/docs/builders/vite",
+    "https://storybook.js.org/docs/configure/environment-variables"
+  ],
+  "media": {
+    "imgs": [],
+    "allImgCount": 0,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 0,
+    "mainTextLen": 6341,
+    "realImageCount": 0,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/iframe-html-035a.png",
+  "renderedHtml": "pages/iframe-html-035a.html"
+}

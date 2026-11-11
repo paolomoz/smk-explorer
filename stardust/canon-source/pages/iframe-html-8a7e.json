@@ -1,0 +1,52 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:31:41.635Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "iframe-html-8a7e",
+  "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:31:41.635Z",
+  "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+  "title": "theme--colors",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [],
+  "body": [],
+  "codeBlocks": [],
+  "ctas": [],
+  "links": [
+    "https://storybook.js.org/docs/writing-stories/decorators",
+    "https://storybook.js.org/docs/builders/webpack",
+    "https://storybook.js.org/docs/builders/vite",
+    "https://storybook.js.org/docs/configure/environment-variables"
+  ],
+  "media": {
+    "imgs": [],
+    "allImgCount": 0,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 0,
+    "mainTextLen": 6490,
+    "realImageCount": 0,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/iframe-html-8a7e.png",
+  "renderedHtml": "pages/iframe-html-8a7e.html"
+}

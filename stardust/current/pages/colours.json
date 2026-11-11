@@ -1,0 +1,957 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:30:16.515Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "colours",
+  "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:30:16.515Z",
+  "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+  "title": "Colours in the SMK collection | SMK Explorer",
+  "description": "Browse the 236 colours SMK – National Gallery of Denmark uses to tag 39,509 public-domain works, with the number of works for each.",
+  "og": {
+    "title": "Colours in the SMK collection | SMK Explorer",
+    "description": "Browse the 236 colours SMK – National Gallery of Denmark uses to tag 39,509 public-domain works, with the number of works for each.",
+    "image": "https://collection-explorer--smk-explorer--paolomoz.aem.page/default-meta-image.png?width=1200&format=pjpg&optimize=medium",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Colours in the SMK collection"
+    }
+  ],
+  "body": [
+    "SMK tags every digitised work with the colours found in its image. These are the 236 colours used on the 39,509 works that have an image and are in the public domain. Each colour is named after the nearest CSS colour.",
+    "Open a colour to see the works that contain it and the colours it most often appears with, or search the collection by colour.",
+    "Gray #8888889,326 works",
+    "Gray #7777779,099 works",
+    "Dark gray #9999998,609 works",
+    "White7,697 works#ffffff",
+    "Dim gray #5555557,470 works",
+    "Dim gray #6666667,437 works",
+    "Light gray6,757 works#cccccc",
+    "Dark slate gray #4444445,872 works",
+    "Dark gray #aaaaaa5,822 works",
+    "Light yellow #fefcdf5,529 works",
+    "Gainsboro5,422 works#dddddd",
+    "Antique white5,309 works#fff1dc",
+    "Black #0000005,277 works",
+    "Silver4,883 works#bbbbbb",
+    "Black #2222224,749 works",
+    "Bisque4,416 works#ffe7c9",
+    "Dark slate gray #3333334,106 works",
+    "White smoke2,979 works#eeeeee",
+    "Dark slate gray #3a351f2,955 works",
+    "Misty rose #fdcec72,918 works",
+    "Dark olive green #77733d2,752 works",
+    "Black #1111112,695 works",
+    "Beige #eaf3d92,533 works",
+    "Peach puff1,862 works#ffcfa5",
+    "Misty rose #fee1dc1,696 works",
+    "Dark khaki #908d411,637 works",
+    "Dark olive green #5a55271,603 works",
+    "Light goldenrod yellow #f0f3c71,501 works",
+    "Light goldenrod yellow #d7eac31,479 works",
+    "Saddle brown #7950251,443 works",
+    "Lemon chiffon1,399 works#fcf6c9",
+    "Black #1919091,353 works",
+    "Saddle brown #593d1c1,341 works",
+    "Sienna1,312 works#956830",
+    "Dark sea green #bed69f1,289 works",
+    "Pale goldenrod #dfe8a41,198 works",
+    "Light yellow #f8f9dc1,141 works",
+    "Black #3825101,041 works",
+    "Peru975 works#b97438",
+    "Black #140604900 works",
+    "Dark khaki #a9c97f899 works",
+    "Dark khaki #b7ac3e772 works",
+    "Sandy brown #febd84743 works",
+    "Khaki #d0da83732 works",
+    "Black #170e06552 works",
+    "Sandy brown #fcaa6b539 works",
+    "Light pink #f9aca5474 works",
+    "Light coral #f38d84399 works",
+    "Black #33140c376 works",
+    "Saddle brown #541f0e342 works",
+    "Black #080614328 works",
+    "Black #0c0614315 works",
+    "Pale goldenrod #fcf1a6290 works",
+    "Salmon269 works#ee796b",
+    "Misty rose #fcd4d7253 works",
+    "Black #230b09227 works",
+    "Khaki #c3d268227 works",
+    "Dark olive green #657b42202 works",
+    "Olive drab #9abe5e195 works",
+    "Chocolate195 works#d9802d",
+    "Brown #77221d192 works",
+    "Dark olive green #475c2b191 works",
+    "Sandy brown #f99c47182 works",
+    "Light pink #f9b8be173 works",
+    "Honeydew146 works#e2f1de",
+    "Dark slate gray #2c3b20131 works",
+    "Olive drab #77974b131 works",
+    "Brown #952b29115 works",
+    "Firebrick #b9353098 works",
+    "Khaki #f9ea8777 works",
+    "Black #141c0a69 works",
+    "Black #43171666 works",
+    "Black #33172859 works",
+    "Light pink #f397a058 works",
+    "Steel blue #848bba55 works",
+    "Brown #651c2151 works",
+    "Khaki #f8e36c51 works",
+    "Black #14040c49 works",
+    "Light steel blue #a7aad049 works",
+    "Beige #cee6c945 works",
+    "Tomato #ec644943 works",
+    "Black #14030642 works",
+    "Dark orange #f1882842 works",
+    "Steel blue #214e7741 works",
+    "Firebrick #d73b2e41 works",
+    "Dark slate gray #233a2139 works",
+    "Black #14081738 works",
+    "Dark sea green #83ba7238 works",
+    "Dark orange #f68e2b38 works",
+    "Steel blue #596a9f37 works",
+    "Steel blue #6b73a736 works",
+    "Steel blue #73a1d236 works",
+    "Black #06081435 works",
+    "Steel blue #638fc334 works",
+    "Powder blue #afd6d034 works",
+    "Light steel blue #cbcbe733 works",
+    "Lavender #eedced33 works",
+    "Black #03140e32 works",
+    "Dark olive green #335c2d32 works",
+    "Dark slate gray #0e3b5931 works",
+    "Brown #a72d3631 works",
+    "Black #040a1430 works",
+    "Lavender #dfe1f128 works",
+    "Sea green #3b7b4527 works",
+    "Black #03101426 works",
+    "Dark sea green #95c18d26 works",
+    "Dark slate blue #21225725 works",
+    "Black #10193324 works",
+    "Black #081a0c23 works",
+    "Olive drab #7cb45e23 works",
+    "Brown #87212a23 works",
+    "Light sky blue23 works#8ab7e1",
+    "Dark slate gray #1a392122 works",
+    "Plum #b176a221 works",
+    "Black #1c173320 works",
+    "Medium aquamarine #69b49820 works",
+    "Cadet blue #83bfb420 works",
+    "Gold #f6da4620 works",
+    "Steel blue #8a82b219 works",
+    "Light steel blue #a9c9ed19 works",
+    "Pale violet red #d689ae19 works",
+    "Gold #f1d41c19 works",
+    "Dark slate blue #30387018 works",
+    "Steel blue #3071a618 works",
+    "Steel blue #437eb118 works",
+    "Powder blue #95c9be18 works",
+    "Light cyan #ceeae518 works",
+    "Tomato #e84b3318 works",
+    "Black #0e1c0a17 works",
+    "Black #54172417 works",
+    "Light blue #c9e1f617 works",
+    "Steel blue #19668f16 works",
+    "Black #33101d16 works",
+    "Steel blue #4b669e16 works",
+    "Steel blue #4e80b815 works",
+    "Dark sea green #7dbca915 works",
+    "Brown #95253c15 works",
+    "Black #08233514 works",
+    "Steel blue #46639c14 works",
+    "Gold #d5c42714 works",
+    "Steel blue #5486bd13 works",
+    "Thistle #edc7dc13 works",
+    "Light coral #ee7b8213 works",
+    "Dark slate blue #494e8f12 works",
+    "Light blue #aed7ea12 works",
+    "Thistle #d3a7c412 works",
+    "Alice blue #e1f5fa12 works",
+    "Thistle #ada3c711 works",
+    "Dark sea green #add1aa11 works",
+    "Dark slate blue #3a428610 works",
+    "Steel blue #445e9a10 works",
+    "Cadet blue #55b4c710 works",
+    "Steel blue #67669d10 works",
+    "Dark olive green #205c319 works",
+    "Medium aquamarine #44ab8c9 works",
+    "Steel blue #716da19 works",
+    "Olive drab #8bb4499 works",
+    "Brown #ba29449 works",
+    "Pale violet red #cb60929 works",
+    "Tomato #e7402d9 works",
+    "Dark slate gray #01535a8 works",
+    "Sea green #4295538 works",
+    "Medium aquamarine #75baa18 works",
+    "Alice blue #dfeefa8 works",
+    "Indian red8 works#eb626d",
+    "Dark slate blue #4051917 works",
+    "Steel blue #4e5d987 works",
+    "Steel blue #53609a7 works",
+    "Steel blue #5d629b7 works",
+    "Firebrick #c832397 works",
+    "Dark cyan6 works#008c92",
+    "Black #2e14356 works",
+    "Medium sea green #68ac596 works",
+    "Medium aquamarine #71b99e6 works",
+    "Sky blue #92cde16 works",
+    "Pale violet red #a05e926 works",
+    "Plum #a387b26 works",
+    "Plum #bf8bb26 works",
+    "Lavender #e4daee6 works",
+    "Gold #f6d7276 works",
+    "Brown #79172a5 works",
+    "Pale violet red #ce709e5 works",
+    "Azure5 works#e1f3f0",
+    "Teal #0170794 works",
+    "Dark slate gray #0338294 works",
+    "Cadet blue #29a5b44 works",
+    "Sky blue #7fc1d94 works",
+    "Medium violet red #b133814 works",
+    "Light cyan #cdecf54 works",
+    "Thistle #d0c4e34 works",
+    "Dark slate gray #0230353 works",
+    "Dark slate blue #511f593 works",
+    "Medium sea green #61aa543 works",
+    "Sky blue #6abbd33 works",
+    "Dark slate blue #765a953 works",
+    "Plum #8c6ea13 works",
+    "Pale violet red #9d59903 works",
+    "Plum #a5689b3 works",
+    "Yellow green #adc43f3 works",
+    "Yellow green #bccd403 works",
+    "Thistle #bfa5c43 works",
+    "Medium violet red #c241883 works",
+    "Hot pink3 works#cb4e8d",
+    "Crimson #d6254b3 works",
+    "Crimson #e94e563 works",
+    "Light coral #ea6a813 works",
+    "Pale violet red #ee839b3 works",
+    "Light sea green2 works#00957d",
+    "Sea green #0c95562 works",
+    "Black #2410332 works",
+    "Dark slate blue #403f852 works",
+    "Purple #7924642 works",
+    "Crimson #e738432 works",
+    "Light pink #e7a6c12 works",
+    "Light pink #f5a3b62 works",
+    "Teal #015c451 work",
+    "Dark slate blue #382e711 work",
+    "Dark slate blue #3c1d591 work",
+    "Purple #5910441 work",
+    "Sky blue #6cbdd41 work",
+    "Olive drab #70af501 work",
+    "Medium sea green #73b15a1 work",
+    "Sky blue #73bdd51 work",
+    "Olive drab #80b74c1 work",
+    "Dark slate blue #81659b1 work",
+    "Olive drab #8aba491 work",
+    "Purple #912a761 work",
+    "Dark slate blue #914c8e1 work",
+    "Yellow green #9fc0431 work",
+    "Pale violet red #a260951 work",
+    "Yellow green #b4c93d1 work",
+    "Crimson #de323c1 work",
+    "Thistle #dfc7df1 work",
+    "Crimson #e726531 work",
+    "Crimson #e738631 work",
+    "Misty rose #fddce51 work"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "SMK Explorer",
+      "href": "/"
+    },
+    {
+      "label": "Search",
+      "href": "/"
+    },
+    {
+      "label": "Colours",
+      "href": "/colours"
+    },
+    {
+      "label": "SMK Open",
+      "href": "https://open.smk.dk/"
+    },
+    {
+      "label": "search the collection by colour",
+      "href": "/"
+    },
+    {
+      "label": "Number of works",
+      "href": null
+    },
+    {
+      "label": "Hue",
+      "href": null
+    },
+    {
+      "label": "Name",
+      "href": null
+    },
+    {
+      "label": "Gray #888888",
+      "href": "/colours/gray-888888"
+    },
+    {
+      "label": "Gray #777777",
+      "href": "/colours/gray-777777"
+    },
+    {
+      "label": "Dark gray #999999",
+      "href": "/colours/dark-gray-999999"
+    },
+    {
+      "label": "White",
+      "href": "/colours/white-ffffff"
+    },
+    {
+      "label": "Dim gray #555555",
+      "href": "/colours/dim-gray-555555"
+    },
+    {
+      "label": "Dim gray #666666",
+      "href": "/colours/dim-gray-666666"
+    },
+    {
+      "label": "Light gray",
+      "href": "/colours/light-gray-cccccc"
+    },
+    {
+      "label": "Dark slate gray #444444",
+      "href": "/colours/dark-slate-gray-444444"
+    },
+    {
+      "label": "Dark gray #aaaaaa",
+      "href": "/colours/dark-gray-aaaaaa"
+    },
+    {
+      "label": "Light yellow #fefcdf",
+      "href": "/colours/light-yellow-fefcdf"
+    },
+    {
+      "label": "Gainsboro",
+      "href": "/colours/gainsboro-dddddd"
+    },
+    {
+      "label": "Antique white",
+      "href": "/colours/antique-white-fff1dc"
+    },
+    {
+      "label": "Black #000000",
+      "href": "/colours/black-000000"
+    },
+    {
+      "label": "Silver",
+      "href": "/colours/silver-bbbbbb"
+    },
+    {
+      "label": "Black #222222",
+      "href": "/colours/black-222222"
+    },
+    {
+      "label": "Bisque",
+      "href": "/colours/bisque-ffe7c9"
+    },
+    {
+      "label": "Dark slate gray #333333",
+      "href": "/colours/dark-slate-gray-333333"
+    },
+    {
+      "label": "White smoke",
+      "href": "/colours/white-smoke-eeeeee"
+    },
+    {
+      "label": "Dark slate gray #3a351f",
+      "href": "/colours/dark-slate-gray-3a351f"
+    },
+    {
+      "label": "Misty rose #fdcec7",
+      "href": "/colours/misty-rose-fdcec7"
+    },
+    {
+      "label": "Dark olive green #77733d",
+      "href": "/colours/dark-olive-green-77733d"
+    },
+    {
+      "label": "Black #111111",
+      "href": "/colours/black-111111"
+    },
+    {
+      "label": "Beige #eaf3d9",
+      "href": "/colours/beige-eaf3d9"
+    },
+    {
+      "label": "Peach puff",
+      "href": "/colours/peach-puff-ffcfa5"
+    },
+    {
+      "label": "Misty rose #fee1dc",
+      "href": "/colours/misty-rose-fee1dc"
+    },
+    {
+      "label": "Dark khaki #908d41",
+      "href": "/colours/dark-khaki-908d41"
+    },
+    {
+      "label": "Dark olive green #5a5527",
+      "href": "/colours/dark-olive-green-5a5527"
+    },
+    {
+      "label": "Light goldenrod yellow #f0f3c7",
+      "href": "/colours/light-goldenrod-yellow-f0f3c7"
+    },
+    {
+      "label": "Light goldenrod yellow #d7eac3",
+      "href": "/colours/light-goldenrod-yellow-d7eac3"
+    },
+    {
+      "label": "Saddle brown #795025",
+      "href": "/colours/saddle-brown-795025"
+    },
+    {
+      "label": "Lemon chiffon",
+      "href": "/colours/lemon-chiffon-fcf6c9"
+    },
+    {
+      "label": "Black #191909",
+      "href": "/colours/black-191909"
+    },
+    {
+      "label": "Saddle brown #593d1c",
+      "href": "/colours/saddle-brown-593d1c"
+    },
+    {
+      "label": "Sienna",
+      "href": "/colours/sienna-956830"
+    },
+    {
+      "label": "Dark sea green #bed69f",
+      "href": "/colours/dark-sea-green-bed69f"
+    },
+    {
+      "label": "Pale goldenrod #dfe8a4",
+      "href": "/colours/pale-goldenrod-dfe8a4"
+    },
+    {
+      "label": "Light yellow #f8f9dc",
+      "href": "/colours/light-yellow-f8f9dc"
+    },
+    {
+      "label": "Black #382510",
+      "href": "/colours/black-382510"
+    },
+    {
+      "label": "Peru",
+      "href": "/colours/peru-b97438"
+    },
+    {
+      "label": "Black #140604",
+      "href": "/colours/black-140604"
+    },
+    {
+      "label": "Dark khaki #a9c97f",
+      "href": "/colours/dark-khaki-a9c97f"
+    },
+    {
+      "label": "Dark khaki #b7ac3e",
+      "href": "/colours/dark-khaki-b7ac3e"
+    },
+    {
+      "label": "Sandy brown #febd84",
+      "href": "/colours/sandy-brown-febd84"
+    },
+    {
+      "label": "Khaki #d0da83",
+      "href": "/colours/khaki-d0da83"
+    },
+    {
+      "label": "Black #170e06",
+      "href": "/colours/black-170e06"
+    },
+    {
+      "label": "Sandy brown #fcaa6b",
+      "href": "/colours/sandy-brown-fcaa6b"
+    },
+    {
+      "label": "Light pink #f9aca5",
+      "href": "/colours/light-pink-f9aca5"
+    },
+    {
+      "label": "Light coral #f38d84",
+      "href": "/colours/light-coral-f38d84"
+    },
+    {
+      "label": "Black #33140c",
+      "href": "/colours/black-33140c"
+    },
+    {
+      "label": "Saddle brown #541f0e",
+      "href": "/colours/saddle-brown-541f0e"
+    },
+    {
+      "label": "Black #080614",
+      "href": "/colours/black-080614"
+    },
+    {
+      "label": "Black #0c0614",
+      "href": "/colours/black-0c0614"
+    },
+    {
+      "label": "Pale goldenrod #fcf1a6",
+      "href": "/colours/pale-goldenrod-fcf1a6"
+    },
+    {
+      "label": "Salmon",
+      "href": "/colours/salmon-ee796b"
+    },
+    {
+      "label": "Misty rose #fcd4d7",
+      "href": "/colours/misty-rose-fcd4d7"
+    },
+    {
+      "label": "Black #230b09",
+      "href": "/colours/black-230b09"
+    },
+    {
+      "label": "Khaki #c3d268",
+      "href": "/colours/khaki-c3d268"
+    },
+    {
+      "label": "Dark olive green #657b42",
+      "href": "/colours/dark-olive-green-657b42"
+    },
+    {
+      "label": "Olive drab #9abe5e",
+      "href": "/colours/olive-drab-9abe5e"
+    },
+    {
+      "label": "Chocolate",
+      "href": "/colours/chocolate-d9802d"
+    },
+    {
+      "label": "Brown #77221d",
+      "href": "/colours/brown-77221d"
+    },
+    {
+      "label": "Dark olive green #475c2b",
+      "href": "/colours/dark-olive-green-475c2b"
+    },
+    {
+      "label": "Sandy brown #f99c47",
+      "href": "/colours/sandy-brown-f99c47"
+    },
+    {
+      "label": "Light pink #f9b8be",
+      "href": "/colours/light-pink-f9b8be"
+    },
+    {
+      "label": "Honeydew",
+      "href": "/colours/honeydew-e2f1de"
+    },
+    {
+      "label": "Dark slate gray #2c3b20",
+      "href": "/colours/dark-slate-gray-2c3b20"
+    },
+    {
+      "label": "Olive drab #77974b",
+      "href": "/colours/olive-drab-77974b"
+    },
+    {
+      "label": "Brown #952b29",
+      "href": "/colours/brown-952b29"
+    },
+    {
+      "label": "Firebrick #b93530",
+      "href": "/colours/firebrick-b93530"
+    },
+    {
+      "label": "Khaki #f9ea87",
+      "href": "/colours/khaki-f9ea87"
+    },
+    {
+      "label": "Black #141c0a",
+      "href": "/colours/black-141c0a"
+    },
+    {
+      "label": "Black #431716",
+      "href": "/colours/black-431716"
+    },
+    {
+      "label": "Black #331728",
+      "href": "/colours/black-331728"
+    },
+    {
+      "label": "Light pink #f397a0",
+      "href": "/colours/light-pink-f397a0"
+    },
+    {
+      "label": "Steel blue #848bba",
+      "href": "/colours/steel-blue-848bba"
+    },
+    {
+      "label": "Brown #651c21",
+      "href": "/colours/brown-651c21"
+    },
+    {
+      "label": "Khaki #f8e36c",
+      "href": "/colours/khaki-f8e36c"
+    },
+    {
+      "label": "Black #14040c",
+      "href": "/colours/black-14040c"
+    },
+    {
+      "label": "Light steel blue #a7aad0",
+      "href": "/colours/light-steel-blue-a7aad0"
+    },
+    {
+      "label": "Beige #cee6c9",
+      "href": "/colours/beige-cee6c9"
+    },
+    {
+      "label": "Tomato #ec6449",
+      "href": "/colours/tomato-ec6449"
+    },
+    {
+      "label": "Black #140306",
+      "href": "/colours/black-140306"
+    },
+    {
+      "label": "Dark orange #f18828",
+      "href": "/colours/dark-orange-f18828"
+    },
+    {
+      "label": "Steel blue #214e77",
+      "href": "/colours/steel-blue-214e77"
+    },
+    {
+      "label": "Firebrick #d73b2e",
+      "href": "/colours/firebrick-d73b2e"
+    },
+    {
+      "label": "Dark slate gray #233a21",
+      "href": "/colours/dark-slate-gray-233a21"
+    },
+    {
+      "label": "Black #140817",
+      "href": "/colours/black-140817"
+    },
+    {
+      "label": "Dark sea green #83ba72",
+      "href": "/colours/dark-sea-green-83ba72"
+    },
+    {
+      "label": "Dark orange #f68e2b",
+      "href": "/colours/dark-orange-f68e2b"
+    },
+    {
+      "label": "Steel blue #596a9f",
+      "href": "/colours/steel-blue-596a9f"
+    },
+    {
+      "label": "Steel blue #6b73a7",
+      "href": "/colours/steel-blue-6b73a7"
+    },
+    {
+      "label": "Steel blue #73a1d2",
+      "href": "/colours/steel-blue-73a1d2"
+    }
+  ],
+  "links": [
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+    "https://open.smk.dk/",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gray-888888",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gray-777777",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-gray-999999",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/white-ffffff",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dim-gray-555555",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dim-gray-666666",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-gray-cccccc",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-444444",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-gray-aaaaaa",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-yellow-fefcdf",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gainsboro-dddddd",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/antique-white-fff1dc",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-000000",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/silver-bbbbbb",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-222222",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/bisque-ffe7c9",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-333333",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/white-smoke-eeeeee",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-3a351f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/misty-rose-fdcec7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-77733d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-111111",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/beige-eaf3d9",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/peach-puff-ffcfa5",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/misty-rose-fee1dc",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-khaki-908d41",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-5a5527",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-goldenrod-yellow-f0f3c7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-goldenrod-yellow-d7eac3",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/saddle-brown-795025",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/lemon-chiffon-fcf6c9",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-191909",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/saddle-brown-593d1c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sienna-956830",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-sea-green-bed69f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-goldenrod-dfe8a4",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-yellow-f8f9dc",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-382510",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/peru-b97438",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-140604",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-khaki-a9c97f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-khaki-b7ac3e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sandy-brown-febd84",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/khaki-d0da83",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-170e06",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sandy-brown-fcaa6b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-pink-f9aca5",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-coral-f38d84",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-33140c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/saddle-brown-541f0e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-080614",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-0c0614",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-goldenrod-fcf1a6",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/salmon-ee796b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/misty-rose-fcd4d7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-230b09",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/khaki-c3d268",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-657b42",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-9abe5e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/chocolate-d9802d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-77221d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-475c2b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sandy-brown-f99c47",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-pink-f9b8be",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/honeydew-e2f1de",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-2c3b20",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-77974b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-952b29",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/firebrick-b93530",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/khaki-f9ea87",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-141c0a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-431716",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-331728",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-pink-f397a0",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-848bba",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-651c21",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/khaki-f8e36c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-14040c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-steel-blue-a7aad0",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/beige-cee6c9",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/tomato-ec6449",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-140306",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-orange-f18828",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-214e77",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/firebrick-d73b2e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-233a21",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-140817",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-sea-green-83ba72",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-orange-f68e2b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-596a9f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-6b73a7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-73a1d2",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-060814",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-638fc3",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/powder-blue-afd6d0",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-steel-blue-cbcbe7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/lavender-eedced",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-03140e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-335c2d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-0e3b59",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-a72d36",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-040a14",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/lavender-dfe1f1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sea-green-3b7b45",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-031014",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-sea-green-95c18d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-212257",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-101933",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-081a0c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-7cb45e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-87212a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-sky-blue-8ab7e1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-1a3921",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/plum-b176a2",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-1c1733",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-aquamarine-69b498",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/cadet-blue-83bfb4",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6da46",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-8a82b2",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-steel-blue-a9c9ed",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-d689ae",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f1d41c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-303870",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-3071a6",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-437eb1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/powder-blue-95c9be",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-cyan-ceeae5",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/tomato-e84b33",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-0e1c0a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-541724",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-blue-c9e1f6",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-19668f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-33101d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-4b669e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-4e80b8",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-sea-green-7dbca9",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-95253c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-082335",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-46639c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-d5c427",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-5486bd",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/thistle-edc7dc",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-coral-ee7b82",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-494e8f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-blue-aed7ea",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/thistle-d3a7c4",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/alice-blue-e1f5fa",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/thistle-ada3c7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-sea-green-add1aa",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-3a4286",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-445e9a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/cadet-blue-55b4c7",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-67669d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-olive-green-205c31",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-aquamarine-44ab8c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-716da1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-8bb449",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-ba2944",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-cb6092",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/tomato-e7402d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-01535a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sea-green-429553",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-aquamarine-75baa1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/alice-blue-dfeefa",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/indian-red-eb626d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-405191",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-4e5d98",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-53609a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/steel-blue-5d629b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/firebrick-c83239",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-cyan-008c92",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-2e1435",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-sea-green-68ac59",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-aquamarine-71b99e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sky-blue-92cde1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-a05e92",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/plum-a387b2",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/plum-bf8bb2",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/lavender-e4daee",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/brown-79172a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-ce709e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/azure-e1f3f0",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/teal-017079",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-033829",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/cadet-blue-29a5b4",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sky-blue-7fc1d9",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-violet-red-b13381",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-cyan-cdecf5",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/thistle-d0c4e3",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-gray-023035",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-511f59",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-sea-green-61aa54",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sky-blue-6abbd3",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-765a95",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/plum-8c6ea1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-9d5990",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/plum-a5689b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/yellow-green-adc43f",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/yellow-green-bccd40",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/thistle-bfa5c4",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-violet-red-c24188",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/hot-pink-cb4e8d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/crimson-d6254b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/crimson-e94e56",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-coral-ea6a81",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-ee839b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-sea-green-00957d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sea-green-0c9556",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/black-241033",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-403f85",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/purple-792464",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/crimson-e73843",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-pink-e7a6c1",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/light-pink-f5a3b6",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/teal-015c45",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-382e71",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-3c1d59",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/purple-591044",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sky-blue-6cbdd4",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-70af50",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/medium-sea-green-73b15a",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/sky-blue-73bdd5",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-80b74c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-81659b",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/olive-drab-8aba49",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/purple-912a76",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/dark-slate-blue-914c8e",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/yellow-green-9fc043",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/pale-violet-red-a26095",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/yellow-green-b4c93d",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/crimson-de323c",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/thistle-dfc7df",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/crimson-e72653",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/crimson-e73863",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/misty-rose-fddce5",
+    "https://www.smk.dk/",
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    "https://www.smk.dk/article/smk-api/"
+  ],
+  "media": {
+    "imgs": [],
+    "allImgCount": 0,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--background-color": "#fff",
+    "--light-color": "#f4f4f4",
+    "--dark-color": "#4a4a4a",
+    "--text-color": "#1a1a1a",
+    "--secondary-text-color": "#5c5c5c",
+    "--border-color": "#d0d0d0",
+    "--link-color": "#1a1a1a",
+    "--link-hover-color": "#000",
+    "--body-font-family": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+    "--heading-font-family": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+    "--fixed-font-family": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+    "--body-font-size-m": "18px",
+    "--body-font-size-s": "16px",
+    "--body-font-size-xs": "14px",
+    "--heading-font-size-xxl": "36px",
+    "--heading-font-size-xl": "28px",
+    "--heading-font-size-l": "24px",
+    "--heading-font-size-m": "20px",
+    "--heading-font-size-s": "18px",
+    "--heading-font-size-xs": "16px",
+    "--nav-height": "64px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 6488,
+    "realImageCount": 0,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/colours.png",
+  "renderedHtml": "pages/colours.html"
+}

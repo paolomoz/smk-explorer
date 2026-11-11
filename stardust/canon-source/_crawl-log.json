@@ -1,0 +1,54 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 8,
+    "concurrency": 2
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://palette-storybook.artsy.net/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "visionCheck": [
+    {
+      "slug": "iframe-html-8a7e",
+      "verdict": "ok",
+      "notes": "Color Palette story, 25 tokens in Unica77"
+    },
+    {
+      "slug": "iframe-html-720c",
+      "verdict": "ok",
+      "notes": "Components story: messages, banners, pills, tabs, steps, breadcrumbs"
+    },
+    {
+      "slug": "iframe-html-622c",
+      "verdict": "ok",
+      "notes": "Typography story"
+    },
+    {
+      "slug": "iframe-html-035a",
+      "verdict": "ok",
+      "notes": "Buttons story"
+    },
+    {
+      "slug": "iframe-html-1c06",
+      "verdict": "ok",
+      "notes": "Inputs story"
+    }
+  ],
+  "blockedOrigin": {
+    "origin": "https://www.artsy.net",
+    "errorClass": "BotManagementBlock",
+    "detail": "Cloudflare challenge (403) on /, /collect, /artist/vilhelm-hammershoi, /artists, /editorial; headed Chrome fallback unavailable (no binary; installs forbidden)",
+    "log": "stardust/.work/extract/crawl-donor.log"
+  }
+}

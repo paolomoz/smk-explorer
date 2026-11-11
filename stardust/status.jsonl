@@ -1,0 +1,4 @@
+{"ts":"2026-11-11T07:30:06Z","skill":"stardust:extract","phase":"discovery","event":"start","detail":"primary SMK branch preview 4 pages + design-source artsy.net"}
+{"ts":"2026-11-11T07:36:13Z","skill":"stardust:extract","phase":"discovery","event":"end","detail":"4/4 primary live; donor: artsy.net blocked (Cloudflare), Palette storybook 8/8 live + palette-tokens 7.3.0"}
+{"ts":"2026-11-11T07:36:39Z","skill":"stardust:direct","phase":"reasoning","event":"start","detail":"design-donor Mode A: Artsy Palette; type = open Unica77 look-alike; fidelity close"}
+{"ts":"2026-11-11T07:37:55Z","skill":"stardust:direct","phase":"reasoning","event":"end","detail":"PRODUCT.md, DESIGN.md, DESIGN.json, direction.md, index-improvements.md; 4 pages directed"}

@@ -1,0 +1,4455 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-11T07:34:06.155Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--spacing&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--theme&viewMode=story"
+    ],
+    "widths": [
+      1440
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story": {
+      "1440": {
+        "title": "theme--buttons",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 422,
+          "visible": 294
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button",
+            "count": 3,
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(16, 35, 215)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Focus",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+            "count": 20,
+            "backgroundColor": "rgb(16, 35, 215)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(16, 35, 215)",
+            "borderColor": "rgb(16, 35, 215)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(16, 35, 215)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Disabled",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(5) > button",
+            "count": 4,
+            "backgroundColor": "rgb(194, 194, 194)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(194, 194, 194)",
+            "borderColor": "rgb(194, 194, 194)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(7) > button",
+            "count": 1,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(16, 35, 215)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Focus",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(14) > button",
+            "count": 2,
+            "backgroundColor": "rgb(10, 28, 123)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(10, 28, 123)",
+            "borderColor": "rgb(10, 28, 123)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+            "count": 2,
+            "backgroundColor": "rgb(231, 231, 231)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(231, 231, 231)",
+            "borderColor": "rgb(231, 231, 231)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(25) > button",
+            "count": 2,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Disabled",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(29) > button",
+            "count": 4,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(194, 194, 194)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(194, 194, 194)",
+            "borderColor": "rgb(194, 194, 194)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(31) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(16, 35, 215)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(16, 35, 215)",
+            "borderColor": "rgb(16, 35, 215)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(37) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Focus",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+            "count": 3,
+            "backgroundColor": "rgb(230, 231, 245)",
+            "color": "rgb(16, 35, 215)",
+            "borderRadius": "25px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(230, 231, 245)",
+            "borderColor": "rgb(230, 231, 245)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(8) > div:nth-of-type(1) > button",
+            "count": 3,
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "15px",
+            "padding": "1px 25px",
+            "border": "1px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Arial",
+            "fontSize": "13.3333px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          }
+        ],
+        "links": [],
+        "surfaces": [],
+        "radii": [
+          {
+            "value": "25px",
+            "count": 45,
+            "area": 337500,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "15px",
+            "count": 45,
+            "area": 135000,
+            "sources": [
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(1) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(3) > button"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 42,
+            "area": 210431,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(3) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(4) > button"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 20,
+            "area": 2605948,
+            "sources": [
+              "",
+              "body",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(4) > button > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 8,
+            "area": 42000,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(5) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(11) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(17) > button"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 6,
+            "area": 31500,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(45) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(46) > button"
+            ]
+          },
+          {
+            "value": "rgb(230, 231, 245)",
+            "count": 6,
+            "area": 31500,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(51) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(52) > button"
+            ]
+          },
+          {
+            "value": "rgb(10, 28, 123)",
+            "count": 4,
+            "area": 21000,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(14) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(15) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(14) > button"
+            ]
+          },
+          {
+            "value": "rgb(231, 231, 231)",
+            "count": 4,
+            "area": 21000,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(44) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(19) > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 44,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button > div",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button > div",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(3) > button > div"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 15,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(5)",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(7) > button > div"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 10,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(29) > button > div",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(35) > button > div",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(41) > button > div"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 6,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(31) > button > div",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button > div",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(51) > button > div"
+            ]
+          },
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 5,
+            "sources": [
+              "#storybook-root > div:nth-of-type(3) > div > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(3) > div > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(3) > div > div:nth-of-type(3)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 42,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(3) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(4) > button"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 16,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(5) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(11) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(17) > button"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 10,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(25) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(43) > button"
+            ]
+          },
+          {
+            "value": "rgb(230, 231, 245)",
+            "count": 6,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(51) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(52) > button"
+            ]
+          },
+          {
+            "value": "rgb(10, 28, 123)",
+            "count": 4,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(14) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(15) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(14) > button"
+            ]
+          },
+          {
+            "value": "rgb(231, 231, 231)",
+            "count": 4,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(44) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(19) > button"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(7) > button",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(37) > button",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(7) > button"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story": {
+      "1440": {
+        "title": "theme--inputs",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 466,
+          "visible": 241
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [],
+        "links": [],
+        "surfaces": [],
+        "radii": [
+          {
+            "value": "3px",
+            "count": 33,
+            "area": 359700,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div > div > input",
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(2) > div > div > input",
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(3) > div > div > input"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 39,
+            "area": 2763172,
+            "sources": [
+              "",
+              "body",
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div > div > input"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 28,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 11,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(3)",
+              "#storybook-root > div:nth-of-type(6)"
+            ]
+          },
+          {
+            "value": "rgb(215, 16, 35)",
+            "count": 10,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(5) > div > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(5) > div > div:nth-of-type(1) > label",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(5) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 6,
+            "sources": [
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(2) > div > div > label",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(4) > div > div > label",
+              "#storybook-root > div:nth-of-type(11) > div:nth-of-type(2) > div > div:nth-of-type(3) > label"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 4,
+            "sources": [
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(6) > div > div > label",
+              "#storybook-root > div:nth-of-type(11) > div:nth-of-type(6) > div > div:nth-of-type(3) > label",
+              "#storybook-root > div:nth-of-type(18) > div:nth-of-type(5) > div > div > label"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 12,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(3) > div > div > input",
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(4) > div > div > input",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(3) > div > div > input"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 9,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div > div > input",
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(6) > div > div > input",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(1) > div > div > input"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 6,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(2) > div > div > input",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(2) > div > div > input",
+              "#storybook-root > div:nth-of-type(11) > div:nth-of-type(2) > div > div:nth-of-type(3) > input"
+            ]
+          },
+          {
+            "value": "rgb(215, 16, 35)",
+            "count": 6,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(5) > div > div:nth-of-type(1) > input",
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(5) > div > div:nth-of-type(1) > input",
+              "#storybook-root > div:nth-of-type(11) > div:nth-of-type(5) > div > div:nth-of-type(3) > input"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story": {
+      "1440": {
+        "title": "theme--typography",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 230,
+          "visible": 108
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [],
+        "links": [],
+        "surfaces": [],
+        "radii": [],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 2592000,
+            "sources": [
+              "",
+              "body"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 40,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(5) > div:nth-of-type(1) > div",
+              "#storybook-root > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 30,
+            "sources": [
+              "#storybook-root > div:nth-of-type(3) > div > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(3) > div > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > span"
+            ]
+          }
+        ],
+        "borderColors": [],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story": {
+      "1440": {
+        "title": "theme--components",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 549,
+          "visible": 400
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button",
+            "count": 1,
+            "backgroundColor": "rgb(230, 231, 245)",
+            "color": "rgb(16, 35, 215)",
+            "borderRadius": "15px",
+            "padding": "0px 15px",
+            "border": "1px solid rgb(230, 231, 245)",
+            "borderColor": "rgb(230, 231, 245)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(16, 35, 215)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Focus",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(2) > button",
+            "count": 2,
+            "backgroundColor": "rgb(16, 35, 215)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "15px",
+            "padding": "0px 15px",
+            "border": "1px solid rgb(16, 35, 215)",
+            "borderColor": "rgb(16, 35, 215)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(16, 35, 215)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Active",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(4) > button",
+            "count": 2,
+            "backgroundColor": "rgb(10, 28, 123)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "15px",
+            "padding": "0px 15px",
+            "border": "1px solid rgb(10, 28, 123)",
+            "borderColor": "rgb(10, 28, 123)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(16, 35, 215)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(5) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "15px",
+            "padding": "0px 20px",
+            "border": "1px dashed rgb(216, 216, 216)",
+            "borderColor": "rgb(216, 216, 216)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(247, 247, 247)",
+              "color": "rgb(16, 35, 215)",
+              "borderColor": "rgb(247, 247, 247)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Focus",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(6) > button",
+            "count": 2,
+            "backgroundColor": "rgb(247, 247, 247)",
+            "color": "rgb(16, 35, 215)",
+            "borderRadius": "15px",
+            "padding": "0px 20px",
+            "border": "1px dashed rgb(247, 247, 247)",
+            "borderColor": "rgb(247, 247, 247)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Active",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(8) > button",
+            "count": 1,
+            "backgroundColor": "rgb(10, 28, 123)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "15px",
+            "padding": "0px 20px",
+            "border": "1px dashed rgb(10, 28, 123)",
+            "borderColor": "rgb(10, 28, 123)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(9) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "15px",
+            "padding": "0px 20px",
+            "border": "1px solid rgb(216, 216, 216)",
+            "borderColor": "rgb(216, 216, 216)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Focus",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(10) > button",
+            "count": 4,
+            "backgroundColor": "rgb(247, 247, 247)",
+            "color": "rgb(16, 35, 215)",
+            "borderRadius": "15px",
+            "padding": "0px 20px",
+            "border": "1px solid rgb(247, 247, 247)",
+            "borderColor": "rgb(247, 247, 247)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(13) > button",
+            "count": 2,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "0px",
+            "padding": "0px 10px",
+            "border": "1px solid rgb(216, 216, 216)",
+            "borderColor": "rgb(216, 216, 216)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Hover",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(15) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(16, 35, 215)",
+            "borderRadius": "0px",
+            "padding": "0px 10px",
+            "border": "1px solid rgb(16, 35, 215)",
+            "borderColor": "rgb(16, 35, 215)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Active",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(16) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(10, 28, 123)",
+            "borderRadius": "0px",
+            "padding": "0px 10px",
+            "border": "1px solid rgb(10, 28, 123)",
+            "borderColor": "rgb(10, 28, 123)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Default",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(17) > button",
+            "count": 2,
+            "backgroundColor": "rgb(247, 247, 247)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "15px",
+            "padding": "0px 15px",
+            "border": "1px solid rgb(247, 247, 247)",
+            "borderColor": "rgb(247, 247, 247)",
+            "boxShadow": "none",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          }
+        ],
+        "links": [
+          {
+            "text": "Level 01",
+            "selector": "nav > ol > li:nth-of-type(1) > a",
+            "count": 3,
+            "color": "rgb(112, 112, 112)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(16, 35, 215)",
+              "borderColor": "rgb(16, 35, 215)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Level 04 (Active)",
+            "selector": "nav > ol > li:nth-of-type(4) > a",
+            "count": 1,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 16,
+              "y": 6730,
+              "w": 1408,
+              "h": 26
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "15px",
+            "count": 16,
+            "area": 35760,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 4,
+            "area": 14160,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(24) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(25) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(26) > button"
+            ]
+          },
+          {
+            "value": "25px",
+            "count": 3,
+            "area": 12000,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(21) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(22) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(23) > button"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(247, 247, 247)",
+            "count": 14,
+            "area": 149280,
+            "sources": [
+              "#storybook-root > div:nth-of-type(5)",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(6) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(7) > button"
+            ]
+          },
+          {
+            "value": "rgb(10, 28, 123)",
+            "count": 4,
+            "area": 10240,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(4) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(8) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(12) > button"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 3,
+            "area": 60430,
+            "sources": [
+              "#storybook-root > div:nth-of-type(23)",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 2592000,
+            "sources": [
+              "",
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(230, 231, 245)",
+            "count": 2,
+            "area": 114830,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7)",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button"
+            ]
+          },
+          {
+            "value": "rgb(254, 242, 239)",
+            "count": 1,
+            "area": 112640,
+            "sources": [
+              "#storybook-root > div:nth-of-type(11)"
+            ]
+          },
+          {
+            "value": "rgb(255, 250, 233)",
+            "count": 1,
+            "area": 112640,
+            "sources": [
+              "#storybook-root > div:nth-of-type(9)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 56320,
+            "sources": [
+              "#storybook-root > div:nth-of-type(17)"
+            ]
+          },
+          {
+            "value": "rgb(0, 103, 74)",
+            "count": 1,
+            "area": 56320,
+            "sources": [
+              "#storybook-root > div:nth-of-type(19)"
+            ]
+          },
+          {
+            "value": "rgb(215, 16, 35)",
+            "count": 1,
+            "area": 56320,
+            "sources": [
+              "#storybook-root > div:nth-of-type(21)"
+            ]
+          },
+          {
+            "value": "rgb(231, 231, 231)",
+            "count": 1,
+            "area": 56320,
+            "sources": [
+              "#storybook-root > div:nth-of-type(15)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 53,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(3)",
+              "#storybook-root > div:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 28,
+            "sources": [
+              "#storybook-root > div:nth-of-type(5) > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(26) > div > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(26) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 13,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button > div > span",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(6) > button > div > span"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 10,
+            "sources": [
+              "#storybook-root > div:nth-of-type(17) > div",
+              "#storybook-root > div:nth-of-type(19) > div",
+              "#storybook-root > div:nth-of-type(21) > div"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 9,
+            "sources": [
+              "div:nth-of-type(52) > div > div > div:nth-of-type(2) > button > div > div:nth-of-type(1) > div",
+              "div:nth-of-type(52) > div > div > div:nth-of-type(3) > button > div > div:nth-of-type(1) > div",
+              "div:nth-of-type(54) > div > div > div:nth-of-type(2) > button > div > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgb(10, 28, 123)",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(16) > button > div > span"
+            ]
+          },
+          {
+            "value": "rgb(164, 122, 15)",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(215, 16, 35)",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(11) > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(247, 247, 247)",
+            "count": 13,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(6) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(7) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(10) > button"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 11,
+            "sources": [
+              "#storybook-root > div:nth-of-type(32) > div > div > div:nth-of-type(1) > button > div",
+              "#storybook-root > div:nth-of-type(34) > div > div > div:nth-of-type(1) > button > div",
+              "#storybook-root > div:nth-of-type(36) > div > div > div:nth-of-type(1) > button > div"
+            ]
+          },
+          {
+            "value": "rgb(231, 231, 231)",
+            "count": 11,
+            "sources": [
+              "#storybook-root > div:nth-of-type(32) > div > div",
+              "#storybook-root > div:nth-of-type(34) > div > div",
+              "#storybook-root > div:nth-of-type(36) > div > div"
+            ]
+          },
+          {
+            "value": "rgb(10, 28, 123)",
+            "count": 5,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(4) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(8) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(12) > button"
+            ]
+          },
+          {
+            "value": "rgb(216, 216, 216)",
+            "count": 5,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(5) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(9) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(13) > button"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 3,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(2) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(3) > button",
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(15) > button"
+            ]
+          },
+          {
+            "value": "rgb(230, 231, 245)",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story": {
+      "1440": {
+        "title": "theme--colors",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 292,
+          "visible": 191
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [],
+        "links": [],
+        "surfaces": [],
+        "radii": [
+          {
+            "value": "50%",
+            "count": 26,
+            "area": 93600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 3,
+            "area": 2595600,
+            "sources": [
+              "",
+              "body",
+              "#storybook-root > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(16, 35, 215)",
+            "count": 2,
+            "area": 7200,
+            "sources": [
+              "#storybook-root > div:nth-of-type(15) > div:nth-of-type(1) > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(16) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 103, 74)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(20) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 55, 40)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(19) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(10, 28, 123)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(14) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(164, 122, 15)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(22) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(168, 80, 28)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(25) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(202, 205, 236)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(17) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(215, 16, 35)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(29) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(216, 216, 216)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(218, 103, 34)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(26) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(226, 185, 41)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(23) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(230, 231, 245)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(18) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(231, 231, 231)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(232, 239, 226)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(247, 247, 247)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(252, 247, 243)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(27) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(254, 242, 239)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(31) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(255, 16, 35)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(30) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(255, 250, 233)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(24) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(5, 14, 62)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(13) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(81, 11, 11)",
+            "count": 1,
+            "area": 3600,
+            "sources": [
+              "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 54,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 28,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "borderColors": [],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--spacing&viewMode=story": {
+      "1440": {
+        "title": "theme--spacing",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 138,
+          "visible": 25
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [],
+        "links": [],
+        "surfaces": [],
+        "radii": [],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 2592000,
+            "sources": [
+              "",
+              "body"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 15,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(3) > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(3) > div:nth-of-type(2)"
+            ]
+          }
+        ],
+        "borderColors": [],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--spacing&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story": {
+      "1440": {
+        "title": "theme--effects",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 148,
+          "visible": 48
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [],
+        "links": [],
+        "surfaces": [],
+        "radii": [
+          {
+            "value": "2px",
+            "count": 7,
+            "area": 460978,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(1) > div",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(3) > div",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(5) > div"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.05) 0px 1px 1px 0px",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(5) > div"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.08) 0px 2px 10px 0px",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 1px 1px 2px 0px inset",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(3) > div"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+            "count": 1,
+            "area": 163784,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(11) > div > div"
+            ]
+          },
+          {
+            "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.008) 8.1%, rgba(0, 0, 0, 0.024) 15.5%, rgba(0, 0, 0, 0.05) 22.5%, rgba(0, 0, 0, 0.086) 29%, rgba(0, 0, 0, 0.13) 35.3%, rgba(0, 0, 0, 0.176) 41.2%, rgba(0, 0, 0, 0.224) 47.1%, rgba(0, 0, …",
+            "count": 1,
+            "area": 36828,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(9) > div"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 3,
+            "area": 360216,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(7) > div",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(11) > div",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(13) > div"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 2592000,
+            "sources": [
+              "",
+              "body"
+            ]
+          },
+          {
+            "value": "rgba(229, 229, 229, 0.5)",
+            "count": 1,
+            "area": 128184,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(13) > div > div"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 11,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(2)",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(112, 112, 112)",
+            "count": 10,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(1) > div > div",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(3) > div > div"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(7) > div > div",
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(9) > div > div"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(247, 247, 247)",
+            "count": 1,
+            "sources": [
+              "#storybook-root > div:nth-of-type(4) > div:nth-of-type(9) > div"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story"
+      }
+    },
+    "https://palette-storybook.artsy.net/iframe.html?id=theme--theme&viewMode=story": {
+      "1440": {
+        "title": "theme--theme",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 105,
+          "visible": 5
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [],
+        "buttons": [],
+        "links": [],
+        "surfaces": [],
+        "radii": [],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 2592000,
+            "sources": [
+              "",
+              "body"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 2,
+            "sources": [
+              "#storybook-root > div:nth-of-type(1)",
+              "#storybook-root > pre"
+            ]
+          }
+        ],
+        "borderColors": [],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Nunito Sans",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Unica77LLWebRegular",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebItalic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMedium",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ll-unica77",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Unica77LLWebMediumItalic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "adobe-garamond-pro",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Adobe Garamond W08",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "itc-avant-garde-gothic",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "ITC Avant Garde Gothic W04",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "artsy-icons",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "artsy-icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--theme&viewMode=story"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 8,
+      "widths": [
+        1440
+      ],
+      "measurements": 8
+    },
+    "colors": [
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 256,
+        "bgArea": 91420,
+        "by": {
+          "text": 201,
+          "border": 21,
+          "background": 8,
+          "button-background": 6,
+          "button-border": 8,
+          "button-text": 11,
+          "link": 1
+        },
+        "roles": [
+          "text",
+          "secondary"
+        ],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--spacing&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(1)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)",
+          "rgb(247, 247, 247)",
+          "rgb(252, 247, 243)"
+        ],
+        "weight": 219,
+        "bgArea": 21081200,
+        "by": {
+          "text": 56,
+          "background": 88,
+          "button-text": 38,
+          "border": 18,
+          "button-background": 9,
+          "button-border": 10
+        },
+        "roles": [
+          "background"
+        ],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button > div",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+            "selector": null,
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": null,
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(5)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#1023d7",
+        "values": [
+          "rgb(16, 35, 215)"
+        ],
+        "weight": 181,
+        "bgArea": 278061,
+        "by": {
+          "background": 47,
+          "border": 51,
+          "button-background": 22,
+          "button-border": 24,
+          "text": 25,
+          "button-text": 12
+        },
+        "roles": [
+          "primary",
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#c2c2c2",
+        "values": [
+          "rgb(194, 194, 194)"
+        ],
+        "weight": 76,
+        "bgArea": 405816,
+        "by": {
+          "border": 25,
+          "text": 23,
+          "background": 12,
+          "button-background": 4,
+          "button-border": 8,
+          "button-text": 4
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(5) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(29) > button > div",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div > div > input",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "div:nth-of-type(52) > div > div > div:nth-of-type(2) > button > div > div:nth-of-type(1) > div",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(5) > button",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0a1c7b",
+        "values": [
+          "rgb(10, 28, 123)"
+        ],
+        "weight": 31,
+        "bgArea": 34840,
+        "by": {
+          "border": 9,
+          "background": 9,
+          "button-background": 5,
+          "button-border": 6,
+          "button-text": 1,
+          "text": 1
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(4) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(14) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(4) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(14) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(14) > button",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#707070",
+        "values": [
+          "rgb(112, 112, 112)"
+        ],
+        "weight": 145,
+        "bgArea": 3600,
+        "by": {
+          "text": 129,
+          "border": 12,
+          "link": 3,
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(3) > div > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(5) > div:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(4) > div > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(3) > div > div > input",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#e7e7e7",
+        "values": [
+          "rgb(231, 231, 231)",
+          "rgb(232, 239, 226)"
+        ],
+        "weight": 26,
+        "bgArea": 84520,
+        "by": {
+          "border": 15,
+          "background": 7,
+          "button-background": 2,
+          "button-border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(32) > div > div",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(19) > button",
+            "prop": "button-border"
+          }
+        ]
+      },
+      {
+        "hex": "#e6e7f5",
+        "values": [
+          "rgb(230, 231, 245)"
+        ],
+        "weight": 24,
+        "bgArea": 149930,
+        "by": {
+          "background": 9,
+          "border": 7,
+          "button-background": 4,
+          "button-border": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(50) > button",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(7)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#d71023",
+        "values": [
+          "rgb(215, 16, 35)"
+        ],
+        "weight": 19,
+        "bgArea": 59920,
+        "by": {
+          "text": 11,
+          "border": 6,
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(5) > div > div:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(5) > div > div:nth-of-type(1) > input",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(21)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(29) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(11) > div:nth-of-type(1)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#d8d8d8",
+        "values": [
+          "rgb(216, 216, 216)"
+        ],
+        "weight": 10,
+        "bgArea": 3600,
+        "by": {
+          "border": 5,
+          "button-border": 4,
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(5) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(13) > button",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(5) > button",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(9) > button",
+            "prop": "button-border"
+          }
+        ]
+      },
+      {
+        "hex": "#fef2ef",
+        "values": [
+          "rgb(254, 242, 239)",
+          "rgb(255, 250, 233)"
+        ],
+        "weight": 4,
+        "bgArea": 232480,
+        "by": {
+          "background": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(11)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(9)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(31) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(24) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#00674a",
+        "values": [
+          "rgb(0, 103, 74)"
+        ],
+        "weight": 2,
+        "bgArea": 59920,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(19)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(20) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#a47a0f",
+        "values": [
+          "rgb(164, 122, 15)"
+        ],
+        "weight": 2,
+        "bgArea": 3600,
+        "by": {
+          "background": 1,
+          "text": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(22) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(9) > div:nth-of-type(1)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#003728",
+        "values": [
+          "rgb(0, 55, 40)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(19) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#050e3e",
+        "values": [
+          "rgb(5, 14, 62)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(13) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#510b0b",
+        "values": [
+          "rgb(81, 11, 11)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#a8501c",
+        "values": [
+          "rgb(168, 80, 28)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(25) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#cacdec",
+        "values": [
+          "rgb(202, 205, 236)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(17) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#da6722",
+        "values": [
+          "rgb(218, 103, 34)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(26) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#e2b929",
+        "values": [
+          "rgb(226, 185, 41)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(23) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#e5e5e580",
+        "values": [
+          "rgba(229, 229, 229, 0.5)"
+        ],
+        "weight": 1,
+        "bgArea": 128184,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(13) > div > div",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#ff1023",
+        "values": [
+          "rgb(255, 16, 35)"
+        ],
+        "weight": 1,
+        "bgArea": 3600,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(30) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Arial",
+          "count": 46,
+          "headings": 0,
+          "text": 0,
+          "buttons": 46
+        },
+        {
+          "family": "ll-unica77",
+          "count": 20,
+          "headings": 0,
+          "text": 0,
+          "buttons": 20
+        }
+      ],
+      "headingFamily": "Arial",
+      "bodyFamily": "Arial",
+      "sizes": [
+        {
+          "px": 16,
+          "count": 20,
+          "headings": 0,
+          "text": 0,
+          "buttons": 20
+        },
+        {
+          "px": 13.33,
+          "count": 46,
+          "headings": 0,
+          "text": 0,
+          "buttons": 46
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 66,
+          "headings": 0,
+          "text": 0,
+          "buttons": 66
+        }
+      ],
+      "levels": {}
+    },
+    "motifs": {
+      "radius": {
+        "mode": "15px",
+        "areaMode": "2px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "15px",
+            "count": 61,
+            "area": 170760,
+            "sources": [
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(8) > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(8) > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(8) > div:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "25px",
+            "count": 48,
+            "area": 349500,
+            "sources": [
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(21) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(22) > button"
+              }
+            ]
+          },
+          {
+            "value": "3px",
+            "count": 33,
+            "area": 359700,
+            "sources": [
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div > div > input"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(2) > div > div > input"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(3) > div > div > input"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 26,
+            "area": 93600,
+            "sources": [
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 7,
+            "area": 460978,
+            "sources": [
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(3) > div"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(5) > div"
+              }
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 4,
+            "area": 14160,
+            "sources": [
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(24) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(25) > button"
+              },
+              {
+                "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+                "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(26) > button"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.05) 0px 1px 1px 0px",
+          "count": 1,
+          "sources": [
+            {
+              "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+              "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(5) > div"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 2px 10px 0px",
+          "count": 1,
+          "sources": [
+            {
+              "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+              "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.1) 1px 1px 2px 0px inset",
+          "count": 1,
+          "sources": [
+            {
+              "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+              "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(3) > div"
+            }
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.008) 8.1%, rgba(0, 0, 0, 0.024) 15.5%, rgba(0, 0, 0, 0.05) 22.5%, rgba(0, 0, 0, 0.086) 29%, rgba(0, 0, 0, 0.13) 35.3%, rgba(0, 0, 0, 0.176) 41.2%, rgba(0, 0, 0, 0.224) 47.1%, rgba(0, 0, …",
+          "count": 1,
+          "area": 36828,
+          "sources": [
+            {
+              "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+              "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(9) > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)",
+          "count": 1,
+          "area": 163784,
+          "sources": [
+            {
+              "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+              "selector": "#storybook-root > div:nth-of-type(4) > div:nth-of-type(11) > div > div"
+            }
+          ]
+        }
+      ]
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderColor": "rgb(0, 0, 0)"
+        },
+        "to": {
+          "backgroundColor": "rgb(16, 35, 215)",
+          "borderColor": "rgb(16, 35, 215)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(1) > button"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(10, 28, 123)",
+          "borderColor": "rgb(10, 28, 123)"
+        },
+        "to": {
+          "backgroundColor": "rgb(16, 35, 215)",
+          "borderColor": "rgb(16, 35, 215)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(4) > button"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "borderColor": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "backgroundColor": "rgb(16, 35, 215)",
+          "color": "rgb(255, 255, 255)",
+          "borderColor": "rgb(16, 35, 215)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(6) > div:nth-of-type(7) > button"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(230, 231, 245)",
+          "color": "rgb(16, 35, 215)",
+          "borderColor": "rgb(230, 231, 245)"
+        },
+        "to": {
+          "backgroundColor": "rgb(16, 35, 215)",
+          "color": "rgb(255, 255, 255)",
+          "borderColor": "rgb(16, 35, 215)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(1) > button"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "borderColor": "rgb(216, 216, 216)"
+        },
+        "to": {
+          "backgroundColor": "rgb(247, 247, 247)",
+          "color": "rgb(16, 35, 215)",
+          "borderColor": "rgb(247, 247, 247)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "#storybook-root > div:nth-of-type(28) > div:nth-of-type(5) > button"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(112, 112, 112)"
+        },
+        "to": {
+          "color": "rgb(16, 35, 215)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+            "selector": "nav > ol > li:nth-of-type(1) > a"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": {
+      "families": [
+        "artsy-icons"
+      ],
+      "glyphs": []
+    }
+  }
+}

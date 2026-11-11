@@ -10,7 +10,12 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
+  toClassName,
 } from './aem.js';
+
+/** Page templates that ship their own stylesheet under /templates/<name>/. */
+const STYLED_TEMPLATES = ['artwork'];
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -162,9 +167,20 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  const template = toClassName(getMetadata('template'));
+  const styled = STYLED_TEMPLATES.includes(template);
+  const templateCSS = styled
+    ? loadCSS(`${window.hlx.codeBasePath}/templates/${template}/${template}.css`)
+    : null;
+  const templateJS = styled
+    ? import(`${window.hlx.codeBasePath}/templates/${template}/${template}.js`).catch(() => null)
+    : null;
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
+    const templateModule = templateJS ? await templateJS : null;
+    if (templateModule?.default) templateModule.default(main);
+    if (templateCSS) await templateCSS;
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }

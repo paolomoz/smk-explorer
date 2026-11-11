@@ -1,20 +1,46 @@
+/* Footer: white wall, hairline top, caption-size credit (DESIGN.md › footer role) */
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  border-top: 1px solid var(--divider-color);
+  background-color: var(--background-color);
+  color: var(--secondary-text-color);
+  font-size: var(--type-xs-size);
+  line-height: var(--type-xs-lh);
 }
 
 footer .footer > div {
   margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+  max-width: var(--container-max);
+  padding: var(--space-4) var(--gutter) var(--space-6);
 }
 
 footer .footer p {
-  margin: 0;
+  max-width: var(--reading-max);
+  margin: 0 0 var(--space-1);
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer .footer a:any-link {
+  color: var(--text-color);
+}
+
+footer .footer a:hover {
+  color: var(--link-hover-color);
+}
+
+footer .footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--type-sm-size);
+  line-height: var(--type-sm-lh);
+}
+
+footer .footer ul a:any-link {
+  text-decoration: none;
+}
+
+footer .footer ul a:hover {
+  text-decoration: underline;
 }

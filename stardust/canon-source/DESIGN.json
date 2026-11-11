@@ -1,0 +1,158 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract (--design-source)",
+    "writtenAt": "2026-11-11T07:36:15Z",
+    "role": "design-source (descriptive)",
+    "readArtifacts": [
+      "stardust/canon-source/_brand-extraction.json",
+      "stardust/canon-source/DESIGN.md"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.32.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T07:36:15Z",
+  "title": "Design System: Artsy Palette (as captured)",
+  "extensions": {
+    "colorMeta": {
+      "mono100": {
+        "role": "primary",
+        "displayName": "Ink"
+      },
+      "blue100": {
+        "role": "accent",
+        "displayName": "Artsy Blue",
+        "alias": "brand",
+        "tonalRamp": [
+          "#050e3e",
+          "#0a1c7b",
+          "#1023d7",
+          "#cacdec",
+          "#e6e7f5"
+        ]
+      },
+      "mono60": {
+        "role": "neutral",
+        "displayName": "Mid Grey"
+      },
+      "mono0": {
+        "role": "neutral",
+        "displayName": "Gallery White"
+      }
+    },
+    "shadows": [
+      {
+        "name": "dropShadow",
+        "value": "0 2px 10px 0 rgba(0, 0, 0, 0.08)",
+        "purpose": "Floating menus, popovers."
+      },
+      {
+        "name": "flatShadow",
+        "value": "0 1px 1px 0 rgba(0, 0, 0, 0.05)",
+        "purpose": "Barely-there lift."
+      },
+      {
+        "name": "innerShadow",
+        "value": "1px 1px 2px 0 rgba(0, 0, 0, 0.1) inset",
+        "purpose": "Inset fields."
+      },
+      {
+        "name": "textShadow",
+        "value": "0 0 15px rgba(0, 0, 0, 0.25)",
+        "purpose": "Text over images."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "0-767px"
+      },
+      {
+        "name": "sm",
+        "value": "768px"
+      },
+      {
+        "name": "md",
+        "value": "1280px"
+      },
+      {
+        "name": "lg",
+        "value": "1920px"
+      }
+    ],
+    "componentStyle": "see _brand-extraction.json componentStyle",
+    "motifs": [
+      "monochrome chrome, colour from images",
+      "single blue state colour",
+      "pill buttons, 3px inputs, square imagery",
+      "underline tabs",
+      "hairline mono10 dividers"
+    ],
+    "voice": {
+      "tone": "confident, quiet, art-world editorial; sentence case"
+    },
+    "breakpointsCapModel": null
+  },
+  "components": [
+    {
+      "name": "Primary Button (black)",
+      "kind": "button",
+      "refersTo": "button-primary-black",
+      "description": "Main action.",
+      "html": "<button class=\"ds-btn-black\">Follow</button>",
+      "css": ".ds-btn-black{height:50px;padding:0 25px;border:1px solid #000;border-radius:25px;background:#000;color:#fff;font:16px/1 'Helvetica Neue',Helvetica,Arial,sans-serif;cursor:pointer;transition:background .25s,border-color .25s}.ds-btn-black:hover,.ds-btn-black:focus-visible{background:#1023d7;border-color:#1023d7;text-decoration:underline;outline:none}"
+    },
+    {
+      "name": "Secondary Button (outline)",
+      "kind": "button",
+      "refersTo": "button-secondary-outline",
+      "description": "Secondary action.",
+      "html": "<button class=\"ds-btn-outline\">View more</button>",
+      "css": ".ds-btn-outline{height:50px;padding:0 25px;border:1px solid #000;border-radius:25px;background:transparent;color:#000;font:16px/1 'Helvetica Neue',Helvetica,Arial,sans-serif;cursor:pointer}.ds-btn-outline:hover,.ds-btn-outline:focus-visible{border-color:#1023d7;color:#1023d7;text-decoration:underline;outline:none}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "50px field.",
+      "html": "<input class=\"ds-input\" placeholder=\"Search by artist, gallery, style\">",
+      "css": ".ds-input{height:50px;padding:0 10px;border:1px solid #c2c2c2;border-radius:3px;font:16px 'Helvetica Neue',Helvetica,Arial,sans-serif;color:#000}.ds-input:hover{border-color:#707070}.ds-input:focus{border-color:#1023d7;outline:none}"
+    },
+    {
+      "name": "Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Filter chip.",
+      "html": "<button class=\"ds-pill\">Painting</button>",
+      "css": ".ds-pill{height:30px;padding:0 15px;border:1px solid #c2c2c2;border-radius:15px;background:#fff;color:#000;font:13px 'Helvetica Neue',Helvetica,Arial,sans-serif;cursor:pointer}.ds-pill:hover{border-color:#000}.ds-pill[aria-pressed=true]{background:#1023d7;border-color:#1023d7;color:#fff}"
+    },
+    {
+      "name": "Navigational Tabs",
+      "kind": "nav",
+      "refersTo": "tabs",
+      "description": "Underline tabs.",
+      "html": "<nav class=\"ds-tabs\"><a aria-current=\"page\">Works</a><a>About</a></nav>",
+      "css": ".ds-tabs{display:flex;border-bottom:1px solid #e7e7e7;font:16px 'Helvetica Neue',Helvetica,Arial,sans-serif}.ds-tabs a{flex:1;text-align:center;padding:10px 0;color:#707070;border-bottom:2px solid transparent;margin-bottom:-1px}.ds-tabs a[aria-current]{color:#000;border-bottom-color:#000}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The white gallery wall",
+    "overview": "Monochrome interface, one sans-serif at one weight, a single blue for state; artwork supplies the colour.",
+    "keyCharacteristics": [
+      "10px spacing unit",
+      "pill buttons",
+      "3px inputs",
+      "square images",
+      "hairline dividers"
+    ],
+    "dos": [
+      "Let images carry colour",
+      "Use blue only for state"
+    ],
+    "donts": [
+      "No decorative accents",
+      "No bold display type",
+      "No rounded imagery"
+    ]
+  }
+}

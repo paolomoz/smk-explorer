@@ -140,6 +140,15 @@ export default async function decorate(block) {
     });
   }
 
+  // mark the section the current page belongs to
+  const here = window.location.pathname.replace(/\/$/, '') || '/';
+  nav.querySelectorAll('.nav-sections a[href]').forEach((a) => {
+    const target = new URL(a.href, window.location).pathname.replace(/\/$/, '') || '/';
+    if (target === here || (target !== '/' && here.startsWith(`${target}/`))) {
+      a.setAttribute('aria-current', 'page');
+    }
+  });
+
   // hamburger for mobile
   const hamburger = document.createElement('div');
   hamburger.classList.add('nav-hamburger');

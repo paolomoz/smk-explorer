@@ -1,29 +1,50 @@
+/* Facts: label / value rows separated by hairlines (DESIGN.md › Layout) */
 .facts dl {
   display: grid;
-  grid-template-columns: minmax(120px, max-content) 1fr;
-  gap: 8px 24px;
+  grid-template-columns: minmax(110px, max-content) 1fr;
   margin: 0;
+  border-bottom: 1px solid var(--divider-color);
+}
+
+.facts dt,
+.facts dd {
+  margin: 0;
+  padding: var(--space-1) 0;
+  border-top: 1px solid var(--divider-color);
+  font-size: var(--type-sm-size);
+  line-height: var(--type-sm-lh);
 }
 
 .facts dt {
-  font-weight: 600;
-}
-
-.facts dd {
-  margin: 0;
+  padding-right: var(--space-2);
+  color: var(--secondary-text-color);
 }
 
 .facts dd p {
   margin: 0;
 }
 
-@media (width < 600px) {
+.facts dd a:any-link {
+  text-decoration-color: var(--plaster);
+}
+
+.facts dd a:hover {
+  text-decoration-color: currentcolor;
+}
+
+@media (width < 768px) {
   .facts dl {
     grid-template-columns: 1fr;
-    gap: 0;
+  }
+
+  .facts dt {
+    padding-bottom: 0;
+    font-size: var(--type-xs-size);
+    line-height: var(--type-xs-lh);
   }
 
   .facts dd {
-    margin-bottom: 12px;
+    padding-top: 0;
+    border-top: 0;
   }
 }

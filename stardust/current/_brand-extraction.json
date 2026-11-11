@@ -1,0 +1,368 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-11T07:34:45Z",
+    "readArtifacts": [
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours/gold-f6d727",
+      "https://collection-explorer--smk-explorer--paolomoz.aem.page/artworks/kms3282",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "styles/styles.css"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.32.1",
+    "notes": [
+      "Primary is the code branch preview (collection-explorer), which carries the working search block; the live main branch still runs boilerplate code.",
+      "Current design is a deliberate placeholder (system font, neutral greys) set while the functionality was built; the user asked for the design to come later. Signal is intentionally thin.",
+      "Non-neutral colours in the census are SMK palette swatches (data shown as content: colour wheel, swatches), not brand colours; excluded from the brand palette."
+    ]
+  },
+  "site": {
+    "name": "SMK Explorer",
+    "tagline": "Explore the SMK collection",
+    "originUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page"
+  },
+  "origins": [
+    {
+      "origin": "https://collection-explorer--smk-explorer--paolomoz.aem.page",
+      "role": "primary",
+      "pagesCaptured": 4,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "kind": "text-wordmark",
+    "text": "SMK Explorer",
+    "source": "nav brand link (nav.plain.html section 1)",
+    "file": null,
+    "note": "no logo image; census logo chain found none"
+  },
+  "favicon": {
+    "file": "stardust/current/assets/favicon.ico"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "note": "body background (styles/styles.css --background-color); census clusters it with #f4f4f4",
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "body",
+          "prop": "background-color"
+        }
+      ]
+    },
+    {
+      "role": "text",
+      "hex": "#1a1a1a",
+      "weight": 690,
+      "by": {
+        "text": 375,
+        "link": 286,
+        "border": 5,
+        "background": 5,
+        "button-text": 3,
+        "button-background": 4,
+        "button-border": 4,
+        "heading": 8
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+          "selector": "#nav > div:nth-of-type(2) > div > p > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+          "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > a",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "role": "swatch-outline",
+      "hex": "#00000033",
+      "weight": 236,
+      "by": {
+        "border": 236
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "role": "surface",
+      "hex": "#f4f4f4",
+      "weight": 67,
+      "by": {
+        "background": 54,
+        "button-background": 3,
+        "text": 5,
+        "button-text": 4,
+        "link": 1
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3)",
+          "prop": "background"
+        },
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "body",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "role": "border",
+      "hex": "#d0d0d0",
+      "weight": 14,
+      "by": {
+        "border": 10,
+        "button-border": 4
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "#search-jaxqt7-q",
+          "prop": "border"
+        },
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+          "selector": "main > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "role": "text-secondary",
+      "hex": "#5c5c5c",
+      "weight": 331,
+      "by": {
+        "text": 330,
+        "background": 1
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+          "selector": "main > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > div > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "main > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > p",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "role": "button-primary",
+      "hex": "#000000",
+      "weight": 3,
+      "by": {
+        "background": 1,
+        "button-text": 1,
+        "text": 1
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(1) > button:nth-of-type(2)",
+          "prop": "button-text"
+        }
+      ]
+    },
+    {
+      "role": "other",
+      "hex": "#68ac59",
+      "weight": 3,
+      "by": {
+        "background": 3
+      },
+      "sources": [
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(87)",
+          "prop": "background"
+        },
+        {
+          "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > details > div:nth-of-type(3) > button:nth-of-type(92)",
+          "prop": "background"
+        }
+      ]
+    }
+  ],
+  "contentColours": {
+    "kind": "data",
+    "count": 236,
+    "source": "SMK Open API colors facet",
+    "note": "artwork colour tags rendered as swatches/wheel; content, not brand"
+  },
+  "type": {
+    "headingFamily": {
+      "name": "system-ui",
+      "stack": "system-ui, -apple-system, 'Segoe UI', roboto, 'Helvetica Neue', arial, sans-serif"
+    },
+    "bodyFamily": {
+      "name": "system-ui"
+    },
+    "files": [],
+    "sizes": [
+      {
+        "px": 36,
+        "count": 4,
+        "headings": 4,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 4,
+        "headings": 4,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 41,
+        "headings": 0,
+        "text": 38,
+        "buttons": 3
+      },
+      {
+        "px": 16,
+        "count": 7,
+        "headings": 0,
+        "text": 4,
+        "buttons": 3
+      },
+      {
+        "px": 14,
+        "count": 3,
+        "headings": 0,
+        "text": 1,
+        "buttons": 2
+      }
+    ],
+    "weights": [
+      {
+        "weight": "400",
+        "count": 46,
+        "headings": 0,
+        "text": 39,
+        "buttons": 7
+      },
+      {
+        "weight": "600",
+        "count": 12,
+        "headings": 8,
+        "text": 4,
+        "buttons": 0
+      },
+      {
+        "weight": "500",
+        "count": 1,
+        "headings": 0,
+        "text": 0,
+        "buttons": 1
+      }
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 36,
+        "fontWeight": "600",
+        "count": 4,
+        "score": 108
+      },
+      "h2": {
+        "fontSize": 28,
+        "fontWeight": "600",
+        "count": 4,
+        "score": 84
+      }
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        36,
+        28,
+        18,
+        16,
+        14
+      ],
+      "note": "placeholder scale from styles.css (36/28/24/20/18/16 heading tokens; 18/16/14 body)"
+    }
+  },
+  "spacing": {
+    "sectionGap": "40px",
+    "gutter": "24px (32px >=900px)",
+    "containerMaxWidth": "1200px",
+    "source": "styles/styles.css main > .section"
+  },
+  "motifs": {
+    "radius": {
+      "mode": "4px",
+      "pill": "50%",
+      "note": "4px on inputs/buttons/swatch chips; 50% on colour-wheel dots; 999px on chips"
+    },
+    "shadows": [],
+    "gradients": [],
+    "patterns": [
+      "artwork-grid (square contain tiles on #f4f4f4)",
+      "swatch-chip",
+      "facet-select",
+      "pill-toggle"
+    ]
+  },
+  "componentStyle": {
+    "buttonPrimary": "#1a1a1a fill, white text, 4px radius (search submit)",
+    "buttonPill": "999px radius outline/filled toggles (Wheel/Grid, sort)",
+    "input": "1px #d0d0d0 border, 4px radius, 8px 12px padding",
+    "links": "text colour, underlined (offset 0.15em)"
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "evidence": "nav on all 4 pages: wordmark, Search, Colours, SMK Open"
+    },
+    {
+      "name": "site-footer",
+      "evidence": "CC0 credit to SMK on all 4 pages"
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Explore the SMK collection",
+    "heroLede": "Search almost 40,000 public-domain works from SMK – National Gallery of Denmark. Type a word, pick colours from SMK's own palette, and narrow the results by work type, artist, nationality, technique and century.",
+    "ctaSamples": [
+      "SMK Explorer",
+      "Search",
+      "Colours",
+      "SMK Open",
+      "browse all the colours",
+      "Jens Juel",
+      "Painting",
+      "Search works with Gold #f6d727"
+    ],
+    "tone": "plain, factual, museum-catalogue English",
+    "heroImage": null,
+    "heroMedium": null,
+    "headlineSource": "stardust/current/pages/index.json headings[0] (crawler heroHeadline was null)"
+  },
+  "register": "product",
+  "registerNote": "search/browse tool over a museum collection; editorial pages (colour, artwork) lean brand"
+}

@@ -1,0 +1,421 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-11-11T07:37:57Z",
+    "againstDirection": "stardust/direction.md#active-direction",
+    "readArtifacts": [
+      "DESIGN.md",
+      "PRODUCT.md",
+      "stardust/canon-source/_brand-extraction.json",
+      "stardust/canon-source/DESIGN.json",
+      "stardust/current/_brand-extraction.json"
+    ],
+    "synthesizedInputs": [
+      "typeface substitution",
+      "field/pill border refinement"
+    ],
+    "stardustVersion": "0.32.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T07:37:57Z",
+  "title": "Design System: SMK Explorer",
+  "extensions": {
+    "colorMeta": {
+      "etching-black": {
+        "role": "Etching black",
+        "use": "text, primary button fill, active underline",
+        "paletteToken": "mono100"
+      },
+      "graphite": {
+        "role": "Graphite",
+        "use": "secondary text on white/gallery-floor; field and pill borders",
+        "paletteToken": "mono60"
+      },
+      "plaster": {
+        "role": "Plaster",
+        "use": "disabled, decorative borders only",
+        "paletteToken": "mono30"
+      },
+      "mount-board": {
+        "role": "Mount board",
+        "use": "dividers, placeholders",
+        "paletteToken": "mono15"
+      },
+      "hairline": {
+        "role": "Hairline",
+        "use": "dividers, quiet button fill",
+        "paletteToken": "mono10"
+      },
+      "gallery-floor": {
+        "role": "Gallery floor",
+        "use": "quiet surfaces",
+        "paletteToken": "mono5"
+      },
+      "gallery-wall": {
+        "role": "Gallery wall",
+        "use": "page ground",
+        "paletteToken": "mono0"
+      },
+      "ultramarine": {
+        "role": "Ultramarine",
+        "use": "state only: focus, hover, active, selected filter",
+        "paletteToken": "blue100 / brand",
+        "tonalRamp": [
+          "#050e3e",
+          "#0a1c7b",
+          "#1023d7",
+          "#cacdec",
+          "#e6e7f5"
+        ]
+      },
+      "verdigris": {
+        "role": "Verdigris",
+        "use": "success",
+        "paletteToken": "green100"
+      },
+      "ochre": {
+        "role": "Ochre",
+        "use": "warning",
+        "paletteToken": "yellow100"
+      },
+      "vermilion": {
+        "role": "Vermilion",
+        "use": "error",
+        "paletteToken": "red100"
+      }
+    },
+    "typographyMeta": {
+      "xxl": {
+        "displayName": "Display",
+        "purpose": "Home intro headline, desktop."
+      },
+      "xl": {
+        "displayName": "Page title",
+        "purpose": "H1 on colour and artwork pages (lg on mobile)."
+      },
+      "lg": {
+        "displayName": "Section title",
+        "purpose": "H2."
+      },
+      "md": {
+        "displayName": "Lede",
+        "purpose": "Intro paragraphs, colour notes."
+      },
+      "sm": {
+        "displayName": "Body",
+        "purpose": "Body, card titles, form text."
+      },
+      "sm-display": {
+        "displayName": "Control",
+        "purpose": "Buttons, one-line labels."
+      },
+      "xs": {
+        "displayName": "Caption",
+        "purpose": "Meta, dates, counts, hex."
+      },
+      "xxs": {
+        "displayName": "Legal",
+        "purpose": "Footer credit small print."
+      }
+    },
+    "fonts": {
+      "family": "Hanken Grotesk",
+      "licence": "SIL Open Font License 1.1",
+      "source": "https://fonts.google.com/specimen/Hanken+Grotesk",
+      "weights": [
+        400,
+        500
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "hosting": "self-host woff2 under /fonts (no third-party font requests)",
+      "replaces": "Unica77 LL (Lineto, commercial) used by the design source",
+      "fallback": "'Helvetica Neue', Helvetica, Arial, sans-serif (Palette's own fallback stack)"
+    },
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 2px 10px 0 rgba(0, 0, 0, 0.08)",
+        "purpose": "Floating layers only: suggestions, dropdowns."
+      },
+      {
+        "name": "image-text",
+        "value": "0 0 15px rgba(0, 0, 0, 0.25)",
+        "purpose": "Text over images."
+      }
+    ],
+    "effects": {
+      "overlayGradient": "Palette eased black overlay (0 → 0.5), see stardust/canon-source/storybook/themes-v3.js EFFECTS.overlayGradient",
+      "backdrop": "rgba(229, 229, 229, 0.5)"
+    },
+    "motion": {
+      "register": "editorial",
+      "registerRationale": "PRODUCT.md Brand Commitments personality 'gallery-quiet, editorial' → editorial (also matches modular-catalogue → kinetic-grid; editorial chosen because the design source's motion is minimal fades, and colour/artwork pages are reading-paced)",
+      "easings": {
+        "entrance": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "transition": "cubic-bezier(0.42, 0, 0, 1)"
+      },
+      "durations": {
+        "enter": 900,
+        "stagger": 140,
+        "stateChange": 250
+      },
+      "parallax": {
+        "translate": 10,
+        "fade": 0.2,
+        "rangeStart": 0,
+        "range": 90
+      }
+    },
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "0-767px"
+      },
+      {
+        "name": "sm",
+        "value": "768px"
+      },
+      {
+        "name": "md",
+        "value": "1280px"
+      },
+      {
+        "name": "lg",
+        "value": "1920px"
+      }
+    ],
+    "layoutBreakpointsNote": "Palette breakpoints adopted (768 / 1280 / 1920); replaces the boilerplate's single 900px breakpoint.",
+    "containerMaxWidth": "1200px (content width, gutters outside; user decision 2026-11-11, narrower than Palette's full-width-to-1920 layout)",
+    "componentStyle": {
+      "buttons": "pill, 50px (30px small), 1px border = fill, sm-display; primary black → ultramarine + underline on hover/focus; secondary outline; quiet hairline; disabled plaster",
+      "cards": "frameless artwork card: true-aspect image on white, caption stack below; no border, radius or shadow",
+      "inputs": "50px, 3px radius, 1px graphite border, hover black, focus ultramarine, error vermilion",
+      "dualCTAPattern": "primary black pill + secondary outline pill, left-aligned"
+    },
+    "systemComponentRoles": {
+      "header": {
+        "purpose": "wordmark + primary navigation",
+        "position": "top, full width, hairline bottom border",
+        "constraint": "text wordmark (no logo artwork exists)"
+      },
+      "footer": {
+        "purpose": "credit SMK – National Gallery of Denmark and CC0; data source; site links",
+        "position": "page end",
+        "constraint": "credit must appear on every page"
+      },
+      "search-panel": {
+        "purpose": "free text, colour picker, facets",
+        "position": "top of search views",
+        "constraint": "search-led IA priority (see iaPriorities)"
+      }
+    },
+    "voice": {
+      "dos": [
+        "Sentence case, plain words: 'Search works with gold'",
+        "Name colours and works exactly as the data does",
+        "Credit SMK by its full name"
+      ],
+      "donts": [
+        "No marketing superlatives",
+        "No all-caps eyebrows",
+        "No Artsy names, slogans or copy"
+      ],
+      "samples": [
+        "Explore the SMK collection",
+        "Often together",
+        "See all 6 works with Gold #f6d727"
+      ]
+    },
+    "iaPriorities": [
+      {
+        "signal": "search-led",
+        "evidence": "stardust/current/pages/index.json — search block (query field, colour wheel/grid, facet selects) is the home page's primary content",
+        "preserveAs": "first-viewport",
+        "scope": "home and any page carrying the search block",
+        "mutability": "locked"
+      },
+      {
+        "signal": "attribution",
+        "evidence": "footer credit 'SMK – National Gallery of Denmark … CC0' on all 4 captured pages",
+        "preserveAs": "site-wide footer",
+        "scope": "site-wide",
+        "mutability": "locked"
+      },
+      {
+        "signal": "colour-navigation",
+        "evidence": "artwork page colour list links to colour pages; colour page links to search and 'often together'",
+        "preserveAs": "every swatch stays a link with name + hex",
+        "scope": "colour + artwork pages",
+        "mutability": "locked"
+      }
+    ],
+    "divergence": {
+      "toolkit_version": "v1.0 (stardust v2)",
+      "mode": "design-donor Mode A (brand-faithful to donor)",
+      "signal": {
+        "primary": "signal-thin (placeholder design: 1 family, no accent, ad-hoc scale)",
+        "donor": "signal-strong (25 tokens, 11 type variants, measured components)"
+      },
+      "seed": {
+        "input": "SMK Explorer|2026-11-11",
+        "decade": "2025-now",
+        "craft": "gallery catalogue",
+        "register": "catalogue",
+        "ground_family": "stark-white",
+        "picked_by": "anchor-reference: Artsy Palette (design source)",
+        "overrides": [
+          {
+            "dimension": "ground_family",
+            "reason": "brand-faithful",
+            "value": "stark-white (donor mono0)"
+          }
+        ]
+      },
+      "font_deck": "donor-inherited (Unica77 LL) → substituted: Hanken Grotesk",
+      "font_deck_picked_by": "user-constraint: open look-alike; reflex-reject table substitute for Inter (utility body)",
+      "palette_source": "inherited from stardust/canon-source/_brand-extraction.json (Palette tokens 7.3.0); role-renamed per toolkit § 4",
+      "palette_picked_by": "user-constraint (fidelity: close to Artsy)",
+      "anti_toolbox_count": 1,
+      "anti_toolbox_hits": [
+        {
+          "move": "Pill buttons",
+          "justification": "Donor signature (Palette button radius 25px on 50px) — pinned by fidelity: close."
+        }
+      ],
+      "brand_faithful_inversions": [
+        "pure-white retention: #ffffff kept as page ground (Palette mono0, the gallery-wall ground of the design source). The 'no pure black/white' impeccable rule is inverted per brand-faithful direction.",
+        "pure-black retention: #000000 kept as primary text and primary button fill (Palette mono100). The 'no pure black/white' rule is inverted per brand-faithful direction.",
+        "hex format retention: colour tokens kept in hex, matching @artsy/palette-tokens. OKLCH applies to new authoring; this is inheritance.",
+        "sharp 0px corner retention: images, cards, panels and messages stay square (Palette). The rounded-card reflex is inverted.",
+        "saturated colour retention: ultramarine #1023d7 kept as the single state colour (Palette brand). The tinted-neutral reflex is inverted."
+      ],
+      "brand_adjacent_refinements": [
+        {
+          "what": "field and pill border at rest: plaster #c2c2c2 → graphite #707070",
+          "why": "plaster on white is 1.78:1, below WCAG 1.4.11 3:1 for component boundaries; graphite is 4.95:1 and is itself a Palette token",
+          "scope": "inputs, selects, pills"
+        },
+        {
+          "what": "typeface: Unica77 LL → Hanken Grotesk",
+          "why": "Unica77 LL is commercially licensed; user chose an open look-alike",
+          "scope": "all text"
+        }
+      ],
+      "references_used": [
+        {
+          "name": "Artsy Palette design system",
+          "url": "https://palette-storybook.artsy.net/",
+          "use": "design source (all tokens and component shapes)"
+        },
+        {
+          "name": "@artsy/palette-tokens 7.3.0 (MIT)",
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/"
+        }
+      ],
+      "off_toolbox_moves": [],
+      "audit_adjustments": [
+        "pill outline plaster → graphite (contrast)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action (search submit, see all works).",
+      "html": "<button class=\"ds-btn-primary\">Search</button>",
+      "css": ".ds-btn-primary{height:50px;padding:0 25px;border:1px solid #000;border-radius:9999px;background:#000;color:#fff;font:400 16px/20px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;cursor:pointer;transition:background .25s,border-color .25s}.ds-btn-primary:hover,.ds-btn-primary:focus-visible{background:#1023d7;border-color:#1023d7;text-decoration:underline;outline:none}.ds-btn-primary:active{background:#0a1c7b}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action (load more, open on SMK).",
+      "html": "<button class=\"ds-btn-secondary\">Load more</button>",
+      "css": ".ds-btn-secondary{height:50px;padding:0 25px;border:1px solid #000;border-radius:9999px;background:transparent;color:#000;font:400 16px/20px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;cursor:pointer;transition:color .25s,border-color .25s}.ds-btn-secondary:hover,.ds-btn-secondary:focus-visible{color:#1023d7;border-color:#1023d7;text-decoration:underline;outline:none}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "50px text field.",
+      "html": "<input class=\"ds-input\" type=\"search\" placeholder=\"Artist, title, subject\" aria-label=\"Search the collection\">",
+      "css": ".ds-input{height:50px;padding:0 10px;border:1px solid #707070;border-radius:3px;background:#fff;color:#000;font:400 16px/26px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;transition:border-color .25s}.ds-input::placeholder{color:#707070}.ds-input:hover{border-color:#000}.ds-input:focus{border-color:#1023d7;outline:none}"
+    },
+    {
+      "name": "Filter Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Facet / filter toggle.",
+      "html": "<button class=\"ds-pill\" aria-pressed=\"false\">Painting</button> <button class=\"ds-pill\" aria-pressed=\"true\">Danish</button>",
+      "css": ".ds-pill{height:30px;padding:0 15px;border:1px solid #707070;border-radius:9999px;background:#fff;color:#000;font:400 13px/20px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;cursor:pointer}.ds-pill:hover{border-color:#000}.ds-pill:focus-visible{outline:2px solid #1023d7;outline-offset:2px}.ds-pill[aria-pressed=true]{background:#1023d7;border-color:#1023d7;color:#fff}"
+    },
+    {
+      "name": "Colour Swatch",
+      "kind": "custom",
+      "refersTo": "swatch",
+      "description": "Signature: square chip + name + hex + count.",
+      "html": "<a class=\"ds-swatch\" href=\"#\"><span class=\"ds-swatch-chip\" style=\"background:#f6d727\"></span><span class=\"ds-swatch-name\">Gold</span><span class=\"ds-swatch-meta\">#f6d727 · 6 works</span></a>",
+      "css": ".ds-swatch{display:grid;grid-template-columns:40px 1fr;column-gap:10px;align-items:center;color:#000;text-decoration:none;font:400 16px/26px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-swatch-chip{grid-row:span 2;width:40px;height:40px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}.ds-swatch-meta{font:400 13px/20px ui-monospace,Menlo,monospace;color:#707070}.ds-swatch:hover .ds-swatch-name,.ds-swatch:focus-visible .ds-swatch-name{text-decoration:underline}.ds-swatch:focus-visible{outline:2px solid #1023d7;outline-offset:4px}"
+    },
+    {
+      "name": "Artwork Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Frameless card, true-aspect image.",
+      "html": "<a class=\"ds-card\" href=\"#\"><span class=\"ds-card-img\"></span><span class=\"ds-card-title\">Cathrine Sophie Kirchhoff</span><span class=\"ds-card-meta\">Jens Juel</span><span class=\"ds-card-date\">1768</span></a>",
+      "css": ".ds-card{display:flex;flex-direction:column;gap:0;width:220px;color:#000;text-decoration:none;font:400 16px/26px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-card-img{display:block;aspect-ratio:4/5;background:#e7e7e7;margin-bottom:10px}.ds-card-title{font-weight:500}.ds-card-meta{color:#707070}.ds-card-date{font-size:13px;line-height:20px;color:#707070}.ds-card:hover .ds-card-title,.ds-card:focus-visible .ds-card-title{text-decoration:underline}.ds-card:focus-visible{outline:2px solid #1023d7;outline-offset:4px}"
+    },
+    {
+      "name": "Navigational Tabs",
+      "kind": "nav",
+      "refersTo": "tabs",
+      "description": "Underline tabs (e.g. Wheel / Grid).",
+      "html": "<nav class=\"ds-tabs\"><a aria-current=\"page\" href=\"#\">Wheel</a><a href=\"#\">Grid</a></nav>",
+      "css": ".ds-tabs{display:flex;border-bottom:1px solid #e7e7e7;font:400 16px/26px 'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-tabs a{flex:1;text-align:center;padding:10px 0;color:#707070;text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px}.ds-tabs a:hover{color:#000}.ds-tabs a[aria-current]{color:#000;border-bottom-color:#000}.ds-tabs a:focus-visible{outline:2px solid #1023d7}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The white gallery wall",
+    "overview": "Artsy's Palette system adopted closely for SMK's open collection: monochrome chrome, one grotesque at one weight, ultramarine only for state. SMK's colour data and the artworks are the only colour on the page.",
+    "keyCharacteristics": [
+      "10px spacing unit",
+      "pill buttons, 3px fields, square imagery",
+      "hairline dividers instead of boxes",
+      "hierarchy by size and tracking at weight 400",
+      "colour reserved for data"
+    ],
+    "rules": [
+      {
+        "name": "The Data Colour Rule",
+        "body": "SMK palette colours appear only as data; never in chrome.",
+        "section": "colors"
+      },
+      {
+        "name": "The One State Colour Rule",
+        "body": "Ultramarine means focused, hovered or chosen, always with a non-colour cue.",
+        "section": "colors"
+      },
+      {
+        "name": "One Weight Rule",
+        "body": "Headings at 400; 500 only for emphasis in small text.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Let artworks and colour data carry the colour",
+      "Show works uncropped",
+      "Label every colour with name and hex"
+    ],
+    "donts": [
+      "No tinted chrome or second accent",
+      "No bold or all-caps headings",
+      "No rounded or shadowed images",
+      "No Artsy logo, name or copy"
+    ]
+  }
+}

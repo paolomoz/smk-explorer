@@ -1,0 +1,129 @@
+/*
+ * Artwork page template (metadata: template = artwork).
+ * artwork.js groups the title, byline and details into .artwork-details, so the
+ * first section is: picture | details. One column on small phones, two from 480px.
+ * Content order is unchanged.
+ */
+
+/* the work: shown whole, never cropped, framed only by white space */
+body.artwork main > .section:first-of-type picture {
+  display: block;
+  margin: var(--space-2) 0 var(--space-3);
+}
+
+body.artwork main > .section:first-of-type picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70svh;
+  object-fit: contain;
+}
+
+body.artwork .artwork-details h1 {
+  margin: 0;
+}
+
+/* byline: artist, date */
+body.artwork .artwork-details h1 + p {
+  margin: var(--space-05) 0 0;
+  font-size: var(--type-md-size);
+  line-height: var(--type-md-lh);
+  color: var(--secondary-text-color);
+}
+
+body.artwork .artwork-details .facts-wrapper {
+  margin: var(--space-3) 0 0;
+}
+
+/* the details column is narrow until 1280px: title one step down (lg-display) */
+@media (width < 1280px) {
+  body.artwork .artwork-details h1 {
+    font-size: var(--type-lg-size);
+    line-height: var(--type-lg-display-lh);
+  }
+}
+
+/* picture left, details right on everything but small phones; both start at the top */
+@media (width >= 480px) {
+  body.artwork main > .section:first-of-type {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+    column-gap: var(--gutter);
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: var(--space-3) var(--gutter) 0;
+  }
+
+  body.artwork main > .section:first-of-type > div {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.artwork main > .section:first-of-type picture {
+    margin: 0;
+  }
+
+  body.artwork main > .section:first-of-type picture img {
+    max-height: calc(100svh - var(--nav-height) - 2 * var(--space-4));
+    object-position: center top;
+  }
+
+  /* trim the title's line spacing so its capitals meet the picture's top edge */
+  body.artwork .artwork-details h1 {
+    text-box: trim-start cap alphabetic;
+  }
+}
+
+/* narrow two-column range: title and byline one more step down (md, sm) */
+@media (width >= 480px) and (width < 768px) {
+  body.artwork .artwork-details h1 {
+    font-size: var(--type-md-size);
+    line-height: var(--type-md-lh);
+    letter-spacing: normal;
+  }
+
+  body.artwork .artwork-details h1 + p {
+    font-size: var(--type-sm-size);
+    line-height: var(--type-sm-lh);
+  }
+
+  body.artwork .artwork-details .facts-wrapper {
+    margin-top: var(--space-2);
+  }
+}
+
+@media (width >= 768px) {
+  body.artwork main > .section:first-of-type {
+    padding-top: var(--space-4);
+  }
+}
+
+@media (width >= 1280px) {
+  body.artwork main > .section:first-of-type {
+    grid-template-columns: minmax(0, 2fr) minmax(360px, 1fr);
+    column-gap: var(--space-6);
+  }
+}
+
+/* following sections (colours, about the work): hairline divider */
+body.artwork main > .section + .section::before {
+  content: "";
+  display: block;
+  margin: 0 max(var(--gutter), calc((100% - var(--container-max)) / 2)) var(--space-3);
+  border-top: 1px solid var(--divider-color);
+}
+
+body.artwork main > .section + .section h2 {
+  margin-top: 0;
+}
+
+body.artwork main > .section + .section .swatches-wrapper {
+  margin-block: var(--space-2);
+}
+
+/* link to the work on open.smk.dk: wraps on small screens */
+body.artwork main a.button:any-link {
+  padding: 14px 25px;
+}

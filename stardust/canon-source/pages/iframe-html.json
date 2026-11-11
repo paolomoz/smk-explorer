@@ -1,0 +1,54 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:31:41.650Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "iframe-html",
+  "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--theme&viewMode=story",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:31:41.650Z",
+  "finalUrl": "https://palette-storybook.artsy.net/iframe.html?id=theme--theme&viewMode=story",
+  "title": "theme--theme",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [],
+  "body": [],
+  "codeBlocks": [
+    "{\n  \"id\": \"v3\",\n  \"name\": \"light\",\n  \"breakpoints\": [\n    \"768px\",\n    \"1280px\",\n    \"1920px\"\n  ],\n  \"colors\": {\n    \"mono100\": \"#000000\",\n    \"mono60\": \"#707070\",\n    \"mono30\": \"#C2C2C2\",\n    \"mono15\": \"#D8D8D8\",\n    \"mono10\": \"#E7E7E7\",\n    \"mono5\": \"#F7F7F7\",\n    \"mono0\": \"#FFFFFF\",\n    \"blue200\": \"#050e3e\",\n    \"blue150\": \"#0A1C7B\",\n    \"blue100\": \"#1023D7\",\n    \"brand\": \"#1023D7\",\n    \"blue15\": \"#cacdec\",\n    \"blue10\": \"#E6E7F5\",\n    \"green150\": \"#003728\",\n    \"green100\": \"#00674A\",\n    \"green10\": \"#E8EFE2\",\n    \"yellow150\": \"#A47A0F\",\n    \"yellow100\": \"#E2B929\",\n    \"yellow10\": \"#FFFAE9\",\n    \"orange150\": \"#A8501C\",\n    \"orange100\": \"#DA6722\",\n    \"orange10\": \"#FCF7F3\",\n    \"red150\": \"#510B0B\",\n    \"red100\": \"#D71023\",\n    \"red50\": \"#FF1023\",\n    \"red10\": \"#FEF2EF\"\n  },\n  \"effects\": {\n    \"dropShadow\": \"0 2px 10px 0 rgba(0, 0, 0, 0.08)\",\n    \"innerShadow\": \"1px 1px 2px 0 rgba(0, 0, 0, 0.1) inset\",\n    \"flatShadow\": \"0 1px 1px 0 rgba(0, 0, 0, 0.05)\",\n    \"textShadow\": \"0 0 15px rgba(0, 0, 0, 0.25)\",\n    \"overlayGradient\": \"\\n    linear-gradient(\\n      to bottom,\\n      hsla(0, 0%, 0%, 0) 0%,\\n      hsla(0, 0%, 0%, 0.006) 8.1%,\\n      hsla(0, 0%, 0%, 0.024) 15.5%,\\n      hsla(0, 0%, 0%, 0.052) 22.5%,\\n      hsla(0, 0%, 0%, 0.088) 29%,\\n      hsla(0, 0%, 0%, 0.13) 35.3%,\\n      hsla(0, 0%, 0%, 0.176) 41.2%,\\n      hsla(0, 0%, 0%, 0.225) 47.1%,\\n      hsla(0, 0%, 0%, 0.275) 52.9%,\\n      hsla(0, 0%, 0%, 0.324) 58.8%,\\n      hsla(0, 0%, 0%, 0.37) 64.7%,\\n      hsla(0, 0%, 0%, 0.412) 71%,\\n      hsla(0, 0%, 0%, 0.448) 77.5%,\\n      hsla(0, 0%, 0%, 0.476) 84.5%,\\n      hsla(0, 0%, 0%, 0.494) 91.9%,\\n      hsla(0, 0%, 0%, 0.5) 100%\\n    );\\n  \",\n    \"fadeRight\": \"linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%)\",\n    \"backdrop\": \"rgba(229, 229, 229, 0.5)\"\n  },\n  \"fonts\": {\n    \"sans\": \"\\\"ll-unica77\\\", \\\"Helvetica Neue\\\", Helvetica, Arial, sans-serif\"\n  },\n  \"mediaQueries\": {\n    \"lg\": \"(min-width: 1920px)\",\n    \"md\": \"(min-width: 1280px) and (max-width: 1919px)\",\n    \"sm\": \"(min-width: 768px) and (max-width: 1279px)\",\n    \"xs\": \"(max-width: 767px)\",\n    \"hover\": \"not all and (pointer: coarse), not all and (-moz-touch-enabled: 1)\"\n  },\n  \"grid\": {\n    \"breakpoints\": {}\n  },\n  \"space\": {\n    \"1\": \"10px\",\n    \"2\": \"20px\",\n    \"4\": \"40px\",\n    \"6\": \"60px\",\n    \"12\": \"120px\",\n    \"0.5\": \"5px\",\n    \"half\": \"5px\"\n  },\n  \"textVariants\": {\n    \"xxxl\": {\n      \"fontSize\": \"102px\",\n      \"lineHeight\": \"108px\",\n      \"letterSpacing\": \"-0.01em\"\n    },\n    \"xxl\": {\n      \"fontSize\": \"60px\",\n      \"lineHeight\": \"70px\",\n      \"letterSpacing\": \"-0.01em\"\n    },\n    \"xl\": {\n      \"fontSize\": \"40px\",\n      \"lineHeight\": \"48px\",\n      \"letterSpacing\": \"-0.01em\"\n    },\n    \"lg\": {\n      \"fontSize\": \"26px\",\n      \"lineHeight\": \"40px\",\n      \"letterSpacing\": \"-0.01em\"\n    },\n    \"lg-display\": {\n      \"fontSize\": \"26px\",\n      \"lineHeight\": \"32px\",\n      \"letterSpacing\": \"-0.01em\"\n    },\n    \"md\": {\n      \"fontSize\": \"20px\",\n      \"lineHeight\": \"32px\"\n    },\n    \"sm\": {\n      \"fontSize\": \"16px\",\n      \"lineHeight\": \"26px\"\n    },\n    \"sm-display\": {\n      \"fontSize\": \"16px\",\n      \"lineHeight\": \"20px\"\n    },\n    \"xs\": {\n      \"fontSize\": \"13px\",\n      \"lineHeight\": \"20px\"\n    },\n    \"xxs\": {\n      \"fontSize\": \"11px\",\n      \"lineHeight\": \"14px\"\n    },\n    \"bq\": {\n      \"fontSize\": \"50px\",\n      \"lineHeight\": \"60px\",\n      \"letterSpacing\": \"-0.01em\"\n    }\n  }\n}"
+  ],
+  "ctas": [],
+  "links": [
+    "https://storybook.js.org/docs/writing-stories/decorators",
+    "https://storybook.js.org/docs/builders/webpack",
+    "https://storybook.js.org/docs/builders/vite",
+    "https://storybook.js.org/docs/configure/environment-variables"
+  ],
+  "media": {
+    "imgs": [],
+    "allImgCount": 0,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 0,
+    "mainTextLen": 8550,
+    "realImageCount": 0,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/iframe-html.png",
+  "renderedHtml": "pages/iframe-html.html"
+}

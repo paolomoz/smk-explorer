@@ -1,0 +1,479 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-11T07:30:16.031Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-11T07:30:16.031Z",
+  "finalUrl": "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+  "title": "SMK Explorer – search the National Gallery of Denmark by colour",
+  "description": "Search public-domain works from SMK – National Gallery of Denmark by keyword, colour, work type, artist, nationality, technique and century.",
+  "og": {
+    "title": "SMK Explorer – search the National Gallery of Denmark by colour",
+    "description": "Search public-domain works from SMK – National Gallery of Denmark by keyword, colour, work type, artist, nationality, technique and century.",
+    "image": "https://collection-explorer--smk-explorer--paolomoz.aem.page/default-meta-image.png?width=1200&format=pjpg&optimize=medium",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Explore the SMK collection"
+    }
+  ],
+  "body": [
+    "Search almost 40,000 public-domain works from SMK – National Gallery of Denmark. Type a word, pick colours from SMK's own palette, and narrow the results by work type, artist, nationality, technique and century.",
+    "Every search has its own address, so you can share it. Or browse all the colours SMK uses to tag its works.",
+    "Pick colours from SMK’s palette. With several colours, you get the works that contain all of them.",
+    "39,504 works",
+    "Augustus og den tiburtinske sibylleAntonio da Trento1500-1550",
+    "Augustus og den tiburtinske sibylle",
+    "Antonio da Trento",
+    "1500-1550",
+    "Peters og Paulus' martyriumAntonio da Trento1500-1550",
+    "Peters og Paulus' martyrium",
+    "Antonio da Trento",
+    "1500-1550",
+    "Peters og Paulus' martyriumAntonio da Trento1500-1550",
+    "Peters og Paulus' martyrium",
+    "Antonio da Trento",
+    "1500-1550",
+    "Peters og Paulus' martyriumAntonio da Trento1500-1550",
+    "Peters og Paulus' martyrium",
+    "Antonio da Trento",
+    "1500-1550",
+    "\"Pan\" og \"Apollon og Marsyas\"Ugo da Carpi1510-1530",
+    "\"Pan\" og \"Apollon og Marsyas\"",
+    "Ugo da Carpi",
+    "1510-1530",
+    "\"Pan\" og \"Apollon og Marsyas\"Ugo da Carpi1510-1530",
+    "\"Pan\" og \"Apollon og Marsyas\"",
+    "Ugo da Carpi",
+    "1510-1530",
+    "Fortællingen om Akigssiak: Sælhundeboldspillet, hvor bedstefaderen overvindesMarkus Lynge1859-1860",
+    "Fortællingen om Akigssiak: Sælhundeboldspillet, hvor bedstefaderen overvindes",
+    "Markus Lynge",
+    "1859-1860",
+    "Fortællingen om Akigssiak: Akigssiak kaster indlandsboen ned fra et fjeldMarkus Lynge1859-1860",
+    "Fortællingen om Akigssiak: Akigssiak kaster indlandsboen ned fra et fjeld",
+    "Markus Lynge",
+    "1859-1860",
+    "Nordbosagaerne. Fortællingen om Oungortok: Kasape dræber høvdingen Oungortok.Aron fra Kangeq1857-1861",
+    "Nordbosagaerne. Fortællingen om Oungortok: Kasape dræber høvdingen Oungortok.",
+    "Aron fra Kangeq",
+    "1857-1861",
+    "Portræt af hærfører, Nikola IV Zrinski (Miklós IV Zrínyi)Matthias Zündt1500-1599",
+    "Portræt af hærfører, Nikola IV Zrinski (Miklós IV Zrínyi)",
+    "Matthias Zündt",
+    "1500-1599",
+    "OverraskelsenUgo da Carpi1510-1520",
+    "Overraskelsen",
+    "Ugo da Carpi",
+    "1510-1520",
+    "Portræt af Joannes de ValetaMatthias Zündt1566",
+    "Portræt af Joannes de Valeta",
+    "Matthias Zündt",
+    "1566",
+    "Louis III de Bourbon, prins af CondéMatthias Zündt1568",
+    "Louis III de Bourbon, prins af Condé",
+    "Matthias Zündt",
+    "1568",
+    "Louis III de Bourbon, prins af CondéMatthias Zündt1568",
+    "Louis III de Bourbon, prins af Condé",
+    "Matthias Zündt",
+    "1568",
+    "Den hellige Peter forkynder evangelietUgo da Carpi1510-1520",
+    "Den hellige Peter forkynder evangeliet",
+    "Ugo da Carpi",
+    "1510-1520",
+    "KorsnedtagelsenUgo da Carpi1510-1530",
+    "Korsnedtagelsen",
+    "Ugo da Carpi",
+    "1510-1530",
+    "Peters fiskedrætUgo da Carpi1510-1520",
+    "Peters fiskedræt",
+    "Ugo da Carpi",
+    "1510-1520",
+    "AndromedaWillem van Swanenburgh1610",
+    "Andromeda",
+    "Willem van Swanenburgh",
+    "1610",
+    "DeborahUnknown1600",
+    "Deborah",
+    "Unknown",
+    "1600",
+    "Bakkus serverer for et ældre par. VinterJan Saenredam1595",
+    "Bakkus serverer for et ældre par. Vinter",
+    "Jan Saenredam",
+    "1595",
+    "Høst og vinsmagning. EfterårJan Saenredam1595",
+    "Høst og vinsmagning. Efterår",
+    "Jan Saenredam",
+    "1595",
+    "Musicerende par. ForårJan Saenredam1595",
+    "Musicerende par. Forår",
+    "Jan Saenredam",
+    "1595",
+    "Visdom (Sapientia)Unknown1615-1652",
+    "Visdom (Sapientia)",
+    "Unknown",
+    "1615-1652",
+    "SymphoniaTobias Stimmer1574",
+    "Symphonia",
+    "Tobias Stimmer",
+    "1574",
+    "Load more"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "SMK Explorer",
+      "href": "/"
+    },
+    {
+      "label": "Search",
+      "href": "/"
+    },
+    {
+      "label": "Colours",
+      "href": "/colours"
+    },
+    {
+      "label": "SMK Open",
+      "href": "https://open.smk.dk/"
+    },
+    {
+      "label": "browse all the colours",
+      "href": "/colours"
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Wheel",
+      "href": null
+    },
+    {
+      "label": "Grid",
+      "href": null
+    },
+    {
+      "label": "Augustus og den tiburtinske sibylle",
+      "href": "https://open.smk.dk/artwork/image/KKS5261"
+    },
+    {
+      "label": "Peters og Paulus' martyrium",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22423"
+    },
+    {
+      "label": "Peters og Paulus' martyrium",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22422"
+    },
+    {
+      "label": "Peters og Paulus' martyrium",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22421"
+    },
+    {
+      "label": "\"Pan\" og \"Apollon og Marsyas\"",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22416"
+    },
+    {
+      "label": "\"Pan\" og \"Apollon og Marsyas\"",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22415"
+    },
+    {
+      "label": "Fortællingen om Akigssiak: Sælhundeboldspillet, hvor bedstefaderen overvindes",
+      "href": "https://open.smk.dk/artwork/image/KKS13358d"
+    },
+    {
+      "label": "Fortællingen om Akigssiak: Akigssiak kaster indlandsboen ned fra et fjeld",
+      "href": "https://open.smk.dk/artwork/image/KKS13358e"
+    },
+    {
+      "label": "Nordbosagaerne. Fortællingen om Oungortok: Kasape dræber høvdingen Oungortok.",
+      "href": "https://open.smk.dk/artwork/image/KKS13358h"
+    },
+    {
+      "label": "Portræt af hærfører, Nikola IV Zrinski (Miklós IV Zrínyi)",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22352"
+    },
+    {
+      "label": "Overraskelsen",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22417"
+    },
+    {
+      "label": "Portræt af Joannes de Valeta",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22351"
+    },
+    {
+      "label": "Louis III de Bourbon, prins af Condé",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22349"
+    },
+    {
+      "label": "Louis III de Bourbon, prins af Condé",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22350"
+    },
+    {
+      "label": "Den hellige Peter forkynder evangeliet",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22414"
+    },
+    {
+      "label": "Korsnedtagelsen",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22413"
+    },
+    {
+      "label": "Peters fiskedræt",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22411"
+    },
+    {
+      "label": "Andromeda",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22235"
+    },
+    {
+      "label": "Deborah",
+      "href": "https://open.smk.dk/artwork/image/KKSgb1404"
+    },
+    {
+      "label": "Bakkus serverer for et ældre par. Vinter",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22234"
+    },
+    {
+      "label": "Høst og vinsmagning. Efterår",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22233"
+    },
+    {
+      "label": "Musicerende par. Forår",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22232"
+    },
+    {
+      "label": "Visdom (Sapientia)",
+      "href": "https://open.smk.dk/artwork/image/KKSgb1403"
+    },
+    {
+      "label": "Symphonia",
+      "href": "https://open.smk.dk/artwork/image/KKSgb22348"
+    },
+    {
+      "label": "Load more",
+      "href": null
+    },
+    {
+      "label": "SMK – National Gallery of Denmark",
+      "href": "https://www.smk.dk/"
+    },
+    {
+      "label": "CC0",
+      "href": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "label": "SMK Open API",
+      "href": "https://www.smk.dk/article/smk-api/"
+    },
+    {
+      "label": "open.smk.dk",
+      "href": "https://open.smk.dk/"
+    },
+    {
+      "label": "Search",
+      "href": "/"
+    },
+    {
+      "label": "Colours",
+      "href": "/colours"
+    }
+  ],
+  "links": [
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/",
+    "https://collection-explorer--smk-explorer--paolomoz.aem.page/colours",
+    "https://open.smk.dk/",
+    "https://open.smk.dk/artwork/image/KKS5261",
+    "https://open.smk.dk/artwork/image/KKSgb22423",
+    "https://open.smk.dk/artwork/image/KKSgb22422",
+    "https://open.smk.dk/artwork/image/KKSgb22421",
+    "https://open.smk.dk/artwork/image/KKSgb22416",
+    "https://open.smk.dk/artwork/image/KKSgb22415",
+    "https://open.smk.dk/artwork/image/KKS13358d",
+    "https://open.smk.dk/artwork/image/KKS13358e",
+    "https://open.smk.dk/artwork/image/KKS13358h",
+    "https://open.smk.dk/artwork/image/KKSgb22352",
+    "https://open.smk.dk/artwork/image/KKSgb22417",
+    "https://open.smk.dk/artwork/image/KKSgb22351",
+    "https://open.smk.dk/artwork/image/KKSgb22349",
+    "https://open.smk.dk/artwork/image/KKSgb22350",
+    "https://open.smk.dk/artwork/image/KKSgb22414",
+    "https://open.smk.dk/artwork/image/KKSgb22413",
+    "https://open.smk.dk/artwork/image/KKSgb22411",
+    "https://open.smk.dk/artwork/image/KKSgb22235",
+    "https://open.smk.dk/artwork/image/KKSgb1404",
+    "https://open.smk.dk/artwork/image/KKSgb22234",
+    "https://open.smk.dk/artwork/image/KKSgb22233",
+    "https://open.smk.dk/artwork/image/KKSgb22232",
+    "https://open.smk.dk/artwork/image/KKSgb1403",
+    "https://open.smk.dk/artwork/image/KKSgb22348",
+    "https://www.smk.dk/",
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    "https://www.smk.dk/article/smk-api/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/qz20sx771_kks5261.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Augustus og den tiburtinske sibylle by Antonio da Trento",
+        "w": 1024,
+        "h": 1289
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/1z40kx99j_kksgb22423.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Peters og Paulus' martyrium by Antonio da Trento",
+        "w": 1024,
+        "h": 658
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/47429f31j_kksgb22422.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Peters og Paulus' martyrium by Antonio da Trento",
+        "w": 1024,
+        "h": 658
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/gm80j076n_kksgb22421.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Peters og Paulus' martyrium by Antonio da Trento",
+        "w": 1024,
+        "h": 628
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/j3860c141_kksgb22416.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "\"Pan\" og \"Apollon og Marsyas\" by Ugo da Carpi",
+        "w": 1024,
+        "h": 776
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/m613n2937_kksgb22415.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "\"Pan\" og \"Apollon og Marsyas\" by Ugo da Carpi",
+        "w": 1024,
+        "h": 773
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/t435gj38r_kks13358d.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Fortællingen om Akigssiak: Sælhundeboldspillet, hvor bedstefaderen overvindes by Markus Lynge",
+        "w": 1024,
+        "h": 584
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/wd376190d_kks13358e.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Fortællingen om Akigssiak: Akigssiak kaster indlandsboen ned fra et fjeld by Markus Lynge",
+        "w": 1024,
+        "h": 974
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/q811kq25n_kks13358h.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Nordbosagaerne. Fortællingen om Oungortok: Kasape dræber høvdingen Oungortok. by Aron fra Kangeq",
+        "w": 1024,
+        "h": 967
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/6d570178m_kksgb22352.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Portræt af hærfører, Nikola IV Zrinski (Miklós IV Zrínyi) by Matthias Zündt",
+        "w": 1024,
+        "h": 1478
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/44558j15x_kksgb22417.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Overraskelsen by Ugo da Carpi",
+        "w": 1024,
+        "h": 1516
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/2v23vz642_kksgb22351.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Portræt af Joannes de Valeta by Matthias Zündt",
+        "w": 1024,
+        "h": 1399
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/b5644w750_kksgb22349.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Louis III de Bourbon, prins af Condé by Matthias Zündt",
+        "w": 1024,
+        "h": 1386
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/4f16c760r_kksgb22350.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Louis III de Bourbon, prins af Condé by Matthias Zündt",
+        "w": 1024,
+        "h": 1399
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/jw827h029_kksgb22414.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Den hellige Peter forkynder evangeliet by Ugo da Carpi",
+        "w": 1024,
+        "h": 412
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/x920g236z_kksgb22413.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Korsnedtagelsen by Ugo da Carpi",
+        "w": 1024,
+        "h": 1260
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/x346d8445_kksgb22411.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Peters fiskedræt by Ugo da Carpi",
+        "w": 1024,
+        "h": 736
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/bc386p50w_kksgb22235.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Andromeda by Willem van Swanenburgh",
+        "w": 1024,
+        "h": 1321
+      },
+      {
+        "src": "https://iip-thumb.smk.dk/iiif/jp2/4f16c739h_kksgb1404.tif.jp2/full/!1024,/0/default.jpg",
+        "alt": "Deborah by Unknown",
+        "w": 1024,
+        "h": 1404
+      }
+    ],
+    "allImgCount": 24,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--background-color": "#fff",
+    "--light-color": "#f4f4f4",
+    "--dark-color": "#4a4a4a",
+    "--text-color": "#1a1a1a",
+    "--secondary-text-color": "#5c5c5c",
+    "--border-color": "#d0d0d0",
+    "--link-color": "#1a1a1a",
+    "--link-hover-color": "#000",
+    "--body-font-family": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+    "--heading-font-family": "system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+    "--fixed-font-family": "ui-monospace, \"SFMono-Regular\", menlo, consolas, monospace",
+    "--body-font-size-m": "18px",
+    "--body-font-size-s": "16px",
+    "--body-font-size-xs": "14px",
+    "--heading-font-size-xxl": "36px",
+    "--heading-font-size-xl": "28px",
+    "--heading-font-size-l": "24px",
+    "--heading-font-size-m": "20px",
+    "--heading-font-size-s": "18px",
+    "--heading-font-size-xs": "16px",
+    "--nav-height": "64px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 6041,
+    "realImageCount": 19,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

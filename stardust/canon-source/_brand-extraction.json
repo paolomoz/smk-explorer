@@ -1,0 +1,617 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-11T07:34:57Z",
+    "role": "design-source",
+    "readArtifacts": [
+      "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+      "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/typography/v3.js",
+      "https://palette-storybook.artsy.net/index.json",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--theme&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--spacing&viewMode=story",
+      "https://palette-storybook.artsy.net/iframe.html?id=theme--effects&viewMode=story",
+      "stardust/canon-source/_computed-styles.json",
+      "stardust/canon-source/storybook/component-measurements.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.32.1",
+    "notes": [
+      "Named design source www.artsy.net returned a Cloudflare challenge (403) on every page from this environment; the crawler's headed-Chrome fallback is unavailable (no Chrome binary, installs forbidden). Not captured. See stardust/.work/extract/artsy-blocked-crawl-log.json and crawl-donor.log.",
+      "Design source captured instead from Artsy's own design system: Palette storybook (8 Theme stories, live Playwright renders) plus the published @artsy/palette-tokens@7.3.0 (MIT licence, stardust/canon-source/storybook/LICENSE.txt) as the normative token values.",
+      "One earlier live render of www.artsy.net/ (2026-11-11, HTTP 200) confirmed body font-family ll-unica77, \"Helvetica Neue\", Helvetica, Arial, sans-serif and title 'Artsy — Discover and Buy Fine Art'."
+    ]
+  },
+  "site": {
+    "name": "Artsy (Palette design system)",
+    "originUrl": "https://www.artsy.net",
+    "capturedFrom": "https://palette-storybook.artsy.net"
+  },
+  "origins": [
+    {
+      "origin": "https://palette-storybook.artsy.net",
+      "role": "design-source",
+      "pagesCaptured": 8,
+      "contributedSignals": [
+        "palette",
+        "type",
+        "spacing",
+        "motifs",
+        "componentStyle",
+        "breakpoints"
+      ]
+    },
+    {
+      "origin": "https://www.artsy.net",
+      "role": "design-source",
+      "pagesCaptured": 0,
+      "status": "blocked (Cloudflare challenge)"
+    }
+  ],
+  "logo": null,
+  "palette": [
+    {
+      "token": "mono100",
+      "hex": "#000000",
+      "usage": "text on mono10 and lighter; primary button fill",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono100"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "mono60",
+      "hex": "#707070",
+      "usage": "secondary text on mono5 and lighter",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono60"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "mono30",
+      "hex": "#c2c2c2",
+      "usage": "background only; input border, disabled",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono30"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "mono15",
+      "hex": "#d8d8d8",
+      "usage": "background only",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono15"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "mono10",
+      "hex": "#e7e7e7",
+      "usage": "background only; hairline dividers, secondary button",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono10"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "mono5",
+      "hex": "#f7f7f7",
+      "usage": "background only; surface",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono5"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "mono0",
+      "hex": "#ffffff",
+      "usage": "page background",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.mono0"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "blue200",
+      "hex": "#050e3e",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.blue200"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "blue150",
+      "hex": "#0a1c7b",
+      "usage": "hover/down",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.blue150"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "blue100",
+      "hex": "#1023d7",
+      "usage": "brand; focus, links-on-hover, active pill",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.blue100"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "blue15",
+      "hex": "#cacdec",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.blue15"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "blue10",
+      "hex": "#e6e7f5",
+      "usage": "background only; info message, focus pill bg",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.blue10"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "green150",
+      "hex": "#003728",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.green150"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "green100",
+      "hex": "#00674a",
+      "usage": "success",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.green100"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "green10",
+      "hex": "#e8efe2",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.green10"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "yellow150",
+      "hex": "#a47a0f",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.yellow150"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "yellow100",
+      "hex": "#e2b929",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.yellow100"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "yellow10",
+      "hex": "#fffae9",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.yellow10"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "orange150",
+      "hex": "#a8501c",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.orange150"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "orange100",
+      "hex": "#da6722",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.orange100"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "orange10",
+      "hex": "#fcf7f3",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.orange10"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "red150",
+      "hex": "#510b0b",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.red150"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "red100",
+      "hex": "#d71023",
+      "usage": "error",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.red100"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "red50",
+      "hex": "#ff1023",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.red50"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    },
+    {
+      "token": "red10",
+      "hex": "#fef2ef",
+      "usage": "",
+      "sources": [
+        {
+          "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js",
+          "path": "COLORS.red10"
+        },
+        {
+          "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--colors&viewMode=story"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "family": {
+      "name": "ll-unica77",
+      "stack": "\"ll-unica77\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "foundry": "Lineto (Unica77 LL)",
+      "licence": "commercial — not reusable",
+      "files": "https://webfonts.artsy.net/all-webfonts.css (not loadable cross-origin)",
+      "weights": [
+        400,
+        700
+      ],
+      "weightNote": "700 maps to Unica77 LL Medium",
+      "italics": true
+    },
+    "variants": {
+      "xxxl": {
+        "fontSize": "102px",
+        "lineHeight": "108px",
+        "letterSpacing": "-0.01em"
+      },
+      "xxl": {
+        "fontSize": "60px",
+        "lineHeight": "70px",
+        "letterSpacing": "-0.01em"
+      },
+      "xl": {
+        "fontSize": "40px",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.01em"
+      },
+      "lg": {
+        "fontSize": "26px",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.01em"
+      },
+      "lg-display": {
+        "fontSize": "26px",
+        "lineHeight": "32px",
+        "letterSpacing": "-0.01em"
+      },
+      "md": {
+        "fontSize": "20px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal"
+      },
+      "sm": {
+        "fontSize": "16px",
+        "lineHeight": "26px",
+        "letterSpacing": "normal"
+      },
+      "sm-display": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal"
+      },
+      "xs": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal"
+      },
+      "xxs": {
+        "fontSize": "11px",
+        "lineHeight": "14px",
+        "letterSpacing": "normal"
+      },
+      "bq": {
+        "fontSize": "50px",
+        "lineHeight": "60px",
+        "letterSpacing": "-0.01em"
+      }
+    },
+    "scaleAudit": {
+      "kind": "named-variants",
+      "note": "11 named variants, not a ratio scale; display sizes tracked -0.01em"
+    },
+    "sources": [
+      {
+        "url": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/typography/v3.js"
+      },
+      {
+        "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--typography&viewMode=story",
+        "measured": "Type Scale heading 60/70 -0.6px"
+      }
+    ]
+  },
+  "spacing": {
+    "unit": "10px",
+    "scale": {
+      "0.5": "5px",
+      "1": "10px",
+      "2": "20px",
+      "4": "40px",
+      "6": "60px",
+      "12": "120px"
+    },
+    "source": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js THEME.space"
+  },
+  "breakpoints": {
+    "xs": "<767px",
+    "sm": "768px",
+    "md": "1280px",
+    "lg": "1920px",
+    "source": "https://unpkg.com/@artsy/palette-tokens@7.3.0/dist/themes/v3.js breakpoints"
+  },
+  "motifs": {
+    "radius": {
+      "button": "25px (pill, = height/2)",
+      "input": "3px",
+      "card": "0",
+      "note": "measured on theme--buttons / theme--inputs"
+    },
+    "shadows": [
+      {
+        "name": "dropShadow",
+        "value": "0 2px 10px 0 rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "flatShadow",
+        "value": "0 1px 1px 0 rgba(0, 0, 0, 0.05)"
+      },
+      {
+        "name": "innerShadow",
+        "value": "1px 1px 2px 0 rgba(0, 0, 0, 0.1) inset"
+      }
+    ],
+    "effects": {
+      "textShadow": "0 0 15px rgba(0, 0, 0, 0.25)",
+      "backdrop": "rgba(229, 229, 229, 0.5)",
+      "overlayGradient": "to bottom, 0 → 0.5 black (eased, 16 stops)",
+      "fadeRight": "linear-gradient(to right, #fff0 0%, #fff 100%)"
+    },
+    "patterns": [
+      "pill buttons",
+      "hairline dividers (mono10)",
+      "underline navigational tabs",
+      "pills/chips",
+      "messages and full-width banners",
+      "breadcrumbs",
+      "steps"
+    ]
+  },
+  "componentStyle": {
+    "button": {
+      "height": "50px (size large); smaller sizes exist",
+      "radius": "25px",
+      "padding": "0 25px",
+      "border": "1px solid",
+      "variants": {
+        "primaryBlack": "bg mono100, text mono0; hover/focus bg blue100",
+        "primaryWhite": "bg mono0, text mono100",
+        "secondaryGray": "bg mono10, text mono100",
+        "secondaryOutline": "transparent, border mono100",
+        "secondaryBlue": "transparent, text+border blue100",
+        "tertiary": "transparent text button; focus bg blue10 text blue100 underline",
+        "disabled": "mono30"
+      },
+      "focus": "text underline + blue fill"
+    },
+    "input": {
+      "height": "50px",
+      "radius": "3px",
+      "padding": "0 10px",
+      "fontSize": "16px",
+      "border": "1px solid mono30",
+      "hover": "border mono60",
+      "focus": "border blue100",
+      "error": "border red100",
+      "label": "16px/26px mono60 title"
+    },
+    "tabs": {
+      "navigational": "full-width, 2px underline on active",
+      "content": "compact, underline on active"
+    },
+    "messages": {
+      "default": "bg mono5",
+      "info": "bg blue10 text blue100 title",
+      "warning": "bg yellow10",
+      "error": "bg red10"
+    },
+    "banners": {
+      "light": "mono10",
+      "dark": "mono100",
+      "success": "green100",
+      "error": "red100",
+      "brand": "blue100"
+    },
+    "sources": [
+      {
+        "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--buttons&viewMode=story"
+      },
+      {
+        "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--inputs&viewMode=story"
+      },
+      {
+        "url": "https://palette-storybook.artsy.net/iframe.html?id=theme--components&viewMode=story"
+      }
+    ]
+  },
+  "systemComponents": [],
+  "iconFont": null,
+  "voice": {
+    "tone": "confident, quiet, art-world editorial; sentence case; short labels",
+    "samples": [
+      "Discover and Buy Art That Moves You",
+      "Artsy — Discover and Buy Fine Art"
+    ],
+    "source": "www.artsy.net home render (title + first h1)"
+  },
+  "register": "brand"
+}

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "lint:js": "eslint . --ext .js,.mjs",
-    "lint:css": "stylelint \"blocks/**/*.css\" \"styles/*.css\"",
+    "lint:css": "stylelint \"blocks/**/*.css\" \"styles/*.css\" \"templates/**/*.css\"",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
     "generate": "node tools/smk/generate.js",
