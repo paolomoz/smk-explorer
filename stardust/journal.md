@@ -201,3 +201,27 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** none pending.
 
 ---
+
+## 2026-11-12T16:35:27Z — Implement — cross-document view transitions
+
+**Prompt:** Add support for the View Transitions API.
+
+**Decisions:**
+- styles.css opts same-origin navigations in (@view-transition, inside prefers-reduced-motion: no-preference): 250ms root cross-fade.
+- scripts/view-transitions.js: shared element artwork-image (card image <-> artwork page picture) named in pageswap / pagereveal, cleared when the transition ends.
+- First frame must be laid out: head.html marks scripts.js blocking="render"; the artwork template JS is now a static import run synchronously and its CSS is @imported by styles.css (no async template loading before body.appear).
+- Dropped a colour-chip morph: the large swatch is a block decorated after the first frame, so it would only work sometimes.
+
+**Findings worth flagging:**
+- Edge Delivery hides the body until JS decorates; cross-document view transitions capture the first frame, so anything awaited before .appear yields a blank new-page snapshot. A module script with blocking="render" holds the first frame only until its synchronous part has run (not until top-level await settles).
+- Return navigation gets the cross-fade only: card grids sit in later sections, hidden until after the first frame (except back/forward-cache restores).
+
+**Artifacts touched:**
+- scripts/view-transitions.js (new), scripts/scripts.js, head.html, styles/styles.css
+
+**Open questions:**
+- none
+
+**Next:** none pending.
+
+---

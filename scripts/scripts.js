@@ -15,17 +15,14 @@ import {
 } from './aem.js';
 
 import initViewTransitions from './view-transitions.js';
-
-/** Page templates that ship their own stylesheet under /templates/<name>/. */
-const STYLED_TEMPLATES = ['artwork'];
+import decorateArtworkTemplate from '../templates/artwork/artwork.js';
 
 /**
- * Resolves once the first section is laid out (blocks decorated, before its image has
- * loaded). The first paint waits for it (see the end of this file), so a view
- * transition captures the real page instead of the hidden body.
+ * Page templates (metadata: template) and their decorators. They run synchronously,
+ * and their stylesheets are @imported by styles.css, so the page is laid out within
+ * this render-blocking module (head.html) and a view transition captures it fully.
  */
-let firstFrameReady;
-const firstFrame = new Promise((resolve) => { firstFrameReady = resolve; });
+const TEMPLATES = { artwork: decorateArtworkTemplate };
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -178,26 +175,13 @@ async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const template = toClassName(getMetadata('template'));
-  const styled = STYLED_TEMPLATES.includes(template);
-  const templateCSS = styled
-    ? loadCSS(`${window.hlx.codeBasePath}/templates/${template}/${template}.css`)
-    : null;
-  const templateJS = styled
-    ? import(`${window.hlx.codeBasePath}/templates/${template}/${template}.js`).catch(() => null)
-    : null;
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
-    const templateModule = templateJS ? await templateJS : null;
-    if (templateModule?.default) templateModule.default(main);
-    if (templateCSS) await templateCSS;
+    TEMPLATES[template]?.(main);
     document.body.classList.add('appear');
-    await loadSection(main.querySelector('.section'), async (section) => {
-      firstFrameReady();
-      await waitForFirstImage(section);
-    });
+    await loadSection(main.querySelector('.section'), waitForFirstImage);
   }
-  firstFrameReady();
 
   try {
     /* if desktop (proxy for fast connection) or fonts already loaded, load fonts.css */
@@ -245,12 +229,4 @@ async function loadPage() {
 }
 
 initViewTransitions();
-const page = loadPage();
-
-// This module is render-blocking (head.html, blocking="render"): hold the first paint
-// until the first section is laid out, but never longer than 2 seconds.
-await Promise.race([
-  firstFrame,
-  page.catch(() => {}),
-  new Promise((resolve) => { setTimeout(resolve, 2000); }),
-]);
+loadPage();

@@ -10,6 +10,10 @@
  * governing permissions and limitations under the License.
  */
 
+/* page-template styles load with this stylesheet (render-blocking), not by script,
+ * so a page is fully styled in its first frame (needed for view transitions) */
+@import url("../templates/artwork/artwork.css");
+
 /*
  * Design system: DESIGN.md (adopted from Artsy's Palette).
  * Monochrome chrome, one grotesque at one weight, ultramarine for state only.
@@ -420,8 +424,7 @@ main .section.highlight {
     animation-duration: 250ms;
   }
 
-  ::view-transition-group(artwork-image),
-  ::view-transition-group(colour-chip) {
+  ::view-transition-group(artwork-image) {
     animation-duration: 450ms;
     animation-timing-function: cubic-bezier(0.42, 0, 0, 1);
   }
