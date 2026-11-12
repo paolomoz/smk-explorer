@@ -1,0 +1,240 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract (design library: adobe)",
+    "writtenAt": "2026-11-11T13:02:57Z",
+    "role": "design-source (library entry, inactive)",
+    "readArtifacts": [
+      "https://www.adobe.com/max.html",
+      "https://www.adobe.com/uk/creativecloud.html",
+      "https://www.adobe.com/uk/products/illustrator.html",
+      "https://www.adobe.com/uk/products/photoshop.html",
+      "stardust/designs/adobe/pages/*.json",
+      "stardust/designs/adobe/_custom-properties.json",
+      "stardust/designs/adobe/_interaction-states.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.32.1",
+    "notes": [
+      "Captured through the Playwright MCP browser (bot management blocked the bundled crawler). Every page record carries renderedBy playwright, fetchedAt, waitMs, waitMode and httpStatus 200.",
+      "adobe.com exposes its Spectrum 2 for Adobe.com token layer as --s2a-* custom properties; those are the normative values below. Milo (EDS) legacy tokens --type-*, --spacing-*, --grid-* also present.",
+      "Fonts are proprietary (Adobe Clean, Adobe Clean Display, via Adobe Fonts kit pps7abe on use.typekit.net, bound to adobe.com). Not downloaded."
+    ]
+  },
+  "site": {
+    "name": "Adobe (adobe.com)",
+    "originUrl": "https://www.adobe.com"
+  },
+  "origins": [
+    {
+      "origin": "https://www.adobe.com",
+      "role": "design-source",
+      "pagesCaptured": 4,
+      "contributedSignals": [
+        "palette",
+        "type",
+        "spacing",
+        "motifs",
+        "componentStyle",
+        "motion",
+        "layout"
+      ]
+    }
+  ],
+  "logo": {
+    "note": "Adobe logo not captured for reuse (trademark)."
+  },
+  "palette": {
+    "neutrals": {
+      "gray-25": "#ffffff",
+      "gray-50": "#f8f8f8",
+      "gray-75": "#f3f3f3",
+      "gray-100": "#e9e9e9",
+      "gray-200": "#e1e1e1",
+      "gray-300": "#dadada",
+      "gray-400": "#c6c6c6",
+      "gray-500": "#8f8f8f",
+      "gray-600": "#717171",
+      "gray-700": "#505050",
+      "gray-800": "#292929",
+      "gray-900": "#131313",
+      "gray-1000": "#000000"
+    },
+    "blue": {
+      "blue-100": "#f5f9ff",
+      "blue-200": "#e5f0fe",
+      "blue-300": "#cbe2fe",
+      "blue-400": "#accffd",
+      "blue-500": "#8eb9fc",
+      "blue-600": "#729efd",
+      "blue-700": "#5d89ff",
+      "blue-800": "#4b75ff",
+      "blue-900": "#3b63fb",
+      "blue-1000": "#274dea",
+      "blue-1100": "#1d3ecf",
+      "blue-1200": "#1532ad",
+      "blue-1300": "#10288c",
+      "blue-1400": "#0c1f69",
+      "blue-1500": "#0e1843",
+      "blue-1600": "#070b1e"
+    },
+    "brand": {
+      "adobe-red": "#eb1000",
+      "cc-ps": "#3a18ff",
+      "cc-il": "#ff9a00",
+      "cc-ppafx": "#9999ff",
+      "cc-3dar": "#99e83f"
+    },
+    "status": {
+      "red-900": "#d73220",
+      "green-900": "#05834e",
+      "orange-700": "#e86a00",
+      "yellow-400": "#f5c700"
+    },
+    "observedUse": {
+      "text": "#2c2c2c (Milo body, most frequent), #000 and #131313 (s2a headings/body), rgba(0,0,0,.64) subtle text; white and rgba(255,255,255,.64) on dark bands",
+      "grounds": "#ffffff, #f8f8f8 and #f3f3f3 light; #000, #131313, #242424 dark bands (MAX page fully dark)",
+      "accent": "blue-900 #3b63fb fills primary CTAs; blue-1000 #274dea for link/hover text",
+      "merch": "#eaeaea and #f5c700 merch-card grounds"
+    },
+    "sources": [
+      {
+        "url": "https://www.adobe.com/uk/products/photoshop.html",
+        "evidence": "--s2a-color-* custom properties on :root; computed colour census"
+      },
+      {
+        "url": "https://www.adobe.com/max.html",
+        "evidence": "dark event surfaces"
+      }
+    ]
+  },
+  "type": {
+    "families": {
+      "display": "Adobe Clean Display (--s2a-font-family-heading), weight 900 black",
+      "body": "Adobe Clean (--s2a-font-family-default), 400 / 700 / 800",
+      "fallback": "adobe-clean, 'Trebuchet MS', sans-serif",
+      "mono": "'Roboto Mono', menlo, consolas, monospace"
+    },
+    "licence": "proprietary; Adobe Fonts web kit tied to adobe.com. Reuse needs an Adobe Fonts web project licensed for the target domain, or an open substitute (Adobe's own open-source Source Sans 3 is the nearest licence-free relative).",
+    "s2aScale": {
+      "super": "96/92 -3.84px",
+      "heading-1": "80/76 -3.2px",
+      "heading-2": "56/56 -1.68px",
+      "heading-3": "48/48 -1.44px",
+      "heading-4": "36/32 -1px",
+      "heading-5": "24/24 -0.96px",
+      "heading-6": "18/18 -0.2px",
+      "body-lg": "20",
+      "body-md": "16/20",
+      "body-sm": "14/18",
+      "eyebrow": "16 700",
+      "label": "14 700",
+      "caption": "12 700"
+    },
+    "miloScale": {
+      "heading-xxxl": "80/88",
+      "heading-xxl": "44/55",
+      "heading-xl": "36/45",
+      "heading-l": "28/35",
+      "heading-m": "24/30",
+      "heading-s": "20/25",
+      "heading-xs": "18/22.5",
+      "body-xl": "22/33",
+      "body-l": "20/30",
+      "body-m": "18/27",
+      "body-s": "16/24",
+      "body-xs": "14/21",
+      "headingWeight": "800 (Milo), 900 (s2a)"
+    },
+    "observed": "Newer s2a sections: display headings 900 with tight negative tracking and line-height = size (56/56 -1.68px, 24/24 -0.96px). Milo sections: headings 800 at 1.25 line height, body 18/27 #2c2c2c.",
+    "scaleAudit": {
+      "kind": "named-scale",
+      "note": "two coexisting scales (s2a and Milo)"
+    }
+  },
+  "spacing": {
+    "scale": "2 4 8 12 16 20 24 32 40 48 64 80 96 128 160 240 (--s2a-spacing-*)",
+    "sectionSpacing": "8 12 16 24 32 40 48 64 128 240 (--s2a-section-spacing-*); observed section paddings 40 / 80 / 104 / 128px",
+    "grid": "12 columns in a 1200px container (--grid-container-width), margins (100% - 1200px) / 2; 1440px full-bleed frames",
+    "gap": "8px layout guide gap"
+  },
+  "motifs": {
+    "radius": "0 2 4 6 8 12 16 22 24 32 999 (--s2a-border-radius-*); observed: buttons 20px/999px pills, media and editorial cards 16px, merch cards 8px, session cards 12px, content sheet rising over hero with large top radius",
+    "shadows": "level-1 0 1px 6px #0000001f; level-2 0 2px 8px #00000029; level-3 0 4px 12px; cards mostly unshadowed",
+    "gradients": [
+      "black scrims over media: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.7) 60%, transparent)",
+      "warm product gradients (white → #ffa500 family) on Illustrator surfaces"
+    ],
+    "patterns": [
+      "split hero: copy left, media bleeding off the right edge",
+      "light/dark band alternation",
+      "bento grid of rounded media cards with captions",
+      "merch (pricing) cards",
+      "accordion FAQ",
+      "tabbed plan switcher",
+      "autoplaying muted video loops with pause control",
+      "sticky light header with outline Sign-in pill"
+    ]
+  },
+  "componentStyle": {
+    "buttonPrimary": "blue-900 #3b63fb fill, white 17px/700 text, 2px matching border, 40px tall (button-l), radius 20px (pill), padding 7px 18px 8px; xl: 50px / 19px / radius 25px",
+    "buttonSecondary": "transparent with 2px #2c2c2c (or black) border, same metrics; hover background rgba(0,0,0,.08)",
+    "buttonOnDark": "transparent, 2px white border, white text; or white fill with black text",
+    "buttonMd": "40px, radius 999px, 0 24px, 14px/700",
+    "transitions": "background-color, border-color, color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+    "cards": "editorial/media cards: no border or shadow, radius 16px, media on top, title 24px/900, body 16-18px; dark overlay cards with white text over imagery; merch cards radius 8px on #eaeaea",
+    "links": "underlined, black (or #274dea blue in some components), color transition 0.32s cubic-bezier(0.22, 1, 0.36, 1)",
+    "header": "sticky, 72-80px, light grey #f8f8f8/transparent, black 16px/700 nav, active item underlined, outline 'Sign in' pill",
+    "sources": [
+      {
+        "url": "https://www.adobe.com/uk/products/photoshop.html",
+        "evidence": "con-button.blue / .outline computed styles, hover probe"
+      },
+      {
+        "url": "https://www.adobe.com/max.html",
+        "evidence": "tab pills, session cards"
+      },
+      {
+        "url": "https://www.adobe.com/uk/creativecloud.html",
+        "evidence": "merch cards"
+      }
+    ]
+  },
+  "motion": {
+    "scrollDriven": true,
+    "reveal": "entry reveal driven by view() timelines (animation-timeline: view(40% 10%), range entry): elements start translateY(24px) and opacity 0, settle to 0; staggered for groups (enable-parallax-stagger)",
+    "easings": {
+      "reveal": "cubic-bezier(0.42, 0, 0, 1)",
+      "reveal-soft": "cubic-bezier(0.33, 1, 0.68, 1)",
+      "state": "cubic-bezier(0.42, 0, 0, 1) 0.3s",
+      "link-colour": "cubic-bezier(0.22, 1, 0.36, 1) 0.32s",
+      "expand": "cubic-bezier(0.4, 0, 0.2, 1) 0.45-0.5s",
+      "quick": "ease 0.15s (background/opacity/border on controls)"
+    },
+    "signature": [
+      "split hero pin-and-pan on scroll (sh-fix / sh-pan / sh-lock, named timeline --split-hero, exit-crossing ranges)",
+      "garage-door section reveal with background parallax (MAX)",
+      "bento stack: cards scale down with depth mask as the next slides over",
+      "accordion rows animate grid-template-rows 0.4s"
+    ],
+    "media": "hero and feature media are autoplaying, muted, looping videos with a visible pause button",
+    "reducedMotion": true,
+    "sources": [
+      {
+        "url": "https://www.adobe.com/uk/products/photoshop.html",
+        "evidence": "animation-timeline probe, keyframes"
+      },
+      {
+        "url": "https://www.adobe.com/max.html",
+        "evidence": "garage-door keyframes"
+      }
+    ]
+  },
+  "voice": {
+    "tone": "confident, short declarative headlines with full stops ('There's only one Photoshop.'), sentence case, eyebrow labels above H2s",
+    "samples": [
+      "There’s only one Photoshop.",
+      "Beyond Content: The Art of Making Better Ads"
+    ]
+  },
+  "register": "brand"
+}

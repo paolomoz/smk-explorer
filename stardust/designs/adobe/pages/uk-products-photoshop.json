@@ -1,0 +1,2876 @@
+{
+ "_provenance": {
+  "renderedBy": "playwright",
+  "via": "playwright-mcp browser (crawler blocked by bot management)",
+  "fetchedAt": "2026-11-11T12:59:25.944Z",
+  "waitMs": 14499,
+  "waitMode": "slow (5000ms settle + 8-step scroll)",
+  "httpStatus": 200
+ },
+ "slug": "uk-products-photoshop",
+ "url": "https://www.adobe.com/uk/products/photoshop.html",
+ "finalUrl": "https://www.adobe.com/uk/products/photoshop.html",
+ "data": {
+  "title": "Official Adobe Photoshop | Free Trial and Online Photo &amp; Design App | Adobe UK",
+  "description": "Explore quick new ways to create customised scenes, make complex edits, &amp; combine images online or with the free Photoshop mobile app.",
+  "og": "https://www.adobe.com/homepage/assets/product-icons/jpg/media_1e1d6ce6caa68dfd49689c46528c152d9fdeaad6f.jpg",
+  "bodyStyle": {
+   "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+   "font-size": "16px",
+   "font-weight": "400",
+   "line-height": "20px",
+   "letter-spacing": "normal",
+   "color": "rgb(0, 0, 0)",
+   "text-transform": "none"
+  },
+  "headings": [
+   {
+    "level": "H1",
+    "text": "There’s only one Photoshop.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.split-hero-foreground > div.split-hero-copy > div.split-hero-text > h1.heading-2"
+   },
+   {
+    "level": "H2",
+    "text": "Transform images with the app that sets the standard.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.rich-content.container > div.foreground > div.content > h2.heading-2"
+   },
+   {
+    "level": "H3",
+    "text": "Create complex composites.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.parallax-stagger-ltr > div.card.card-overlay > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Edit with a powerful set of tools.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.parallax-stagger-ltr > div.card.card-stacked > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Perfect every pixel.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.equal > div.card.card-stacked > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Create stunning artwork.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.equal > div.card.card-stacked > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Design elevated graphics and layouts.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.parallax-stagger-ltr > div.card.card-stacked > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Make pinpoint selections.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.parallax-stagger-ltr > div.card.card-overlay > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H2",
+    "text": "The smartest Photoshop ever.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.rich-content.dark > div.foreground > div.content > h2.heading-2"
+   },
+   {
+    "level": "H2",
+    "text": "Photoshop is more than just an app.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.hover-list.container > div.hover-list-desc-wrapper > div.hover-list-desc > h2.heading-2"
+   },
+   {
+    "level": "H2",
+    "text": "Explore what’s new in Photoshop.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.rich-content.center > div.foreground > div.content > h2.heading-2"
+   },
+   {
+    "level": "H3",
+    "text": "Put your image in a whole new light.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.featured > div.card.card-overlay > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Explore new directions with precise control.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.equal > div.card.card-stacked > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Two ways to edit. One Photoshop.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.side-by-side.equal > div.card.card-stacked > div.foreground > h3.heading-6"
+   },
+   {
+    "level": "H2",
+    "text": "“Learning how to use Adobe well has been an essential part of growing as a professional artist and Photoshop is a very e",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "80px",
+     "font-weight": "900",
+     "line-height": "76px",
+     "letter-spacing": "-3.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.quote.center-footer > figure.foreground > blockquote.quote-copy > h2.heading-1"
+   },
+   {
+    "level": "H2",
+    "text": "Choose a plan.",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.rich-content.center > div.foreground > div.content > h2.heading-2"
+   },
+   {
+    "level": "H3",
+    "text": "Photoshop",
+    "style": {
+     "font-family": "\"Adobe Clean Display\", adobe-clean-display, sans-serif",
+     "font-size": "24px",
+     "font-weight": "900",
+     "line-height": "24px",
+     "letter-spacing": "-0.48px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.collection-container.plans > merch-card-collection.merch-card-collection.plans > merch-card > h3"
+   },
+   {
+    "level": "H4",
+    "text": "Apps",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "merch-card > div > div.section > h4"
+   },
+   {
+    "level": "H4",
+    "text": "Creative AI",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "merch-card > div > div.section > h4"
+   },
+   {
+    "level": "H4",
+    "text": "Extras",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "merch-card > div > div.section > h4"
+   },
+   {
+    "level": "H3",
+    "text": "Creative Cloud Pro",
+    "style": {
+     "font-family": "\"Adobe Clean Display\", adobe-clean-display, sans-serif",
+     "font-size": "24px",
+     "font-weight": "900",
+     "line-height": "24px",
+     "letter-spacing": "-0.48px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "div.collection-container.plans > merch-card-collection.merch-card-collection.plans > merch-card > h3"
+   },
+   {
+    "level": "H4",
+    "text": "20+ apps",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "merch-card > div > div.section > h4"
+   },
+   {
+    "level": "H4",
+    "text": "Creative AI",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "merch-card > div > div.section > h4"
+   },
+   {
+    "level": "H4",
+    "text": "Extras",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "merch-card > div > div.section > h4"
+   },
+   {
+    "level": "H2",
+    "text": "Frequently asked questions",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "56px",
+     "font-weight": "900",
+     "line-height": "56px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.rich-content.spacing-3xl-top > div.foreground > div.content > h2.heading-2"
+   },
+   {
+    "level": "H3",
+    "text": "How much does Photoshop cost?",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.faq-list.foreground > details.faq-item.parallax-move-up > summary.faq-trigger > h3.faq-question.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Is there a free version of Photoshop?",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.faq-list.foreground > details.faq-item.parallax-move-up > summary.faq-trigger > h3.faq-question.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Is there a free online version of Photoshop?",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.faq-list.foreground > details.faq-item.parallax-move-up > summary.faq-trigger > h3.faq-question.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Is there student pricing for Photoshop?",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.faq-list.foreground > details.faq-item.parallax-move-up > summary.faq-trigger > h3.faq-question.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "Are there generative AI features for Photoshop?",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.faq-list.foreground > details.faq-item.parallax-move-up > summary.faq-trigger > h3.faq-question.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "How do I install Photoshop (beta) with the new generative AI features?",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "18px",
+     "letter-spacing": "-0.2px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    },
+    "selector": "div.faq-list.foreground > details.faq-item.parallax-move-up > summary.faq-trigger > h3.faq-question.heading-6"
+   },
+   {
+    "level": "H3",
+    "text": "This Adobe site doesn't match your location",
+    "style": {
+     "font-family": "\"Adobe Clean Display Black\", \"Adobe Clean Display\", adobe-clean-display, \"Arial Bold Adjusted\", sans-serif",
+     "font-size": "24px",
+     "font-weight": "900",
+     "line-height": "24px",
+     "letter-spacing": "-0.96px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    },
+    "selector": "body > div.dialog-modal.locale-modal-v2 > div.georouting-wrapper.fragment > h3"
+   }
+  ],
+  "body": [
+   {
+    "text": "Adobe Photoshop",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "700",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Astonishingly powerful and precise, Photoshop is the industry choice for image transformations, graphic design and visual art.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Regularly at £21.98/mo Alternatively at £9.98/moincl. VATAnnual, billed monthly",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Annual, billed monthly",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "12px",
+     "font-weight": "400",
+     "line-height": "16px",
+     "letter-spacing": "normal",
+     "color": "rgba(0, 0, 0, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Explore plans for students or businesses.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "14px",
+     "font-weight": "400",
+     "line-height": "18px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Core capabilities",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "700",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(0, 0, 0, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "From advanced editing features to cutting-edge creative AI, discover why Photoshop is trusted by pros worldwide.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Combine images with unlimited layers, blend modes and AI features to merge elements that match lighting, shadows and perspective.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Refine images with AI-powered removal tools, advanced colour grading, tone and exposure control, non-destructive adjustment layers and Camera RAW.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(0, 0, 0, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Retouch any image with industry-leading capabilities to heal, clone, remove and refine details while preserving natural texture.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(0, 0, 0, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Tap into a robust library of customisable brushes, pattern and gradient tools and pixel-level control for illustration, concept art and lettering.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(0, 0, 0, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Create visual assets, mockups and graphics with pro fonts, vector shapes, artboards, Smart Objects and libraries to store your assets.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(0, 0, 0, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Use smart selection and masking tools to isolate any subject, background, hair or complex edge with maximum control for clean results.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Firefly creative AI",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "700",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Speed through routine edits and transform and refine images with Firefly creative AI, built right into Photoshop. Designed by creatives for creative work.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Describe your edits to easily add, remove and adjust content with Generative Fill and realistically extend images in any direction with Generative Expand.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Features and releases",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "700",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(255, 255, 255, 0.48)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Add lighting with Relight for full control over the position, colour, intensity and more — all with non-destructive edits.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Transform images in your edit with Generative Restyle. Create customised sliders to direct lighting, colour and more.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(255, 255, 255, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Drop a prompt into AI Assisted Editor for a fast start. Move to Pro Editor at any time to fine-tune with more precision control.",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(255, 255, 255, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Lenne Chai",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Photographer",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(255, 255, 255, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Image editing",
+    "style": {
+     "font-family": "\"Adobe Clean\", adobe-clean, sans-serif",
+     "font-size": "16px",
+     "font-weight": "700",
+     "line-height": "20px",
+     "letter-spacing": "normal",
+     "color": "rgba(255, 255, 255, 0.64)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Regularly at £21.98/mo Alternatively at £9.98/moincl. VAT. Annual, billed monthly",
+    "style": {
+     "font-family": "\"Adobe Clean Display\", adobe-clean-display, sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "21px",
+     "letter-spacing": "-0.48px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   },
+   {
+    "text": "Regularly at £21.98/mo Alternatively at £9.98/moincl. VAT. Annual, billed monthly",
+    "style": {
+     "font-family": "\"Adobe Clean Display\", adobe-clean-display, sans-serif",
+     "font-size": "18px",
+     "font-weight": "900",
+     "line-height": "21px",
+     "letter-spacing": "-0.48px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none"
+    }
+   }
+  ],
+  "ctas": [
+   {
+    "text": "Creativity & Design",
+    "href": null,
+    "cls": "mega-menu feds-link",
+    "w": 125,
+    "h": 18,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "0px",
+     "padding": "0px",
+     "height": "18px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Sign in",
+    "href": null,
+    "cls": "profile-comp secondary-button",
+    "w": 74,
+    "h": 40,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgb(0, 0, 0)",
+     "border-radius": "999px",
+     "padding": "6px 16px 8px",
+     "height": "40px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "7px",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Free trial",
+    "href": "https://commerce.adobe.com/store/segmentation?apc=PSHOP_3MO_UK&cli=mini_plans&ctx=if&co=GB&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=phsp_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+    "cls": "con-button blue button-l placeholder-resolved",
+    "w": 201,
+    "h": 40,
+    "style": {
+     "background-color": "rgb(59, 99, 251)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "2px solid rgb(59, 99, 251)",
+     "border-radius": "999px",
+     "padding": "0px 24px",
+     "height": "40px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "View plans",
+    "href": "/uk/creativecloud/pro/plans.html",
+    "cls": "con-button outline button-l",
+    "w": 201,
+    "h": 40,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "2px solid rgb(0, 0, 0)",
+     "border-radius": "999px",
+     "padding": "0px 24px",
+     "height": "40px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Edit images with prompts.",
+    "href": null,
+    "cls": "split-aside-grid-toggle",
+    "w": 298,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "padding": "0px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Create with top AI models.",
+    "href": null,
+    "cls": "split-aside-grid-toggle",
+    "w": 302,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "padding": "0px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Build scenes quickly.",
+    "href": null,
+    "cls": "split-aside-grid-toggle",
+    "w": 244,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "padding": "0px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Upscale images.",
+    "href": null,
+    "cls": "split-aside-grid-toggle",
+    "w": 204,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "padding": "0px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Move seamlessly from concept to client-ready.",
+    "href": null,
+    "cls": "split-aside-grid-toggle",
+    "w": 340,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "padding": "0px",
+     "height": "48px",
+     "min-height": "auto",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "play-pause-button video-button",
+    "w": 48,
+    "h": 48,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0.64)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "1px solid rgba(255, 255, 255, 0.24)",
+     "border-radius": "4px",
+     "padding": "1px 6px",
+     "height": "48px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Free trial",
+    "href": "https://commerce.adobe.com/store/segmentation?apc=PSHOP_3MO_UK&cli=mini_plans&ctx=if&co=GB&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=phsp_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+    "cls": "con-button blue button-l placeholder-resolved",
+    "w": 59,
+    "h": 20,
+    "style": {
+     "background-color": "rgb(59, 99, 251)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "2px solid rgb(59, 99, 251)",
+     "border-radius": "999px",
+     "padding": "0px 24px",
+     "height": "40px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Individuals",
+    "href": null,
+    "cls": "tab-button label",
+    "w": 116,
+    "h": 32,
+    "style": {
+     "background-color": "rgb(255, 255, 255)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "2px solid rgba(0, 0, 0, 0)",
+     "border-radius": "50px",
+     "padding": "0px 24px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background 0s 0.25s, color 0.2s ease-out",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Students & Teachers",
+    "href": null,
+    "cls": "tab-button label",
+    "w": 172,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgba(255, 255, 255, 0.64)",
+     "border": "2px solid rgba(0, 0, 0, 0)",
+     "border-radius": "50px",
+     "padding": "0px 24px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "color 0.1s ease-in-out",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Business",
+    "href": null,
+    "cls": "tab-button label",
+    "w": 103,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgba(255, 255, 255, 0.64)",
+     "border": "2px solid rgba(0, 0, 0, 0)",
+     "border-radius": "50px",
+     "padding": "0px 24px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "color 0.1s ease-in-out",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Free trial",
+    "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=40B6D1C356FAC6AC9745422A866013F0&apc=PSHOP_3MO_UK&cli=adobe_com&ctx=fp&co=GB&lang=en",
+    "cls": "button con-button primary placeholder-resolved",
+    "w": 540,
+    "h": 40,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "2px solid rgb(255, 255, 255)",
+     "border-radius": "999px",
+     "padding": "8px 24px",
+     "height": "40px",
+     "min-height": "40px",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Free trial",
+    "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=B89F145FDBF638FE866D5226C8632D2F&apc=CCI_AA_3MO_UK&cli=adobe_com&ctx=fp&co=GB&lang=en",
+    "cls": "button con-button blue placeholder-resolved",
+    "w": 540,
+    "h": 40,
+    "style": {
+     "background-color": "rgb(59, 99, 251)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "999px",
+     "padding": "8px 24px",
+     "height": "40px",
+     "min-height": "40px",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "See all plans",
+    "href": "/uk/creativecloud/plans.html",
+    "cls": "con-button outline button-md",
+    "w": 126,
+    "h": 40,
+    "style": {
+     "background-color": "rgba(255, 255, 255, 0)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "2px solid rgb(255, 255, 255)",
+     "border-radius": "999px",
+     "padding": "0px 24px",
+     "height": "40px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "dialog-close",
+    "w": 12,
+    "h": 12,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "50%",
+     "padding": "0px",
+     "height": "12px",
+     "min-height": "0px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "United States",
+    "href": "/products/photoshop.html",
+    "cls": "con-button blue button-l",
+    "w": 138,
+    "h": 40,
+    "style": {
+     "background-color": "rgb(59, 99, 251)",
+     "background-image": "none",
+     "color": "rgb(255, 255, 255)",
+     "border": "2px solid rgb(59, 99, 251)",
+     "border-radius": "999px",
+     "padding": "0px 24px",
+     "height": "40px",
+     "min-height": "0px",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18px",
+     "transition": "background-color 0.3s cubic-bezier(0.42, 0, 0, 1), border-color 0.3s cubic-bezier(0.42, 0, 0, 1), color 0.3s cubic-bezier(0.42, 0, 0, 1)",
+     "box-shadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+    }
+   },
+   {
+    "text": "",
+    "href": null,
+    "cls": "adbmsgAEPPopUpCloseBtn",
+    "w": 32,
+    "h": 32,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "padding": "10px",
+     "height": "32px",
+     "min-height": "32px",
+     "font-size": "13.3333px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Get started",
+    "href": null,
+    "cls": "adbmsgAEPPopUpCTABtn",
+    "w": 98,
+    "h": 32,
+    "style": {
+     "background-color": "rgb(255, 255, 255)",
+     "background-image": "none",
+     "color": "rgb(0, 0, 0)",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "padding": "7px 16px",
+     "height": "32px",
+     "min-height": "auto",
+     "font-size": "14px",
+     "font-weight": "700",
+     "line-height": "18.2px",
+     "transition": "all",
+     "box-shadow": "none"
+    }
+   },
+   {
+    "text": "Chat with us",
+    "href": null,
+    "cls": "adbmsgCta outwardAnimate",
+    "w": 60,
+    "h": 60,
+    "style": {
+     "background-color": "rgb(255, 255, 255)",
+     "background-image": "url(\"https://client.messaging.adobe.com/latest/assets/cta.svg\")",
+     "color": "rgb(52, 73, 94)",
+     "border": "2px solid rgb(41, 41, 41)",
+     "border-radius": "60px",
+     "padding": "0px",
+     "height": "60px",
+     "min-height": "0px",
+     "font-size": "20px",
+     "font-weight": "400",
+     "line-height": "normal",
+     "transition": "opacity 0.3s",
+     "box-shadow": "rgba(0, 0, 0, 0.15) 0px 2px 4px 0px"
+    }
+   }
+  ],
+  "cards": [
+   {
+    "tag": "div",
+    "cls": "split-hero-merch-card",
+    "w": 410,
+    "h": 204,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "",
+     "border-radius": "0px",
+     "box-shadow": "none",
+     "padding": "12px 0px 0px",
+     "overflow": "visible",
+     "transition": "opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.56s, translate 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.56s"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-overlay dark",
+    "w": 891,
+    "h": 981,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "hidden",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-stacked",
+    "w": 493,
+    "h": 762,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-stacked",
+    "w": 490,
+    "h": 738,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-stacked",
+    "w": 490,
+    "h": 758,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "side-by-side parallax-stagger-ltr reverse small-left spacing-2xs-bottom first-ca",
+    "w": 1392,
+    "h": 1005,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "0px",
+     "box-shadow": "none",
+     "padding": "0px 0px 24px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-stacked",
+    "w": 493,
+    "h": 742,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-overlay dark",
+    "w": 891,
+    "h": 981,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "hidden",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-overlay dark",
+    "w": 1392,
+    "h": 783,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "hidden",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-stacked",
+    "w": 490,
+    "h": 738,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "card card-stacked",
+    "w": 490,
+    "h": 738,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "tabs center staggered-intro-merch-cards spacing-none-bottom no-border dark pill",
+    "w": 1440,
+    "h": 893,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "merch-card-collection",
+    "cls": "merch-card-collection plans two-merch-cards",
+    "w": 1204,
+    "h": 821,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "0px",
+     "box-shadow": "none",
+     "padding": "0px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "merch-card",
+    "cls": "",
+    "w": 596,
+    "h": 821,
+    "style": {
+     "background-color": "rgb(19, 19, 19)",
+     "background-image": "none",
+     "border": "0px none rgb(255, 255, 255)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "4px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   },
+   {
+    "tag": "merch-card",
+    "cls": "",
+    "w": 596,
+    "h": 821,
+    "style": {
+     "background-color": "rgb(248, 248, 248)",
+     "background-image": "none",
+     "border": "0px none rgb(0, 0, 0)",
+     "border-radius": "16px",
+     "box-shadow": "none",
+     "padding": "4px",
+     "overflow": "visible",
+     "transition": "all"
+    }
+   }
+  ],
+  "sections": [
+   {
+    "cls": "section split-hero-reveal",
+    "x": 0,
+    "w": 1440,
+    "h": 1399,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "514.8px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section rounded-corners-top grid-width-6 spacing-xl-top has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 316,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "128px",
+     "padding-bottom": "0px",
+     "margin-top": "-546.8px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section container fixed rounded-corners-bottom has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 3031,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section parallax-double-garage-door spacing-4xl-top has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 1750,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "128px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section container fixed spacing-xl-top spacing-2xl-bottom rounded-corners-top ha",
+    "x": 0,
+    "w": 1440,
+    "h": 1901,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "128px",
+     "padding-bottom": "128px",
+     "margin-top": "-32px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section dark container fixed rounded-corners-bottom has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 788,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(255, 255, 255)"
+    }
+   },
+   {
+    "cls": "section spacing-4xl-top has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 248,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "128px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section spacing-none has-background tablist-compare-plans-section",
+    "x": 0,
+    "w": 1440,
+    "h": 893,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section spacing-xs-top dark has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 853,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "32px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(255, 255, 255)"
+    }
+   },
+   {
+    "cls": "section",
+    "x": 146,
+    "w": 540,
+    "h": 80,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(255, 255, 255)"
+    }
+   },
+   {
+    "cls": "section",
+    "x": 146,
+    "w": 540,
+    "h": 65,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "16px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(255, 255, 255)"
+    }
+   },
+   {
+    "cls": "section",
+    "x": 146,
+    "w": 540,
+    "h": 91,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "16px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(255, 255, 255)"
+    }
+   },
+   {
+    "cls": "section",
+    "x": 754,
+    "w": 540,
+    "h": 140,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section",
+    "x": 754,
+    "w": 540,
+    "h": 125,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "16px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section",
+    "x": 754,
+    "w": 540,
+    "h": 91,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "16px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 80,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "0px",
+     "margin-top": "0px",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "cls": "section spacing-md-bottom container dark has-background",
+    "x": 0,
+    "w": 1440,
+    "h": 778,
+    "style": {
+     "background-color": "rgba(0, 0, 0, 0)",
+     "background-image": "none",
+     "padding-top": "0px",
+     "padding-bottom": "48px",
+     "margin-top": "0px",
+     "color": "rgb(255, 255, 255)"
+    }
+   }
+  ],
+  "maxWidths": [
+   [
+    "100%",
+    18
+   ],
+   [
+    "450px",
+    9
+   ],
+   [
+    "800px",
+    2
+   ],
+   [
+    "515px",
+    2
+   ],
+   [
+    "596px",
+    2
+   ],
+   [
+    "410px",
+    1
+   ],
+   [
+    "1920px",
+    1
+   ],
+   [
+    "1312px",
+    1
+   ],
+   [
+    "1204px",
+    1
+   ],
+   [
+    "548px",
+    1
+   ]
+  ],
+  "motion": {
+   "transitions": [
+    [
+     "opacity | 0.4s | cubic-bezier(0.42, 0, 0, 1)",
+     18
+    ],
+    [
+     "transform | 0.4s | cubic-bezier(0.42, 0, 0, 1)",
+     13
+    ],
+    [
+     "grid-template-rows, visibility | 0.4s, 0s | cubic-bezier(0.42, 0, 0, 1), linear",
+     13
+    ],
+    [
+     "background-color, border-color, color | 0.3s, 0.3s, 0.3s | cubic-bezier(0.42, 0, 0, 1), cubic-bezier(0.42, 0, 0, 1), cubic-bezier(0.42, 0, 0, 1)",
+     10
+    ],
+    [
+     "background-color, color, border-color | 0.4s, 0.4s, 0.4s | cubic-bezier(0.42, 0, 0, 1), cubic-bezier(0.42, 0, 0, 1), cubic-bezier(0.42, 0, 0, 1)",
+     7
+    ],
+    [
+     "transform | 0.1s | ease",
+     7
+    ],
+    [
+     "background-color | 0.3s | ease",
+     5
+    ],
+    [
+     "background | 0.3s | ease",
+     5
+    ],
+    [
+     "margin-bottom | 0.4s | ease",
+     3
+    ],
+    [
+     "transform | 0.3s | ease",
+     3
+    ],
+    [
+     "opacity, translate | 0.9s | cubic-bezier(0.22, 1, 0.36, 1)",
+     2
+    ],
+    [
+     "color | 0.1s | ease-in-out",
+     2
+    ],
+    [
+     "background-color, -webkit-backdrop-filter, backdrop-filter | 0.3s, 0.3s, 0.3s | ease, ease, ease",
+     1
+    ],
+    [
+     "transform | 0.15s | ease",
+     1
+    ],
+    [
+     "display, opacity | 0.48s, 0.48s | ease, cubic-bezier(0.4, 0, 0.2, 1)",
+     1
+    ],
+    [
+     "background-color, color | 0.3s, 0.3s | ease, ease",
+     1
+    ],
+    [
+     "opacity, visibility | 0.2s, 0.2s | ease, ease",
+     1
+    ],
+    [
+     "opacity, translate | 1s, 1.7s | cubic-bezier(0.33, 0, 0.2, 1), cubic-bezier(0.16, 1, 0.3, 1)",
+     1
+    ],
+    [
+     "inline-size, opacity, transform | 0.2s, 0.2s, 0.2s | cubic-bezier(0.65, 0, 0.35, 1), cubic-bezier(0.65, 0, 0.35, 1), cubic-bezier(0.65, 0, 0.35, 1)",
+     1
+    ],
+    [
+     "opacity, scale | 0.2s, 0.2s | cubic-bezier(0.65, 0, 0.35, 1), cubic-bezier(0.65, 0, 0.35, 1)",
+     1
+    ],
+    [
+     "transform, width | 0.25s, 0.35s | ease, ease",
+     1
+    ],
+    [
+     "background, color | 0s, 0.2s | ease, ease-out",
+     1
+    ],
+    [
+     "opacity, visibility | 0.5s, 0s | ease-in-out, linear",
+     1
+    ],
+    [
+     "opacity | 0.05s | ease-in",
+     1
+    ],
+    [
+     "opacity | 0.3s | ease",
+     1
+    ]
+   ],
+   "animations": [
+    [
+     "enable-parallax-stagger | auto | cubic-bezier(0.42, 0, 0, 1) | 1",
+     8
+    ],
+    [
+     "enable-parallax | auto | cubic-bezier(0.33, 1, 0.68, 1) | 1",
+     6
+    ],
+    [
+     "enable-parallax | auto | cubic-bezier(0.42, 0, 0, 1) | 1",
+     3
+    ],
+    [
+     "sh-pan-join, sh-pan, sh-lock-join, sh-lock-pan | auto, auto, auto, auto | cubic-bezier(0.4, 0, 0.6, 0.2), linear, cubic-bezier(0.4, 0, 0.6, 0.2), linear | 1, 1, 1, 1",
+     2
+    ],
+    [
+     "slideIn | 0.2s | ease | 1",
+     1
+    ],
+    [
+     "sh-fix | auto | linear | 1",
+     1
+    ],
+    [
+     "sh-shrink | auto | ease-in-out | 1",
+     1
+    ],
+    [
+     "sh-next-pin, sh-next-release | auto, auto | linear, cubic-bezier(0.4, 0.8, 0.6, 1) | 1, 1",
+     1
+    ],
+    [
+     "dg-top-door, dg-exit | auto, auto | ease-out, ease-out | 1, 1",
+     1
+    ],
+    [
+     "spectrum-fills-rotate | 1s | cubic-bezier(0.25, 0.78, 0.48, 0.89) | infinite",
+     1
+    ],
+    [
+     "spectrum-fill-mask-1 | 1s | linear | infinite",
+     1
+    ],
+    [
+     "spectrum-fill-mask-2 | 1s | linear | infinite",
+     1
+    ],
+    [
+     "outwardmove | 0.3s | cubic-bezier(0, 0, 0.4, 1) | 1",
+     1
+    ]
+   ],
+   "keyframes": [
+    "@keyframes stack-title-stagger { \n  0% { opacity: 0; transform: translate(0, var(--parallax-translate-y)); }\n  100% { opacity: 1; transform: translate(0px, 0px); }\n}",
+    "@keyframes stack-title-card-match { \n  100% { translate: 0 calc(-1 * var(--title-catchup)); }\n}",
+    "@keyframes bento-mobile-stack-slides { \n  0% { transform: translateY(var(--stack-offset)); opacity: 0; }\n  10% { transform: translateY(calc(var(--stack-offset) - var(--offset-adjuster))); opacity: 1; }\n  70% { transform: translateY(calc(var(--stack-offset) - var(--offset-adjuster))); opacity: 1; }\n  100% { transform: translateY(calc(var(--stack-offset) - var(--offset-adjuster))); opacity: 0; }\n}",
+    "@keyframes bento-mobile-stack-slides-front { \n  0% { transform: translateY(var(--stack-offset)); opacity: 0; }\n  10% { transform: translateY(calc(var(--stack-offset) - var(--offset-adjuster))); opacity: 1; }\n  100% { transform: translateY(calc(var(--stack-offset) - var(--offset-adjuster))); opacity: 1; }\n}",
+    "@keyframes stack-section-exit { \n  0% { transform: translate(0px, 0px); }\n  100% { transform: translate(0, calc(-1 * var(--section-exit-y))); }\n}",
+    "@keyframes bento-items-shrink { \n  0%, 20% { transform: scale(1); box-shadow: var(--bento-shadow-none); }\n  100% { transform: scale(var(--stack-scale, 1)); box-shadow: var(--bento-shadow); }\n}",
+    "@keyframes bento-depth-mask-drive { \n  0%, 20% { --stack-depth-mask-t: 0; }\n  100% { --stack-depth-mask-t: 1; }\n}",
+    "@keyframes floating-cta-spread { \n  0%, 29% { scale: 1; }\n  43% { scale: 1 0.75; }\n  100% { scale: 1; }\n}",
+    "@keyframes tab-content-in { \n  0% { opacity: 0; transform: translateY(16px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+   ]
+  },
+  "customPropsCount": 400,
+  "customProps": {
+   "--s2a-color-gray-25": "#fff",
+   "--s2a-color-gray-50": "#f8f8f8",
+   "--s2a-color-gray-75": "#f3f3f3",
+   "--s2a-color-gray-100": "#e9e9e9",
+   "--s2a-color-gray-200": "#e1e1e1",
+   "--s2a-color-gray-300": "#dadada",
+   "--s2a-color-gray-400": "#c6c6c6",
+   "--s2a-color-gray-500": "#8f8f8f",
+   "--s2a-color-gray-600": "#717171",
+   "--s2a-color-gray-700": "#505050",
+   "--s2a-color-gray-800": "#292929",
+   "--s2a-color-gray-900": "#131313",
+   "--s2a-color-gray-1000": "#000",
+   "--s2a-color-green-100": "#edfcf1",
+   "--s2a-color-green-200": "#d7f7e1",
+   "--s2a-color-green-300": "#adeec5",
+   "--s2a-color-green-400": "#6be3a2",
+   "--s2a-color-green-500": "#2bd17d",
+   "--s2a-color-green-600": "#12b867",
+   "--s2a-color-green-700": "#0ba45d",
+   "--s2a-color-green-800": "#079355",
+   "--s2a-color-green-900": "#05834e",
+   "--s2a-color-green-1000": "#036e45",
+   "--s2a-color-green-1100": "#025d3c",
+   "--s2a-color-green-1200": "#014c34",
+   "--s2a-color-green-1300": "#003d2c",
+   "--s2a-color-green-1400": "#002e22",
+   "--s2a-color-green-1500": "#002119",
+   "--s2a-color-green-1600": "#000f0c",
+   "--s2a-color-blue-100": "#f5f9ff",
+   "--s2a-color-blue-200": "#e5f0fe",
+   "--s2a-color-blue-300": "#cbe2fe",
+   "--s2a-color-blue-400": "#accffd",
+   "--s2a-color-blue-500": "#8eb9fc",
+   "--s2a-color-blue-600": "#729efd",
+   "--s2a-color-blue-700": "#5d89ff",
+   "--s2a-color-blue-800": "#4b75ff",
+   "--s2a-color-blue-900": "#3b63fb",
+   "--s2a-color-blue-1000": "#274dea",
+   "--s2a-color-blue-1100": "#1d3ecf",
+   "--s2a-color-blue-1200": "#1532ad",
+   "--s2a-color-blue-1300": "#10288c",
+   "--s2a-color-blue-1400": "#0c1f69",
+   "--s2a-color-blue-1500": "#0e1843",
+   "--s2a-color-blue-1600": "#070b1e",
+   "--s2a-color-red-100": "#fff6f5",
+   "--s2a-color-red-200": "#ffebe8",
+   "--s2a-color-red-300": "#ffd6d1",
+   "--s2a-color-red-400": "#ffbcb4",
+   "--s2a-color-red-500": "#ff9d91",
+   "--s2a-color-red-600": "#ff7665",
+   "--s2a-color-red-700": "#ff513d",
+   "--s2a-color-red-800": "#f03823",
+   "--s2a-color-red-900": "#d73220",
+   "--s2a-color-red-1000": "#b72818",
+   "--s2a-color-red-1100": "#9c2113",
+   "--s2a-color-red-1200": "#811b0e",
+   "--s2a-color-red-1300": "#68150a",
+   "--s2a-color-red-1400": "#501006",
+   "--s2a-color-red-1500": "#3b0b04",
+   "--s2a-color-red-1600": "#1d0502",
+   "--s2a-color-orange-100": "#fff6e7",
+   "--s2a-color-orange-200": "#ffeccf",
+   "--s2a-color-orange-300": "#ffda9e",
+   "--s2a-color-orange-400": "#ffc15e",
+   "--s2a-color-orange-500": "#ffa213",
+   "--s2a-color-orange-600": "#fc7d00",
+   "--s2a-color-orange-700": "#e86a00",
+   "--s2a-color-orange-800": "#d45b00",
+   "--s2a-color-orange-900": "#c24e00",
+   "--s2a-color-orange-1000": "#a73e00",
+   "--s2a-color-orange-1100": "#903300",
+   "--s2a-color-orange-1200": "#762900",
+   "--s2a-color-orange-1300": "#5f2000",
+   "--s2a-color-orange-1400": "#491800",
+   "--s2a-color-orange-1500": "#341200",
+   "--s2a-color-orange-1600": "#190800",
+   "--s2a-color-yellow-100": "#fff8cc",
+   "--s2a-color-yellow-200": "#fff197",
+   "--s2a-color-yellow-300": "#ffde2c",
+   "--s2a-color-yellow-400": "#f5c700",
+   "--s2a-color-yellow-500": "#e6af00",
+   "--s2a-color-yellow-600": "#d29500",
+   "--s2a-color-yellow-700": "#c18300",
+   "--s2a-color-yellow-800": "#af7400",
+   "--s2a-color-yellow-900": "#9e6600",
+   "--s2a-color-yellow-1000": "#865500",
+   "--s2a-color-yellow-1100": "#724800",
+   "--s2a-color-yellow-1200": "#5d3b00",
+   "--s2a-color-yellow-1300": "#4b2f00",
+   "--s2a-color-yellow-1400": "#382300",
+   "--s2a-color-yellow-1500": "#281900",
+   "--s2a-color-yellow-1600": "#120b00",
+   "--s2a-color-transparent-black-00": "rgb(0 0 0 / 0)",
+   "--s2a-color-transparent-black-04": "rgb(0 0 0 / 4%)",
+   "--s2a-color-transparent-black-08": "#00000014",
+   "--s2a-color-transparent-black-12": "#0000001f",
+   "--s2a-color-transparent-black-16": "#00000029",
+   "--s2a-color-transparent-black-24": "rgb(0 0 0 / 24%)",
+   "--s2a-color-transparent-black-32": "rgb(0 0 0 / 32%)",
+   "--s2a-color-transparent-black-48": "rgb(0 0 0 / 48%)",
+   "--s2a-color-transparent-black-64": "#000000a3",
+   "--s2a-color-transparent-black-72": "rgb(0 0 0 / 72%)",
+   "--s2a-color-transparent-black-80": "rgb(0 0 0 / 80%)",
+   "--s2a-color-transparent-black-88": "rgb(0 0 0 / 88%)",
+   "--s2a-color-transparent-black-96": "rgb(0 0 0 / 96%)",
+   "--s2a-color-transparent-white-00": "rgb(255 255 255 / 0)",
+   "--s2a-color-transparent-white-04": "rgb(255 255 255 / 4%)",
+   "--s2a-color-transparent-white-08": "rgb(255 255 255 / 8%)",
+   "--s2a-color-transparent-white-12": "#ffffff1f",
+   "--s2a-color-transparent-white-16": "#ffffff29",
+   "--s2a-color-transparent-white-24": "rgb(255 255 255 / 24%)",
+   "--s2a-color-transparent-white-32": "rgb(255 255 255 / 32%)",
+   "--s2a-color-transparent-white-48": "rgb(255 255 255 / 48%)",
+   "--s2a-color-transparent-white-64": "#ffffffa3",
+   "--s2a-color-transparent-white-72": "rgb(255 255 255 / 72%)",
+   "--s2a-color-transparent-white-80": "rgb(255 255 255 / 80%)",
+   "--s2a-color-transparent-white-88": "rgb(255 255 255 / 88%)",
+   "--s2a-color-transparent-white-96": "rgb(255 255 255 / 96%)",
+   "--s2a-color-brand-adobe-red": "#eb1000",
+   "--s2a-color-brand-cc-3dar": "#99e83f",
+   "--s2a-color-brand-cc-il": "#ff9a00",
+   "--s2a-color-brand-cc-ppafx": "#99f",
+   "--s2a-color-brand-cc-ps": "#3a18ff",
+   "--s2a-border-radius-0": "0",
+   "--s2a-border-radius-2": "2px",
+   "--s2a-border-radius-4": "4px",
+   "--s2a-border-radius-6": "6px",
+   "--s2a-border-radius-8": "8px",
+   "--s2a-border-radius-12": "12px",
+   "--s2a-border-radius-16": "16px",
+   "--s2a-border-radius-22": "22px",
+   "--s2a-border-radius-24": "24px",
+   "--s2a-border-radius-32": "32px",
+   "--s2a-border-radius-999": "999px",
+   "--s2a-border-width-0": "0",
+   "--s2a-border-width-1": "1px",
+   "--s2a-border-width-2": "2px",
+   "--s2a-border-width-4": "4px",
+   "--s2a-opacity-00": "0",
+   "--s2a-opacity-08": "8%",
+   "--s2a-opacity-16": "16%",
+   "--s2a-opacity-24": "24%",
+   "--s2a-opacity-32": "32%",
+   "--s2a-opacity-48": "48%",
+   "--s2a-opacity-64": "64%",
+   "--s2a-opacity-100": "100%",
+   "--s2a-shadow-level-1-x": "0",
+   "--s2a-shadow-level-1-y": "1px",
+   "--s2a-shadow-level-1-blur": "6px",
+   "--s2a-shadow-level-1-spread": "0",
+   "--s2a-shadow-level-1-color": "#0000001f",
+   "--s2a-shadow-level-2-x": "0",
+   "--s2a-shadow-level-2-y": "2px",
+   "--s2a-shadow-level-2-blur": "8px",
+   "--s2a-shadow-level-2-spread": "0",
+   "--s2a-shadow-level-2-color": "#00000029",
+   "--s2a-shadow-level-3-x": "0",
+   "--s2a-shadow-level-3-y": "4px",
+   "--s2a-shadow-level-3-blur": "12px",
+   "--s2a-shadow-level-3-spread": "0",
+   "--s2a-shadow-level-3-color": "#00000029",
+   "--s2a-shadow-level-4-x": "0",
+   "--s2a-shadow-level-4-y": "6px",
+   "--s2a-shadow-level-4-blur": "16px",
+   "--s2a-shadow-level-4-spread": "0",
+   "--s2a-shadow-level-4-color": "#00000029",
+   "--s2a-spacing-0": "0",
+   "--s2a-spacing-2": "2px",
+   "--s2a-spacing-4": "4px",
+   "--s2a-spacing-8": "8px",
+   "--s2a-spacing-12": "12px",
+   "--s2a-spacing-16": "16px",
+   "--s2a-spacing-20": "20px",
+   "--s2a-spacing-24": "24px",
+   "--s2a-spacing-32": "32px",
+   "--s2a-spacing-40": "40px",
+   "--s2a-spacing-48": "48px",
+   "--s2a-spacing-64": "64px",
+   "--s2a-spacing-80": "80px",
+   "--s2a-spacing-96": "96px",
+   "--s2a-spacing-128": "128px",
+   "--s2a-spacing-160": "160px",
+   "--s2a-spacing-240": "240px",
+   "--s2a-font-family-adobe-clean": "\"Adobe Clean\"",
+   "--s2a-font-family-adobe-clean-display": "\"Adobe Clean Display\"",
+   "--s2a-font-letter-spacing-0": "0",
+   "--s2a-font-letter-spacing-neg-3_84": "-3.84px",
+   "--s2a-font-letter-spacing-neg-3_2": "-3.2px",
+   "--s2a-font-letter-spacing-neg-2_88": "-2.88px",
+   "--s2a-font-letter-spacing-neg-1_68": "-1.68px",
+   "--s2a-font-letter-spacing-neg-1_44": "-1.44px",
+   "--s2a-font-letter-spacing-neg-1": "-1px",
+   "--s2a-font-letter-spacing-neg-0_96": "-.96px",
+   "--s2a-font-letter-spacing-neg-0_48": "-.48px",
+   "--s2a-font-letter-spacing-neg-0_2": "-.2px",
+   "--s2a-font-letter-spacing-neg-0_16": "-0.16px",
+   "--s2a-font-line-height-16": "16px",
+   "--s2a-font-line-height-18": "18px",
+   "--s2a-font-line-height-20": "20px",
+   "--s2a-font-line-height-21": "21px",
+   "--s2a-font-line-height-24": "24px",
+   "--s2a-font-line-height-32": "32px",
+   "--s2a-font-line-height-40": "40px",
+   "--s2a-font-line-height-48": "48px",
+   "--s2a-font-line-height-56": "56px",
+   "--s2a-font-line-height-69": "69px",
+   "--s2a-font-line-height-76": "76px",
+   "--s2a-font-line-height-92": "92px",
+   "--s2a-font-size-12": ".75rem",
+   "--s2a-font-size-14": ".875rem",
+   "--s2a-font-size-16": "1rem",
+   "--s2a-font-size-18": "1.125rem",
+   "--s2a-font-size-20": "1.25rem",
+   "--s2a-font-size-24": "1.5rem",
+   "--s2a-font-size-32": "2rem",
+   "--s2a-font-size-36": "2.25rem",
+   "--s2a-font-size-40": "2.5rem",
+   "--s2a-font-size-48": "3rem",
+   "--s2a-font-size-56": "3.5rem",
+   "--s2a-font-size-64": "4rem",
+   "--s2a-font-size-72": "4.5rem",
+   "--s2a-font-size-80": "5rem",
+   "--s2a-font-size-96": "6rem",
+   "--s2a-font-weight-adobe-clean-black": "900",
+   "--s2a-font-weight-adobe-clean-extrabold": "800",
+   "--s2a-font-weight-adobe-clean-bold": "700",
+   "--s2a-font-weight-adobe-clean-medium": "500",
+   "--s2a-font-weight-adobe-clean-regular": "400",
+   "--s2a-font-weight-adobe-clean-display-black": "900",
+   "--s2a-blur-8": "8px",
+   "--s2a-blur-16": "16px",
+   "--s2a-blur-24": "24px",
+   "--s2a-blur-32": "32px",
+   "--s2a-blur-64": "64px",
+   "--s2a-blur-128": "128px",
+   "--s2a-border-radius-none": "0",
+   "--s2a-border-radius-3xs": "2px",
+   "--s2a-border-radius-2xs": "4px",
+   "--s2a-border-radius-xs": "8px",
+   "--s2a-border-radius-sm": "12px",
+   "--s2a-border-radius-md": "16px",
+   "--s2a-border-radius-lg": "22px",
+   "--s2a-border-radius-xl": "32px",
+   "--s2a-border-radius-round": "999px",
+   "--s2a-border-width-sm": "1px",
+   "--s2a-border-width-md": "2px",
+   "--s2a-border-width-lg": "4px",
+   "--s2a-opacity-disabled": "48%",
+   "--s2a-opacity-scrim-strong": "64%",
+   "--s2a-opacity-scrim-subtle": "32%",
+   "--s2a-spacing-none": "0",
+   "--s2a-spacing-3xs": "2px",
+   "--s2a-spacing-2xs": "4px",
+   "--s2a-spacing-xs": "8px",
+   "--s2a-spacing-sm": "12px",
+   "--s2a-spacing-md": "16px",
+   "--s2a-spacing-lg": "24px",
+   "--s2a-spacing-xl": "32px",
+   "--s2a-spacing-2xl": "40px",
+   "--s2a-spacing-3xl": "48px",
+   "--s2a-spacing-4xl": "64px",
+   "--s2a-font-family-heading": "\"Adobe Clean Display\"",
+   "--s2a-font-family-default": "\"Adobe Clean\"",
+   "--s2a-font-letter-spacing-xs": "-3.84px",
+   "--s2a-font-letter-spacing-sm": "-3.2px",
+   "--s2a-font-letter-spacing-md": "-2.88px",
+   "--s2a-font-letter-spacing-lg": "-1.68px",
+   "--s2a-font-letter-spacing-xl": "-1.44px",
+   "--s2a-font-letter-spacing-2xl": "-1px",
+   "--s2a-font-letter-spacing-3xl": "-.96px",
+   "--s2a-font-letter-spacing-4xl": "-.48px",
+   "--s2a-font-letter-spacing-5xl": "-.2px",
+   "--s2a-font-letter-spacing-6xl": "0",
+   "--s2a-font-line-height-2xs": "16px",
+   "--s2a-font-line-height-xs": "18px",
+   "--s2a-font-line-height-sm": "20px",
+   "--s2a-font-line-height-md": "24px",
+   "--s2a-font-line-height-lg": "32px",
+   "--s2a-font-line-height-xl": "40px",
+   "--s2a-font-line-height-2xl": "48px",
+   "--s2a-font-line-height-3xl": "56px",
+   "--s2a-font-line-height-4xl": "69px",
+   "--s2a-font-line-height-5xl": "76px",
+   "--s2a-font-line-height-6xl": "92px",
+   "--s2a-font-size-xs": ".75rem",
+   "--s2a-font-size-sm": ".875rem",
+   "--s2a-font-size-md": "1rem",
+   "--s2a-font-size-lg": "1.125rem",
+   "--s2a-font-size-xl": "1.25rem",
+   "--s2a-font-size-2xl": "1.5rem",
+   "--s2a-font-size-3xl": "2rem",
+   "--s2a-font-size-4xl": "2.25rem",
+   "--s2a-font-size-5xl": "2.5rem",
+   "--s2a-font-size-6xl": "3rem",
+   "--s2a-font-size-7xl": "3.5rem",
+   "--s2a-font-size-8xl": "4rem",
+   "--s2a-font-size-9xl": "4.5rem",
+   "--s2a-font-size-10xl": "5rem",
+   "--s2a-font-size-11xl": "6rem",
+   "--s2a-font-weight-heading": "900",
+   "--s2a-font-weight-body": "400",
+   "--s2a-font-weight-eyebrow": "700",
+   "--s2a-font-weight-label": "700",
+   "--s2a-font-weight-caption": "700",
+   "--s2a-blur-xs": "8px",
+   "--s2a-blur-sm": "16px",
+   "--s2a-blur-md": "32px",
+   "--s2a-blur-lg": "64px",
+   "--s2a-layout-none": "0",
+   "--s2a-layout-sm": "80px",
+   "--s2a-layout-md": "96px",
+   "--s2a-layout-lg": "128px",
+   "--s2a-layout-xl": "160px",
+   "--s2a-layout-2xl": "240px",
+   "--s2a-color-background-brand": "#eb1000",
+   "--s2a-color-background-default": "#fff",
+   "--s2a-color-background-disabled": "#f8f8f8",
+   "--s2a-color-background-inverse": "#000",
+   "--s2a-color-background-knockout": "#000",
+   "--s2a-color-background-subtle": "#f8f8f8",
+   "--s2a-color-background-utility-error": "#d73220",
+   "--s2a-color-border-brand": "#eb1000",
+   "--s2a-color-border-default": "#292929",
+   "--s2a-color-border-disabled": "#c6c6c6",
+   "--s2a-color-border-inverse": "#fff",
+   "--s2a-color-border-knockout": "#000",
+   "--s2a-color-border-strong": "#131313",
+   "--s2a-color-border-subtle": "#dadada",
+   "--s2a-color-border-utility-error": "#d73220",
+   "--s2a-color-content-body-strong": "#131313",
+   "--s2a-color-content-body-subtle": "#000000a3",
+   "--s2a-color-content-brand": "#eb1000",
+   "--s2a-color-content-caption": "#000000a3",
+   "--s2a-color-content-default": "#000",
+   "--s2a-color-content-disabled": "#c6c6c6",
+   "--s2a-color-content-eyebrow": "#000000a3",
+   "--s2a-color-content-inverse": "#fff",
+   "--s2a-color-content-knockout": "#fff",
+   "--s2a-color-content-label": "#000",
+   "--s2a-color-content-strong": "#131313",
+   "--s2a-color-content-subheading": "#000",
+   "--s2a-color-content-subtle": "#000000a3",
+   "--s2a-color-content-heading": "#000",
+   "--s2a-color-content-utility-error": "#d73220",
+   "--s2a-color-focus-ring-default": "#3b63fb",
+   "--s2a-color-focus-ring-knockout": "#fff",
+   "--s2a-section-spacing-none": "0",
+   "--s2a-section-spacing-5xs": "8px",
+   "--s2a-section-spacing-4xs": "12px",
+   "--s2a-section-spacing-3xs": "16px",
+   "--s2a-section-spacing-2xs": "24px",
+   "--s2a-section-spacing-xs": "32px",
+   "--s2a-section-spacing-sm": "40px",
+   "--s2a-section-spacing-md": "48px",
+   "--s2a-section-spacing-lg": "64px",
+   "--s2a-section-spacing-xl": "128px",
+   "--s2a-section-spacing-2xl": "128px",
+   "--s2a-section-spacing-3xl": "128px",
+   "--s2a-section-spacing-4xl": "128px",
+   "--s2a-section-spacing-5xl": "240px",
+   "--s2a-layout-guide-gap": "8px",
+   "--s2a-typography-font-size-super": "6rem",
+   "--s2a-typography-font-size-heading-1": "5rem",
+   "--s2a-typography-font-size-heading-2": "3.5rem",
+   "--s2a-typography-font-size-heading-3": "3rem",
+   "--s2a-typography-font-size-heading-4": "2.25rem",
+   "--s2a-typography-font-size-heading-5": "1.5rem",
+   "--s2a-typography-font-size-heading-6": "1.125rem",
+   "--s2a-typography-font-size-body-xs": ".875rem",
+   "--s2a-typography-font-size-body-sm": ".875rem",
+   "--s2a-typography-font-size-body-md": "1rem",
+   "--s2a-typography-font-size-body-lg": "1.25rem",
+   "--s2a-typography-font-size-eyebrow": "1rem",
+   "--s2a-typography-font-size-label": ".875rem",
+   "--s2a-typography-font-size-caption": ".75rem",
+   "--s2a-typography-letter-spacing-super": "-3.84px",
+   "--s2a-typography-letter-spacing-heading-1": "-3.2px",
+   "--s2a-typography-letter-spacing-heading-2": "-1.68px",
+   "--s2a-typography-letter-spacing-heading-3": "-1.44px",
+   "--s2a-typography-letter-spacing-heading-4": "-1px",
+   "--s2a-typography-letter-spacing-heading-5": "-.96px",
+   "--s2a-typography-letter-spacing-heading-6": "-.2px",
+   "--s2a-typography-letter-spacing-body-xs": "0",
+   "--s2a-typography-letter-spacing-body-sm": "0",
+   "--s2a-typography-letter-spacing-body-md": "0",
+   "--s2a-typography-letter-spacing-body-lg": "0",
+   "--s2a-typography-letter-spacing-eyebrow": "0",
+   "--s2a-typography-letter-spacing-label": "0",
+   "--s2a-typography-letter-spacing-caption": "0",
+   "--s2a-typography-line-height-super": "92px",
+   "--s2a-typography-line-height-heading-1": "76px",
+   "--s2a-typography-line-height-heading-2": "56px",
+   "--s2a-typography-line-height-heading-3": "48px",
+   "--s2a-typography-line-height-heading-4": "32px",
+   "--s2a-typography-line-height-heading-5": "24px",
+   "--s2a-typography-line-height-heading-6": "18px",
+   "--s2a-typography-line-height-body-xs": "18px",
+   "--s2a-typography-line-height-body-sm": "18px",
+   "--s2a-typography-line-height-body-md": "20px"
+  },
+  "fonts": [
+   "Arial Bold Adjusted 900 normal unloaded",
+   "adobe-clean 400 normal loaded",
+   "adobe-clean 400 italic unloaded",
+   "adobe-clean 700 normal loaded",
+   "adobe-clean 300 normal unloaded",
+   "adobe-clean 800 normal unloaded",
+   "adobe-clean 900 normal unloaded",
+   "adobe-clean 300 italic unloaded",
+   "adobe-clean-display 900 normal loaded"
+  ],
+  "fontCss": [
+   "https://use.typekit.net/pps7abe.css"
+  ],
+  "imgs": [
+   {
+    "src": "https://www.adobe.com/federal/site-redesign/assets/adobe-logo-black.svg",
+    "alt": "Adobe, Inc.",
+    "w": 67,
+    "h": 16
+   },
+   {
+    "src": "https://www.adobe.com/federal/assets/svgs/photoshop.svg",
+    "alt": "",
+    "w": 64,
+    "h": 64
+   },
+   {
+    "src": "https://www.adobe.com/uk/products/media_17df1ee7fae43f5c90ae9edc080d4698b4d2422ff.png?width=750&format=webply&optimize=medium",
+    "alt": "",
+    "w": 750,
+    "h": 915
+   },
+   {
+    "src": "https://www.adobe.com/uk/products/media_1a1c034324be82778aa70c0c8706f570ee838135e.png?width=750&format=webply&optimize=medium",
+    "alt": "",
+    "w": 750,
+    "h": 915
+   },
+   {
+    "src": "https://www.adobe.com/uk/products/media_1263e66943f73b9bad26b770ce903e2571ca35417.png?width=750&format=webply&optimize=medium",
+    "alt": "",
+    "w": 750,
+    "h": 915
+   },
+   {
+    "src": "https://www.adobe.com/cc-shared/assets/products/photoshop/c2/bluebackgroundforaccordion.svg",
+    "alt": "",
+    "w": 1440,
+    "h": 1804
+   },
+   {
+    "src": "https://www.adobe.com/uk/products/media_1d72b5a9f2b78a373e1fba06a65c33346d14144d8.jpg?width=1000&format=webply",
+    "alt": "",
+    "w": 1000,
+    "h": 642
+   },
+   {
+    "src": "https://www.adobe.com/uk/products/media_195297df67c04b4bc4742bbd62756a9fea90983ef.jpg?width=1000&format=webply",
+    "alt": "",
+    "w": 1000,
+    "h": 1251
+   },
+   {
+    "src": "https://www.adobe.com/uk/products/media_15ffb4e40fd8dba7fd7f711155a2f83acfbc088ce.jpg?width=1000&format=webply",
+    "alt": "",
+    "w": 1000,
+    "h": 1251
+   },
+   {
+    "src": "",
+    "alt": "Picture",
+    "w": 0,
+    "h": 0
+   },
+   {
+    "src": "",
+    "alt": "Picture",
+    "w": 0,
+    "h": 0
+   },
+   {
+    "src": "",
+    "alt": "Picture",
+    "w": 0,
+    "h": 0
+   },
+   {
+    "src": "",
+    "alt": "Picture",
+    "w": 0,
+    "h": 0
+   },
+   {
+    "src": "https://www.adobe.com/libs/c2/blocks/global-footer/adobe-logo-full.svg",
+    "alt": "Adobe",
+    "w": 1992,
+    "h": 452
+   }
+  ],
+  "videos": [
+   {
+    "src": "https://www.adobe.com/creativecloud/media_19755310167dffc0c5643be81fdb22ef1a896a67e.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1209f9ba62da91edab022d172febf5717ef1aec08.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_1f6af8fb9e78f9db61ae35213727fb649c1b5c3de.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_12625c272a742e058766330bc6ac9c5ebee7130d7.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_1245191d1a2ae481e523fa180573b1b51c2642d74.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_177ae3ef6e3409e32f8e7697f3cc417be83075353.png?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_1b0a641de5580dba317e77520a7866704031f5f9e.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_14e6bc09a5b8656e33b967ba8acae675b3cc0ebc9.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_118361ff7157e7d4cc5533882544e52fe21cc9935.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1a485e43606c9b29371beac695f58964b72bf9f3b.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_19535eb1f0486e58ab58175e110b766c23bd6d186.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1bc77b184f70ad4d46849727e3d642d4dda2e7e90.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_16b4978bc71d468b9a0dbbb0626db3aeef9f64bb9.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_12522a3470a8afa87734dec8bd24021a95dc02db2.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_1b5d39cd3df4cfe558d9b1ab5cb0db84ceb293903.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1a8db23e82297d3cdbf124e6ae73cba4806b87cfd.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_1cbcbd4f0ebf5f5a966eb3cafcc9bdd2a313846fe.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1bcf84010ce1ae6762cf286ddfae2a26589af23c7.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_118361ff7157e7d4cc5533882544e52fe21cc9935.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1a485e43606c9b29371beac695f58964b72bf9f3b.jpg?width=2000&format=webply&optimize=medium"
+   },
+   {
+    "src": "https://www.adobe.com/creativecloud/media_19535eb1f0486e58ab58175e110b766c23bd6d186.mp4",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "poster": "https://www.adobe.com/uk/products/media_1bc77b184f70ad4d46849727e3d642d4dda2e7e90.jpg?width=2000&format=webply&optimize=medium"
+   }
+  ],
+  "colours": [
+   [
+    "text|rgb(0, 0, 0)",
+    673
+   ],
+   [
+    "text|rgb(255, 255, 255)",
+    428
+   ],
+   [
+    "text|rgba(255, 255, 255, 0.64)",
+    98
+   ],
+   [
+    "text|rgba(0, 0, 0, 0.64)",
+    80
+   ],
+   [
+    "border|rgba(0, 0, 0, 0.12)",
+    14
+   ],
+   [
+    "bg|rgb(255, 255, 255)",
+    13
+   ],
+   [
+    "bg|rgba(0, 0, 0, 0.64)",
+    12
+   ],
+   [
+    "border|rgba(255, 255, 255, 0.24)",
+    11
+   ],
+   [
+    "bg|rgba(255, 255, 255, 0.04)",
+    8
+   ],
+   [
+    "border|rgba(255, 255, 255, 0.04)",
+    8
+   ],
+   [
+    "bg|rgb(0, 0, 0)",
+    7
+   ],
+   [
+    "border|rgba(255, 255, 255, 0.32)",
+    6
+   ],
+   [
+    "bg|rgb(19, 19, 19)",
+    6
+   ],
+   [
+    "bg|rgb(59, 99, 251)",
+    5
+   ],
+   [
+    "bg|rgba(255, 255, 255, 0.16)",
+    5
+   ],
+   [
+    "border|rgba(255, 255, 255, 0.12)",
+    5
+   ],
+   [
+    "bg|rgba(255, 255, 255, 0.32)",
+    4
+   ],
+   [
+    "border|rgb(255, 255, 255)",
+    3
+   ],
+   [
+    "bg|rgb(248, 248, 248)",
+    3
+   ],
+   [
+    "border|rgb(59, 99, 251)",
+    2
+   ],
+   [
+    "bg|rgb(244, 244, 244)",
+    1
+   ],
+   [
+    "border|rgba(0, 0, 0, 0.16)",
+    1
+   ],
+   [
+    "border|rgb(0, 0, 0)",
+    1
+   ],
+   [
+    "text|rgba(255, 255, 255, 0.48)",
+    1
+   ],
+   [
+    "bg|rgba(255, 255, 255, 0)",
+    1
+   ]
+  ],
+  "gradients": [
+   "linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))"
+  ],
+  "header": {
+   "h": 80,
+   "style": {
+    "background-color": "rgba(0, 0, 0, 0)",
+    "border-bottom": "0px none rgb(0, 0, 0)",
+    "box-shadow": "none",
+    "position": "sticky"
+   }
+  }
+ },
+ "renderedHtml": "pages/uk-products-photoshop.html",
+ "screenshot": "assets/screenshots/uk-products-photoshop.png"
+}

@@ -14,8 +14,18 @@ import {
   toClassName,
 } from './aem.js';
 
+import initViewTransitions from './view-transitions.js';
+
 /** Page templates that ship their own stylesheet under /templates/<name>/. */
 const STYLED_TEMPLATES = ['artwork'];
+
+/**
+ * Resolves once the first section is laid out (blocks decorated, before its image has
+ * loaded). The first paint waits for it (see the end of this file), so a view
+ * transition captures the real page instead of the hidden body.
+ */
+let firstFrameReady;
+const firstFrame = new Promise((resolve) => { firstFrameReady = resolve; });
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -182,8 +192,12 @@ async function loadEager(doc) {
     if (templateModule?.default) templateModule.default(main);
     if (templateCSS) await templateCSS;
     document.body.classList.add('appear');
-    await loadSection(main.querySelector('.section'), waitForFirstImage);
+    await loadSection(main.querySelector('.section'), async (section) => {
+      firstFrameReady();
+      await waitForFirstImage(section);
+    });
   }
+  firstFrameReady();
 
   try {
     /* if desktop (proxy for fast connection) or fonts already loaded, load fonts.css */
@@ -230,4 +244,13 @@ async function loadPage() {
   loadDelayed();
 }
 
-loadPage();
+initViewTransitions();
+const page = loadPage();
+
+// This module is render-blocking (head.html, blocking="render"): hold the first paint
+// until the first section is laid out, but never longer than 2 seconds.
+await Promise.race([
+  firstFrame,
+  page.catch(() => {}),
+  new Promise((resolve) => { setTimeout(resolve, 2000); }),
+]);

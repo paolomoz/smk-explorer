@@ -408,3 +408,28 @@ main .section.highlight {
   margin: 0;
   padding: var(--section-space) 0;
 }
+
+/* view transitions between pages (scripts/view-transitions.js names the shared elements) */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 250ms;
+  }
+
+  ::view-transition-group(artwork-image),
+  ::view-transition-group(colour-chip) {
+    animation-duration: 450ms;
+    animation-timing-function: cubic-bezier(0.42, 0, 0, 1);
+  }
+
+  /* the image keeps its proportions while it grows or shrinks */
+  ::view-transition-old(artwork-image),
+  ::view-transition-new(artwork-image) {
+    height: 100%;
+    object-fit: contain;
+  }
+}

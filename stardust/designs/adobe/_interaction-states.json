@@ -1,0 +1,90 @@
+{
+ "blue": {
+  "before": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "rgb(255, 255, 255)",
+   "shadow": "none",
+   "transform": "none",
+   "td": "none"
+  },
+  "after": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "rgb(255, 255, 255)",
+   "shadow": "none",
+   "transform": "none",
+   "td": "none"
+  }
+ },
+ "outline": {
+  "before": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "rgb(0, 0, 0)",
+   "shadow": "none",
+   "transform": "none",
+   "td": "none"
+  },
+  "after": {
+   "bg": "rgba(0, 0, 0, 0.08)",
+   "color": "rgb(0, 0, 0)",
+   "border": "rgb(0, 0, 0)",
+   "shadow": "none",
+   "transform": "none",
+   "td": "none"
+  }
+ },
+ "textLink": {
+  "before": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "rgb(0, 0, 0)",
+   "shadow": "none",
+   "transform": "none",
+   "td": "underline"
+  },
+  "after": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "border": "rgb(0, 0, 0)",
+   "shadow": "none",
+   "transform": "none",
+   "td": "underline"
+  }
+ },
+ "card": {
+  "before": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "rgb(255, 255, 255)",
+   "shadow": "none",
+   "transform": "matrix(1, 0, 0, 1, 0, 24)",
+   "td": "none"
+  },
+  "after": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "border": "rgb(255, 255, 255)",
+   "shadow": "none",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "td": "none"
+  }
+ },
+ "scrollDriven": [
+  "sh-fix | --split-hero | exit-crossing 0px exit-crossing 1612.8px",
+  "sh-pan-join, sh-pan, sh-lock-join, sh-lock-pan | --split-hero, --split-hero, --split-hero, --split-hero | exit-crossing 198px exit-crossing 411.84px, exit-crossing 411.84px exit-crossing 1612.8px, exit-crossing 316.8px exit-crossing 633.6px, exit-crossing 633.6px exit-crossing 1612.8px",
+  "sh-pan-join, sh-pan, sh-lock-join, sh-lock-pan | --split-hero, --split-hero, --split-hero, --split-hero | exit-crossing 0px exit-crossing 213.84px, exit-crossing 213.84px exit-crossing 1612.8px, exit-crossing 316.8px exit-crossing 633.6px, exit-crossing 633.6px exit-crossing 1612.8px",
+  "sh-shrink | --split-hero | exit-crossing 0px exit-crossing 792px",
+  "sh-next-pin, sh-next-release | --split-hero, --split-hero | exit-crossing 0px exit-crossing 316.8px, exit-crossing 316.8px exit-crossing 712.8px",
+  "enable-parallax | view(40% 10%) | entry",
+  "none | view(40% 10%) | entry",
+  "enable-parallax-stagger | --parallax-stagger-timeline | entry"
+ ],
+ "reducedMotion": true,
+ "focus": {
+  "outline": "rgb(255, 255, 255) none 0px",
+  "offset": "0px",
+  "shadow": "none"
+ }
+}

@@ -1,0 +1,229 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract (design library: adobe)",
+    "writtenAt": "2026-11-11T13:03:26Z",
+    "role": "design-source library entry (inactive)",
+    "readArtifacts": [
+      "stardust/designs/adobe/DESIGN.md",
+      "stardust/designs/adobe/_brand-extraction.json",
+      "stardust/designs/adobe/_custom-properties.json",
+      "stardust/designs/adobe/_interaction-states.json"
+    ],
+    "synthesizedInputs": [
+      "button-primary hover (inferred blue-1000)"
+    ],
+    "stardustVersion": "0.32.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T13:03:26Z",
+  "title": "Design System: Adobe (as captured from adobe.com)",
+  "extensions": {
+    "colorMeta": {
+      "blue-900": {
+        "role": "Action",
+        "use": "primary CTA fill",
+        "sourceToken": "--s2a-color-blue-900",
+        "tonalRamp": [
+          "#070b1e",
+          "#0c1f69",
+          "#1532ad",
+          "#274dea",
+          "#3b63fb",
+          "#729efd",
+          "#cbe2fe",
+          "#f5f9ff"
+        ]
+      },
+      "gray-1000": {
+        "role": "Ink",
+        "use": "headings, dark bands",
+        "sourceToken": "--s2a-color-gray-1000"
+      },
+      "body-text": {
+        "role": "Body",
+        "use": "Milo body text",
+        "sourceToken": "--consonant-merch-card-heading-color / Milo body"
+      },
+      "gray-50": {
+        "role": "Light band",
+        "use": "header and hero grounds",
+        "sourceToken": "--s2a-color-gray-50"
+      },
+      "adobe-red": {
+        "role": "Brand mark",
+        "use": "logo only",
+        "sourceToken": "--s2a-color-brand-adobe-red"
+      }
+    },
+    "fonts": {
+      "display": "Adobe Clean Display",
+      "body": "Adobe Clean",
+      "licence": "proprietary (Adobe Fonts kit pps7abe, bound to adobe.com); needs an Adobe Fonts web project for the target domain",
+      "openSubstitute": {
+        "suggestion": "Source Sans 3 (Adobe Originals, SIL OFL) for body; heaviest weight (900) for display",
+        "status": "not chosen; decide when applying"
+      },
+      "fallback": "adobe-clean, 'Trebuchet MS', sans-serif"
+    },
+    "shadows": [
+      {
+        "name": "level-1",
+        "value": "0 1px 6px 0 #0000001f"
+      },
+      {
+        "name": "level-2",
+        "value": "0 2px 8px 0 #00000029"
+      },
+      {
+        "name": "level-3",
+        "value": "0 4px 12px 0 #00000029"
+      },
+      {
+        "name": "scrim",
+        "value": "linear-gradient(rgba(0,0,0,.9) 0, rgba(0,0,0,.7) 60%, rgba(0,0,0,0) 100%)",
+        "purpose": "text over media"
+      }
+    ],
+    "motion": {
+      "register": "kinetic-grid",
+      "registerRationale": "modular product/catalogue site with scroll-driven card choreography (bento stacks, staggered reveals); measured on adobe.com",
+      "easings": {
+        "entrance": "cubic-bezier(0.42, 0, 0, 1)",
+        "entrance-soft": "cubic-bezier(0.33, 1, 0.68, 1)",
+        "transition": "cubic-bezier(0.42, 0, 0, 1)",
+        "link": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "expand": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "durations": {
+        "state": 300,
+        "link": 320,
+        "quick": 150,
+        "expand": 450,
+        "accordion": 400
+      },
+      "reveal": {
+        "translateY": "24px",
+        "opacity": "0 → 1",
+        "timeline": "view(40% 10%)",
+        "range": "entry",
+        "stagger": "per-item via --parallax delay (enable-parallax-stagger)"
+      },
+      "signature": [
+        {
+          "name": "split-hero pin and pan",
+          "timeline": "named --split-hero",
+          "range": "exit-crossing",
+          "keyframes": "sh-fix, sh-pan, sh-lock, sh-shrink"
+        },
+        {
+          "name": "garage-door reveal",
+          "page": "max",
+          "keyframes": "garage-door-text-reveal, garage-door-bg-parallax, garage-door-content-drift"
+        },
+        {
+          "name": "bento stack",
+          "keyframes": "bento-items-shrink (scale + shadow), bento-depth-mask-drive, stack-title-stagger"
+        }
+      ],
+      "media": "autoplay muted loop video with visible pause button",
+      "reducedMotion": "honoured (prefers-reduced-motion rules present)"
+    },
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "0-599px"
+      },
+      {
+        "name": "tablet",
+        "value": "600px"
+      },
+      {
+        "name": "desktop",
+        "value": "1200px"
+      },
+      {
+        "name": "wide",
+        "value": "1440px"
+      }
+    ],
+    "breakpointsNote": "Milo breakpoints (600 / 900 / 1200 / 1440); content container 1200px",
+    "layout": {
+      "grid": "12 columns, 1200px container, margins (100% - 1200px)/2",
+      "heroPattern": "split: copy left (~450px), media bleeds off right edge; content sheet with rounded top rises over hero",
+      "bands": "light (#fff/#f8f8f8/#f3f3f3) and dark (#000/#131313) full-bleed bands alternate",
+      "sectionIntro": "centred eyebrow (16/700) + H2 + lede above grids",
+      "cards": "bento grid of 16px-radius media cards"
+    },
+    "componentStyle": "see _brand-extraction.json componentStyle",
+    "voice": {
+      "dos": [
+        "Short declarative headlines with full stops",
+        "Eyebrow label above section headings"
+      ],
+      "donts": [
+        "No Adobe logo, product names or product colours out of context"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Blue pill CTA.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Free trial</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;height:40px;padding:7px 18px 8px;box-sizing:border-box;border:2px solid #3b63fb;border-radius:20px;background:#3b63fb;color:#fff;font:700 17px/1 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;text-decoration:none;transition:background-color .3s cubic-bezier(.42,0,0,1),border-color .3s cubic-bezier(.42,0,0,1)}.ds-btn-primary:hover{background:#274dea;border-color:#274dea}.ds-btn-primary:focus-visible{outline:2px solid #3b63fb;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline pill.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">View plans</a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;height:40px;padding:7px 18px 8px;box-sizing:border-box;border:2px solid #2c2c2c;border-radius:20px;background:transparent;color:#2c2c2c;font:700 17px/1 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;text-decoration:none;transition:background-color .3s cubic-bezier(.42,0,0,1)}.ds-btn-secondary:hover{background:#00000014}.ds-btn-secondary:focus-visible{outline:2px solid #3b63fb;outline-offset:2px}"
+    },
+    {
+      "name": "Media Card",
+      "kind": "card",
+      "refersTo": "card-media",
+      "description": "Rounded media card with caption; rises in on scroll.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-media\"></div><h3>Create complex composites.</h3><p>Combine images with unlimited layers.</p></article>",
+      "css": ".ds-card{width:300px;font:400 16px/24px 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;color:#000}.ds-card-media{aspect-ratio:4/3;border-radius:16px;background:#e1e1e1}.ds-card h3{margin:16px 0 8px;font:900 24px/24px 'Adobe Clean Display','Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;letter-spacing:-.96px}.ds-card p{margin:0;color:#000000a3}@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){.ds-card{animation:ds-rise linear both;animation-timeline:view(40% 10%);animation-range:entry}}}@keyframes ds-rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}"
+    },
+    {
+      "name": "Merch Card",
+      "kind": "card",
+      "refersTo": "card-merch",
+      "description": "Pricing/plan card.",
+      "html": "<article class=\"ds-merch\"><p class=\"ds-eyebrow\">Image editing</p><h3>Photoshop</h3><p>Create beautiful images.</p><a class=\"ds-btn-primary\" href=\"#\">Free trial</a></article>",
+      "css": ".ds-merch{width:276px;padding:24px;border-radius:8px;background:#eaeaea;font:400 14px/21px 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;color:#2c2c2c}.ds-merch h3{margin:4px 0 8px;font:800 24px/30px 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif}.ds-eyebrow{margin:0;font:700 12px/16px 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif}"
+    },
+    {
+      "name": "Section Intro",
+      "kind": "custom",
+      "refersTo": "section-intro",
+      "description": "Eyebrow + display H2 + lede, centred.",
+      "html": "<header class=\"ds-intro\"><p class=\"ds-eyebrow\">Core capabilities</p><h2>Transform images with the app that sets the standard.</h2><p>From advanced editing to creative AI.</p></header>",
+      "css": ".ds-intro{max-width:800px;margin:0 auto;text-align:center;font:400 18px/27px 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;color:#000}.ds-intro h2{margin:8px 0 16px;font:900 56px/56px 'Adobe Clean Display','Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif;letter-spacing:-1.68px}.ds-eyebrow{margin:0;font:700 16px/20px 'Adobe Clean',adobe-clean,'Trebuchet MS',sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Confident product theatre",
+    "overview": "Heavy black display type, one Adobe blue for action, light and black bands, rounded media cards and scroll-driven reveals; imagery and video carry the colour.",
+    "keyCharacteristics": [
+      "Adobe Clean Display 900 with tight tracking",
+      "blue-900 #3b63fb pill CTAs",
+      "16px rounded media cards, no shadows",
+      "1200px 12-column grid with full-bleed bands",
+      "24px rise-in reveals on view() timelines"
+    ],
+    "dos": [
+      "Short declarative headlines",
+      "One action colour"
+    ],
+    "donts": [
+      "No card shadows",
+      "No unlicensed Adobe Clean"
+    ]
+  }
+}

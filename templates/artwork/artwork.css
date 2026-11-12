@@ -1,113 +1,234 @@
 /*
  * Artwork page template (metadata: template = artwork).
- * artwork.js groups the title, byline and details into .artwork-details, so the
- * first section is: picture | details. One column on small phones, two from 480px.
- * Content order is unchanged.
+ * artwork.js turns the picture into a card: the front is the work, the back carries
+ * the title, byline and details table. Hover (or the button, or a tap on touch
+ * screens) flips the card over. The card stands alone, centred in the content column.
+ * Deliberate exception to DESIGN.md "flat imagery": the card casts a soft shadow and
+ * lifts as it turns, so it reads as a real card standing off the wall.
  */
 
-/* the work: shown whole, never cropped, framed only by white space */
-body.artwork main > .section:first-of-type picture {
-  display: block;
-  margin: var(--space-2) 0 var(--space-3);
+body.artwork main > .section:first-of-type {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-4) var(--gutter) 0;
 }
 
-body.artwork main > .section:first-of-type picture img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 70svh;
-  object-fit: contain;
-}
-
-body.artwork .artwork-details h1 {
+body.artwork main > .section:first-of-type > div {
+  max-width: none;
   margin: 0;
+  padding: 0;
 }
 
-/* byline: artist, date */
-body.artwork .artwork-details h1 + p {
+@media (width >= 768px) {
+  body.artwork main > .section:first-of-type {
+    padding-top: var(--space-6);
+  }
+}
+
+/* ---------- the card ---------- */
+body.artwork .artwork-card {
+  --card-shadow-rest: 0 1px 2px rgb(0 0 0 / 8%), 0 6px 18px rgb(0 0 0 / 10%);
+  --card-shadow-lift: 0 2px 4px rgb(0 0 0 / 8%), 0 24px 48px rgb(0 0 0 / 18%);
+
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  perspective: 2000px;
+}
+
+body.artwork .artwork-card-inner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 800ms cubic-bezier(0.45, 0.05, 0.25, 1);
+}
+
+/* front and back share one cell: the card is as tall as the larger side */
+body.artwork .artwork-card-front,
+body.artwork .artwork-card-back {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+  box-shadow: var(--card-shadow-rest);
+  transition: box-shadow 800ms cubic-bezier(0.45, 0.05, 0.25, 1);
+}
+
+body.artwork .artwork-card-front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gallery-wall);
+}
+
+body.artwork .artwork-card-front picture {
+  display: block;
+}
+
+body.artwork .artwork-card-front picture img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100svh - var(--nav-height) - 4 * var(--space-4));
+}
+
+/* the back: card stock with a thin inset line, like the mount on the back of a work */
+body.artwork .artwork-card-back {
+  container-type: inline-size;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: var(--space-4) var(--space-3);
+  background: var(--gallery-floor);
+  transform: rotateY(180deg);
+  overflow-wrap: anywhere;
+}
+
+body.artwork .artwork-card-back::before {
+  content: "";
+  position: absolute;
+  inset: var(--space-1);
+  border: 1px solid var(--hairline);
+  pointer-events: none;
+}
+
+/* turning over: the card lifts off the wall (deeper shadow; no scale, so text stays sharp) */
+@media (hover: hover) {
+  body.artwork .artwork-card:hover .artwork-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  body.artwork .artwork-card:hover .artwork-card-front,
+  body.artwork .artwork-card:hover .artwork-card-back {
+    box-shadow: var(--card-shadow-lift);
+  }
+}
+
+body.artwork .artwork-card.is-flipped .artwork-card-inner,
+body.artwork .artwork-card:focus-within .artwork-card-inner {
+  transform: rotateY(180deg);
+}
+
+body.artwork .artwork-card.is-flipped .artwork-card-front,
+body.artwork .artwork-card.is-flipped .artwork-card-back,
+body.artwork .artwork-card:focus-within .artwork-card-front,
+body.artwork .artwork-card:focus-within .artwork-card-back {
+  box-shadow: var(--card-shadow-lift);
+}
+
+/* reduced motion: no rotation or lift, a quick fade between the two sides */
+@media (prefers-reduced-motion: reduce) {
+  body.artwork .artwork-card-inner,
+  body.artwork .artwork-card:hover .artwork-card-inner,
+  body.artwork .artwork-card.is-flipped .artwork-card-inner,
+  body.artwork .artwork-card:focus-within .artwork-card-inner {
+    transform: none;
+    transition: none;
+  }
+
+  body.artwork .artwork-card-back {
+    transform: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms linear, visibility 0s linear 200ms;
+  }
+
+  body.artwork .artwork-card.is-flipped .artwork-card-back,
+  body.artwork .artwork-card:focus-within .artwork-card-back {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 200ms linear;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) and (hover: hover) {
+  body.artwork .artwork-card:hover .artwork-card-back {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 200ms linear;
+  }
+}
+
+/* ---------- type on the back, sized to the card ---------- */
+body.artwork .artwork-card-back h1 {
+  margin: 0;
+  font-size: var(--type-lg-size);
+  line-height: var(--type-lg-display-lh);
+  text-box: trim-start cap alphabetic;
+}
+
+body.artwork .artwork-card-back h1 + p {
   margin: var(--space-05) 0 0;
   font-size: var(--type-md-size);
   line-height: var(--type-md-lh);
   color: var(--secondary-text-color);
 }
 
-body.artwork .artwork-details .facts-wrapper {
-  margin: var(--space-3) 0 0;
+body.artwork .artwork-card-back .facts-wrapper {
+  margin: var(--space-2) 0 0;
 }
 
-/* the details column is narrow until 1280px: title one step down (lg-display) */
-@media (width < 1280px) {
-  body.artwork .artwork-details h1 {
-    font-size: var(--type-lg-size);
-    line-height: var(--type-lg-display-lh);
-  }
-}
-
-/* picture left, details right on everything but small phones; both start at the top */
-@media (width >= 480px) {
-  body.artwork main > .section:first-of-type {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    align-items: start;
-    column-gap: var(--gutter);
-    max-width: var(--container-max);
-    margin: 0 auto;
-    padding: var(--space-3) var(--gutter) 0;
+@container (width < 420px) {
+  body.artwork .artwork-card-back {
+    padding: var(--space-3) var(--space-2);
   }
 
-  body.artwork main > .section:first-of-type > div {
-    max-width: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  body.artwork main > .section:first-of-type picture {
-    margin: 0;
-  }
-
-  body.artwork main > .section:first-of-type picture img {
-    max-height: calc(100svh - var(--nav-height) - 2 * var(--space-4));
-    object-position: center top;
-  }
-
-  /* trim the title's line spacing so its capitals meet the picture's top edge */
-  body.artwork .artwork-details h1 {
-    text-box: trim-start cap alphabetic;
-  }
-}
-
-/* narrow two-column range: title and byline one more step down (md, sm) */
-@media (width >= 480px) and (width < 768px) {
-  body.artwork .artwork-details h1 {
+  body.artwork .artwork-card-back h1 {
     font-size: var(--type-md-size);
     line-height: var(--type-md-lh);
-    letter-spacing: normal;
   }
 
-  body.artwork .artwork-details h1 + p {
+  body.artwork .artwork-card-back h1 + p {
     font-size: var(--type-sm-size);
     line-height: var(--type-sm-lh);
   }
 
-  body.artwork .artwork-details .facts-wrapper {
-    margin-top: var(--space-2);
+  body.artwork .artwork-card-back .facts dl {
+    grid-template-columns: 1fr;
+  }
+
+  body.artwork .artwork-card-back .facts dt {
+    padding-bottom: 0;
+    font-size: var(--type-xs-size);
+    line-height: var(--type-xs-lh);
+  }
+
+  body.artwork .artwork-card-back .facts dd {
+    padding-top: 0;
+    border-top: 0;
   }
 }
 
-@media (width >= 768px) {
-  body.artwork main > .section:first-of-type {
-    padding-top: var(--space-4);
-  }
+/* ---------- the flip button under the card: a small pill ---------- */
+body.artwork main > .section > .default-content-wrapper > .artwork-card-controls {
+  display: flex;
+  justify-content: center;
+  max-width: none;
+  margin: var(--space-3) 0 0;
 }
 
-@media (width >= 1280px) {
-  body.artwork main > .section:first-of-type {
-    grid-template-columns: minmax(0, 2fr) minmax(360px, 1fr);
-    column-gap: var(--space-6);
-  }
+body.artwork .artwork-card-toggle {
+  height: 30px;
+  padding: 0 15px;
+  border: 1px solid var(--control-border-color);
+  border-radius: var(--radius-pill);
+  background: var(--background-color);
+  color: var(--text-color);
+  font-size: var(--type-xs-size);
+  line-height: var(--type-xs-lh);
+  cursor: pointer;
+  transition: border-color var(--duration-state) var(--ease-state), color var(--duration-state) var(--ease-state);
 }
 
-/* following sections (colours, about the work): hairline divider */
+body.artwork .artwork-card-toggle:hover {
+  border-color: var(--text-color);
+}
+
+body.artwork .artwork-card-toggle[aria-pressed='true'] {
+  border-color: var(--ultramarine);
+  background: var(--ultramarine);
+  color: var(--gallery-wall);
+}
+
+/* ---------- following sections (colours, about the work): hairline divider ---------- */
 body.artwork main > .section + .section::before {
   content: "";
   display: block;

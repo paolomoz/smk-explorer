@@ -1,0 +1,48 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract (design library: adobe)",
+    "writtenAt": "2026-11-11T13:02:57Z",
+    "stardustVersion": "0.32.1"
+  },
+  "origin": "https://www.adobe.com",
+  "purpose": "design library entry: reusable 'Adobe design' source, not the active target",
+  "discovery": {
+    "technique": "explicit page list (user-named + 2 similar product/hub pages)",
+    "pages": [
+      "https://www.adobe.com/max.html",
+      "https://www.adobe.com/uk/creativecloud.html",
+      "https://www.adobe.com/uk/products/illustrator.html",
+      "https://www.adobe.com/uk/products/photoshop.html"
+    ]
+  },
+  "fetchTechnique": "playwright-mcp browser; bundled crawl.mjs hit adobe.com bot management and its headed-Chrome fallback is unavailable (see stardust/.work/extract/crawl-adobe.log)",
+  "consent": {
+    "method": "geo-redirect dialog closed via its Close button; no cookie banner shown"
+  },
+  "crawl": {
+    "captured": 4,
+    "failures": []
+  },
+  "visionCheck": [
+    {
+      "slug": "uk-products-photoshop",
+      "verdict": "recaptured",
+      "notes": "first full-page capture had the location-mismatch dialog over the hero; screenshot retaken with it closed (page record data unaffected)"
+    },
+    {
+      "slug": "max",
+      "verdict": "ok",
+      "notes": "dark event page: hero, session cards, speaker portraits"
+    },
+    {
+      "slug": "uk-products-illustrator",
+      "verdict": "ok",
+      "notes": "product page, same template family as Photoshop"
+    },
+    {
+      "slug": "uk-creativecloud",
+      "verdict": "ok",
+      "notes": "hub page with merch cards"
+    }
+  ]
+}
